@@ -31,5 +31,383 @@
     "email": "Email",
     "consent": "I agree to receive the newsletter and the processing of my email for this purpose.",
     "submit": "Subscribe"
+  },
+  "Home": {
+    "metaTitle": "Engineering partner for industry",
+    "metaDescription": "Design, manufacturing and service of conveyor systems, special-purpose machines, robotic cells and welded structures. From Plzeň since 1993.",
+    "hero": {
+      "eyebrow": "Engineering since 1993",
+      "title": "Machinery that moves industry.",
+      "subtitle": "We design, build and service conveyor systems, special-purpose machines and welded structures for automotive, energy and heavy industry manufacturers.",
+      "primaryCta": "Explore references",
+      "secondaryCta": "Get a quote",
+      "scrollCue": "Continue below"
+    },
+    "kpi": {
+      "title1": "Years of experience",
+      "title2": "Completed projects",
+      "title3": "Returning customers"
+    },
+    "manifesto": {
+      "eyebrow": "Manifesto",
+      "title": "32 years of engineering craft.",
+      "p1": "We're not a commodity supplier. We're an engineering partner. Every project starts at a table with the customer, working out what they actually need to manufacture, move or weld. Not what's in our catalog.",
+      "p2": "We've been building machines in Plzeň since 1993. We've delivered over a thousand special-purpose machines and several hundred welded structures to production plants in the Czech Republic and abroad. The people who weld and program robots for us today have been doing this work for fifteen, twenty years. That's not a marketing claim — it's why customers call us back."
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "Five areas where we deliver.",
+      "intro": "We specialise in five segments of industrial engineering. A typical project combines two or three."
+    },
+    "featured": {
+      "eyebrow": "Featured project",
+      "empty": {
+        "title": "First case studies coming soon.",
+        "body": "We're currently preparing a detailed report from the latest major realisation.",
+        "cta": "See references"
+      }
+    },
+    "reel": {
+      "eyebrow": "Workshop in motion",
+      "title": "A few frames from our hall."
+    },
+    "logos": {
+      "eyebrow": "Selected customers",
+      "title": "Our machines run in plants where mistakes aren't an option."
+    },
+    "news": {
+      "eyebrow": "From the workshop",
+      "title": "Latest articles.",
+      "cta": "All news",
+      "empty": "First articles will appear here soon."
+    },
+    "cta": {
+      "eyebrow": "Got a project?",
+      "title": "Let's talk about it.",
+      "body": "Reach out even with a rough brief. A single call is usually enough to produce a meaningful quote.",
+      "primary": "Free quote",
+      "secondary": "Schedule a meeting"
+    }
+  },
+  "AboutUs": {
+    "metaTitle": "About us",
+    "metaDescription": "STRKAN s.r.o. — engineering firm from Plzeň, since 1993. A team of engineers, designers and welders who build custom industrial machinery.",
+    "hero": {
+      "eyebrow": "Who we are",
+      "title": "Engineering craft from Plzeň, since 1993.",
+      "subtitle": "People, hall, machines. Three things our work has rested on for 32 years."
+    },
+    "story": {
+      "eyebrow": "Since 1993",
+      "title": "How we got here.",
+      "p1": "STRKAN started as a small engineering workshop serving local manufacturers in Plzeň. We've grown since, but we've never forgotten that machines are designed and built by people, not by spreadsheets.",
+      "p2": "Today we operate two halls in Plzeň, 45 employees and a portfolio of over a thousand delivered units. Our customers include automotive sub-suppliers, energy component manufacturers and heavy industry firms across Europe.",
+      "p3": "Our yardstick isn't growth at any cost. We measure project quality and the number of customers who return. Over the past five years, 70 % of our customers have contacted us for a follow-up project."
+    },
+    "timeline": {
+      "eyebrow": "Milestones",
+      "title": "Thirty years in ten dates."
+    },
+    "values": {
+      "eyebrow": "Values",
+      "title": "Where we won't negotiate a discount.",
+      "intro": "Three rules we run every project by. It's not brand voice — it's a line we don't cross."
+    },
+    "team": {
+      "eyebrow": "Team",
+      "title": "The people who design and build."
+    },
+    "certifications": {
+      "eyebrow": "Certifications",
+      "title": "We meet standards that apply across Europe."
+    },
+    "machines": {
+      "eyebrow": "Equipment",
+      "title": "What we work with."
+    },
+    "cta": {
+      "title": "Come and see for yourself.",
+      "body": "An in-person workshop tour is the best way to judge whether we're the right partner for your project.",
+      "primary": "Arrange a visit"
+    },
+    "milestones": {
+      "founded": {
+        "title": "Company founded",
+        "description": "Engineering workshop for local manufacturers in Plzeň."
+      },
+      "firstAuto": {
+        "title": "First automotive contract",
+        "description": "Entry into the supply chain for passenger car manufacturing."
+      },
+      "secondHall": {
+        "title": "Second hall in Plzeň",
+        "description": "Production capacity expanded by 2,400 m²."
+      },
+      "iso3834": {
+        "title": "EN ISO 3834-2 certification",
+        "description": "Full welding qualification for load-bearing structures."
+      },
+      "robotics": {
+        "title": "Robotic workstation opened",
+        "description": "First in-house robotic cell — Yaskawa MA2010."
+      },
+      "cncMazak": {
+        "title": "5-axis CNC Mazak Variaxis",
+        "description": "Investment in high-end machining of complex parts."
+      }
+    },
+    "valueItems": {
+      "craft": {
+        "title": "Craft",
+        "description": "The machine matches the project documentation. Not an average compromise, not the cheapest variant, not \"it'll do\". What's in the BOM is what you'll find in the machine."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "A deadline we promise is a deadline we keep. In 94 % of contracts over the past five years we delivered in the planned week."
+      },
+      "precision": {
+        "title": "Precision",
+        "description": "Tolerances aren't done by eye. We measure every critical dimension. If we're not satisfied, neither should the customer be."
+      },
+      "team": {
+        "title": "Team",
+        "description": "The people who work for us have been here fifteen, twenty years. Machines and know-how stay in our hall, not in the head of a colleague who's just leaving."
+      }
+    },
+    "teamRoles": {
+      "ceo": {
+        "role": "Managing Director",
+        "bio": "Leads strategic decisions, key client relationships and capital investments into machinery."
+      },
+      "leadEngineer": {
+        "role": "Lead Design Engineer",
+        "bio": "Responsible for 3D designs in SolidWorks, calculations and coordination of the engineering team."
+      },
+      "headOfProduction": {
+        "role": "Head of Production",
+        "bio": "Runs the shop floor, production planning and quality of delivered work."
+      }
+    },
+    "machineGroups": {
+      "cnc": {
+        "title": "CNC machining",
+        "items": [
+          "Mazak Variaxis i-700 (5-axis milling)",
+          "DMG Mori CTX (turning up to Ø 320 mm)",
+          "Mikron HSM (high-speed machining)",
+          "TRUMPF TruLaser 3030 (laser cutting)"
+        ]
+      },
+      "welding": {
+        "title": "Welding",
+        "items": [
+          "Yaskawa MA2010 + positioner (robotic welding cell)",
+          "Fronius TPS 320i (MAG)",
+          "Kemppi MasterTig 235 (TIG)",
+          "ESAB Aristo 500ix (high-amp welding)"
+        ]
+      },
+      "measurement": {
+        "title": "Measurement",
+        "items": [
+          "Zeiss Contura G2 (CMM 1000×1500×600 mm)",
+          "FARO ScanArm (mobile 3D measurement)",
+          "Trumpf VegaCheck (inline laser-cut inspection)",
+          "Helmel Microstar (calibration CMM)"
+        ]
+      }
+    }
+  },
+  "Services": {
+    "metaTitle": "Services",
+    "metaDescription": "Design, manufacturing and service of five types of industrial machinery — from conveyor systems to plate positioners.",
+    "hero": {
+      "eyebrow": "What we do",
+      "title": "Five segments of industrial engineering.",
+      "subtitle": "We specialise in five areas. Most projects combine them — a typical job is a welded structure with integrated conveyor systems and a robotic cell."
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "title": "From inquiry to delivery.",
+      "steps": {
+        "consultation": {
+          "title": "Consultation",
+          "description": "We go through the brief and your hall's constraints. A call and a few photos produce a first estimate."
+        },
+        "design": {
+          "title": "Design",
+          "description": "Our engineers prepare a 3D model in SolidWorks and a technical budget."
+        },
+        "production": {
+          "title": "Production",
+          "description": "Welding, machining, assembly and pre-acceptance at our shop in Plzeň."
+        },
+        "installation": {
+          "title": "Installation",
+          "description": "Transport, assembly at the customer's site, operator training."
+        },
+        "service": {
+          "title": "Service",
+          "description": "Post-warranty service, spare parts, remote diagnostics via PLC."
+        }
+      }
+    },
+    "cta": {
+      "title": "Have a specific brief?",
+      "body": "Fill in the short configurator — five minutes is enough for us to produce a first ballpark.",
+      "primary": "Start the configurator"
+    }
+  },
+  "ServiceSegments": {
+    "dopravni-technika": {
+      "tag": "Conveyor systems",
+      "title": "Conveyor systems",
+      "perex": "Belt, roller and chain conveyors for production lines. From single units to complex systems with integrated automation.",
+      "imageLabel": "Belt conveyor on the shop floor"
+    },
+    "jednoucelove-stroje": {
+      "tag": "Special-purpose machines",
+      "title": "Special-purpose machines",
+      "perex": "Machines built for one specific manufacturing task — assembly, inspection, testing. When no off-the-shelf solution exists.",
+      "imageLabel": "Special-purpose machine in operation"
+    },
+    "svarovane-konstrukce": {
+      "tag": "Welded structures",
+      "title": "Welded structures",
+      "perex": "Steel structures for production halls, assembly frames, support structures. Welder certification EN ISO 3834-2.",
+      "imageLabel": "Welded structure — weld close-up"
+    },
+    "automatizace-a-robotika": {
+      "tag": "Automation & robotics",
+      "title": "Automation and robotics",
+      "perex": "Robotic welding cells and material handling stations integrated into production lines. Yaskawa, KUKA, FANUC.",
+      "imageLabel": "Robotic welding cell"
+    },
+    "deskova-polohovadla": {
+      "tag": "Plate positioners",
+      "title": "Plate positioners",
+      "perex": "Positioners for welding large parts up to 20 tonnes. Manual and CNC control synchronised with a robot.",
+      "imageLabel": "Plate positioner with rotation"
+    }
+  },
+  "ServiceDetail": {
+    "capabilities": {
+      "eyebrow": "What we do",
+      "title": "Specific capabilities in this segment."
+    },
+    "techSpecs": {
+      "eyebrow": "Technical parameters",
+      "title": "The range we work within."
+    },
+    "examples": {
+      "eyebrow": "Application examples",
+      "title": "Where this service has been used."
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "What you usually ask."
+    },
+    "cta": {
+      "title": "Request this service",
+      "body": "We adapt the configurator to the segment you choose. It takes around five minutes.",
+      "primary": "Start the configurator"
+    }
+  },
+  "ServiceContent": {
+    "dopravni-technika": {
+      "capabilities": [
+        "Custom design tailored to your hall's layout",
+        "Belt, roller, chain and screw conveyors",
+        "Control with Siemens or Allen-Bradley PLC + HMI",
+        "Service and 24/7 spare-parts availability"
+      ],
+      "specs": [
+        { "label": "Load capacity", "value": "up to 5,000 kg/m" },
+        { "label": "Speed", "value": "0.1–4 m/s" },
+        { "label": "Materials", "value": "Carbon steel, stainless, aluminium" },
+        { "label": "Ingress protection", "value": "IP54 / IP66 depending on environment" }
+      ],
+      "faq": [
+        { "q": "How long does delivery take?", "a": "Typically 4–6 months from order confirmation, depending on complexity and component availability." },
+        { "q": "Do you service third-party conveyors?", "a": "Yes, provided we have access to documentation or the customer lets us produce one." },
+        { "q": "Can the conveyor integrate with our MES/ERP?", "a": "Yes. We deliver with OPC UA or a custom API per the customer's requirement." }
+      ]
+    },
+    "jednoucelove-stroje": {
+      "capabilities": [
+        "Process design from scratch around the task the machine has to solve",
+        "Mechanical design, pneumatics, control",
+        "Integration with vision systems for visual inspection",
+        "Pre-acceptance at our shop before shipping"
+      ],
+      "specs": [
+        { "label": "Cycle time", "value": "from 2 s up to 5 min per task" },
+        { "label": "Positioning accuracy", "value": "±0.02 mm" },
+        { "label": "Safety", "value": "EN ISO 13849 Cat. 3 PL d" },
+        { "label": "Interfaces", "value": "Profinet / EtherCAT / OPC UA" }
+      ],
+      "faq": [
+        { "q": "Can you take over a project from another supplier?", "a": "Yes, provided the customer supplies documentation or consents to reverse engineering." },
+        { "q": "Do you build prototypes?", "a": "Yes. A prototype typically takes 8–12 weeks and serves as the basis for the production version." },
+        { "q": "What's your warranty?", "a": "Standard 24 months on mechanics, 12 months on electronics, extension to 5 years for a surcharge." }
+      ]
+    },
+    "svarovane-konstrukce": {
+      "capabilities": [
+        "Structural design compliant with EN 1090 and Eurocode",
+        "MAG, TIG, MIG welding under EN ISO 3834-2",
+        "Blasting and C3–C5 coatings in our own booth",
+        "Transport of oversized parts with escort vehicles"
+      ],
+      "specs": [
+        { "label": "Part weight", "value": "up to 25 t" },
+        { "label": "Dimensions", "value": "up to 14 × 4 × 4 m" },
+        { "label": "Execution class", "value": "EXC2 and EXC3" },
+        { "label": "Materials", "value": "S235 to S700, stainless 1.4301/1.4571" }
+      ],
+      "faq": [
+        { "q": "Do you issue a Declaration of Performance?", "a": "Yes, our EN 1090-1 certification covers it for load-bearing structures." },
+        { "q": "Do you perform NDT?", "a": "Yes, visual and PT in-house, RT/UT through a certified external partner." },
+        { "q": "Can you assemble on site?", "a": "Yes, we have an in-house assembly crew and mobile equipment for Central Europe." }
+      ]
+    },
+    "automatizace-a-robotika": {
+      "capabilities": [
+        "Integration of Yaskawa, KUKA, FANUC, ABB robots",
+        "Off-line programming in RoboGuide / RobotStudio",
+        "Cognex and Keyence vision systems for part orientation",
+        "Safety fencing and laser scanners"
+      ],
+      "specs": [
+        { "label": "Robot reach", "value": "from 0.7 m to 3.1 m" },
+        { "label": "Payload", "value": "up to 500 kg" },
+        { "label": "Repeatability", "value": "from ±0.03 mm" },
+        { "label": "Cobot option", "value": "Yaskawa HC, FANUC CRX" }
+      ],
+      "faq": [
+        { "q": "Can we add a robot to an existing workstation?", "a": "Usually yes. We audit the workstation, propose changes and handle integration." },
+        { "q": "What about control and programming?", "a": "We ship with our own HMI, programs handed over to the operator with minimal training." },
+        { "q": "Service and calibration?", "a": "Annual preventive check, VPN remote diagnostics, TCP calibration on every visit." }
+      ]
+    },
+    "deskova-polohovadla": {
+      "capabilities": [
+        "Plate load capacity from 1 t to 20 t",
+        "Manual and CNC control synchronised with a robot",
+        "360° rotation and tilt up to 135°",
+        "Compatible with Lincoln Electric / ESAB positioners"
+      ],
+      "specs": [
+        { "label": "Plate diameter", "value": "600–3,000 mm" },
+        { "label": "Rotation", "value": "0.1–4 rpm" },
+        { "label": "Tilt", "value": "0–135° with detents" },
+        { "label": "Control", "value": "Manual / CNC synchronous with robot" }
+      ],
+      "faq": [
+        { "q": "Can a positioner be added to an existing robot?", "a": "Yes, we supply it with an interface compatible with the robot brand." },
+        { "q": "Lead time?", "a": "Standard sizes 8–12 weeks, custom sizes 16–20 weeks." },
+        { "q": "Can it be used for plasma cutting?", "a": "Yes, the positioner is universal — we use the same hardware for both welding and cutting." }
+      ]
+    }
   }
 }

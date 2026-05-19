@@ -31,5 +31,383 @@
     "email": "E-mail",
     "consent": "Souhlasím se zasíláním newsletteru a se zpracováním e-mailu pro tento účel.",
     "submit": "Odebírat"
+  },
+  "Home": {
+    "metaTitle": "Strojírenský partner pro průmysl",
+    "metaDescription": "Konstrukce, výroba a servis dopravní techniky, jednoúčelových strojů, robotických buněk a svařovaných konstrukcí. Od roku 1993 z Plzně.",
+    "hero": {
+      "eyebrow": "Strojírenství od roku 1993",
+      "title": "Stroje, které posouvají průmysl.",
+      "subtitle": "Konstruujeme, vyrábíme a servisujeme dopravní techniku, jednoúčelové stroje a svařované konstrukce pro výrobce z automotive, energetiky a těžkého průmyslu.",
+      "primaryCta": "Prozkoumat reference",
+      "secondaryCta": "Získat nabídku",
+      "scrollCue": "Pokračujte dále"
+    },
+    "kpi": {
+      "title1": "Let zkušeností",
+      "title2": "Dokončených projektů",
+      "title3": "Opakovaných zákazníků"
+    },
+    "manifesto": {
+      "eyebrow": "Manifesto",
+      "title": "32 let strojírenského řemesla.",
+      "p1": "Nejsme dodavatel komodity. Jsme konstrukční partner. Každá zakázka začíná u stolu se zákazníkem, kde řešíme, co reálně potřebuje vyrobit, dopravit nebo svařit. Ne to, co máme zrovna v katalogu.",
+      "p2": "V Plzni stavíme stroje od roku 1993. Vyrobili jsme přes tisíc kusů jednoúčelových zařízení a několik stovek svařovaných konstrukcí pro výrobní haly v Česku a v zahraničí. Lidé, kteří u nás dnes svařují a programují roboty, dělají tuhle práci patnáct, dvacet let. To není reklamní claim, to je důvod, proč nám zákazníci volají znovu."
+    },
+    "services": {
+      "eyebrow": "Co umíme",
+      "title": "Pět oblastí, ve kterých dodáváme.",
+      "intro": "Specializujeme se na pět segmentů průmyslového strojírenství. Jeden projekt obvykle propojuje dva nebo tři."
+    },
+    "featured": {
+      "eyebrow": "Vybraný projekt",
+      "empty": {
+        "title": "První případové studie brzy přibudou.",
+        "body": "Aktuálně připravujeme detailní reportáž z poslední velké realizace.",
+        "cta": "Přejít na reference"
+      }
+    },
+    "reel": {
+      "eyebrow": "Výroba v akci",
+      "title": "Pár záběrů z naší haly."
+    },
+    "logos": {
+      "eyebrow": "Vybraní zákazníci",
+      "title": "Stroje od nás slouží v provozech, kde se nesmí stát chyba."
+    },
+    "news": {
+      "eyebrow": "Z dílny",
+      "title": "Nejnovější články.",
+      "cta": "Všechny novinky",
+      "empty": "Brzy zde najdete první články."
+    },
+    "cta": {
+      "eyebrow": "Máte projekt?",
+      "title": "Pojďme si o něm popovídat.",
+      "body": "Ozvěte se i s jen rámcovým zadáním. K dobré nabídce stačí jeden hovor.",
+      "primary": "Nezávazná poptávka",
+      "secondary": "Domluvit schůzku"
+    }
+  },
+  "AboutUs": {
+    "metaTitle": "O nás",
+    "metaDescription": "STRKAN s.r.o. — strojírenská firma z Plzně, od roku 1993. Tým inženýrů, konstruktérů a svářečů, který staví průmyslové stroje na míru.",
+    "hero": {
+      "eyebrow": "Kdo jsme",
+      "title": "Inženýrské řemeslo z Plzně, od roku 1993.",
+      "subtitle": "Lidé, hala, stroje. Tři věci, na kterých 32 let stojí naše práce."
+    },
+    "story": {
+      "eyebrow": "Od roku 1993",
+      "title": "Jak jsme se sem dostali.",
+      "p1": "STRKAN vznikl jako malá konstrukční dílna pro lokální výrobce v Plzni. Postupně jsme rostli, ale nikdy jsme nezapomněli, že stroje navrhují a vyrábějí lidé, ne tabulky v Excelu.",
+      "p2": "Dnes máme dvě haly v Plzni, 45 zaměstnanců a portfolio přes tisíc dodaných zařízení. Mezi našimi zákazníky jsou subdodavatelé pro automotive, výrobci energetických komponent i firmy z těžkého průmyslu po celé Evropě.",
+      "p3": "Naším měřítkem není růst za každou cenu. Měříme kvalitu projektů a počet zákazníků, kteří se vracejí. Posledních pět let nás zákazníci kontaktují znovu v 70 % případů."
+    },
+    "timeline": {
+      "eyebrow": "Milníky",
+      "title": "Třicet let v deseti letopočtech."
+    },
+    "values": {
+      "eyebrow": "Hodnoty",
+      "title": "V čem se neumíme dohodnout na slevě.",
+      "intro": "Tři pravidla, podle kterých vedeme každý projekt. Není to brand voice — je to čára, za kterou nejdeme."
+    },
+    "team": {
+      "eyebrow": "Tým",
+      "title": "Lidé, kteří navrhují a vyrábějí."
+    },
+    "certifications": {
+      "eyebrow": "Certifikáty",
+      "title": "Splňujeme standardy, které platí v celé Evropě."
+    },
+    "machines": {
+      "eyebrow": "Strojní vybavení",
+      "title": "S čím pracujeme."
+    },
+    "cta": {
+      "title": "Pojďte se podívat.",
+      "body": "Osobní prohlídka výroby je nejlepší způsob, jak posoudit, jestli jsme partner pro váš projekt.",
+      "primary": "Domluvit návštěvu"
+    },
+    "milestones": {
+      "founded": {
+        "title": "Založení firmy",
+        "description": "Konstrukční dílna pro lokální výrobce v Plzni."
+      },
+      "firstAuto": {
+        "title": "První automotive zakázka",
+        "description": "Vstup do dodavatelského řetězce pro výrobu osobních automobilů."
+      },
+      "secondHall": {
+        "title": "Druhá hala v Plzni",
+        "description": "Rozšíření výrobní kapacity o 2 400 m²."
+      },
+      "iso3834": {
+        "title": "Certifikace EN ISO 3834-2",
+        "description": "Plné svářečské oprávnění pro nosné konstrukce."
+      },
+      "robotics": {
+        "title": "Otevření robotického pracoviště",
+        "description": "První interní robotická buňka — Yaskawa MA2010."
+      },
+      "cncMazak": {
+        "title": "5osý CNC Mazak Variaxis",
+        "description": "Investice do high-end obrábění komplexních dílů."
+      }
+    },
+    "valueItems": {
+      "craft": {
+        "title": "Řemeslo",
+        "description": "Stroj odpovídá projektové dokumentaci. Ne nějakému průměrnému kompromisu, ne nejlevnější variantě, ne „to půjde\". Co je v BOMu, to ve stroji najdete."
+      },
+      "reliability": {
+        "title": "Spolehlivost",
+        "description": "Termín, který slíbíme, je termín, který dodržíme. V 94 % zakázek z posledních pěti let jsme dodali v plánovaném týdnu."
+      },
+      "precision": {
+        "title": "Přesnost",
+        "description": "Tolerance se neudělají očima. Měříme každý kritický rozměr. Když nejsme spokojeni my, klient by neměl být taky."
+      },
+      "team": {
+        "title": "Tým",
+        "description": "Lidé, kteří u nás pracují, jsou tady patnáct, dvacet let. Stroje a know-how zůstávají v naší hale, ne v hlavě právě odcházejícího kolegy."
+      }
+    },
+    "teamRoles": {
+      "ceo": {
+        "role": "Ředitel společnosti",
+        "bio": "Vede strategická rozhodnutí, vztahy s klíčovými klienty a investice do strojního parku."
+      },
+      "leadEngineer": {
+        "role": "Hlavní konstruktér",
+        "bio": "Odpovídá za 3D návrhy v SolidWorks, výpočty a koordinaci konstrukčního týmu."
+      },
+      "headOfProduction": {
+        "role": "Vedoucí výroby",
+        "bio": "Řídí provoz haly, plánování výroby a kvalitu odvedené práce."
+      }
+    },
+    "machineGroups": {
+      "cnc": {
+        "title": "CNC obrábění",
+        "items": [
+          "Mazak Variaxis i-700 (5osé frézování)",
+          "DMG Mori CTX (soustružení do Ø 320 mm)",
+          "Mikron HSM (vysokorychlostní obrábění)",
+          "TRUMPF TruLaser 3030 (laserové řezání)"
+        ]
+      },
+      "welding": {
+        "title": "Svařování",
+        "items": [
+          "Yaskawa MA2010 + polohovadlo (robotická svařovací buňka)",
+          "Fronius TPS 320i (MAG)",
+          "Kemppi MasterTig 235 (TIG)",
+          "ESAB Aristo 500ix (high-amp svařování)"
+        ]
+      },
+      "measurement": {
+        "title": "Měřicí technika",
+        "items": [
+          "Zeiss Contura G2 (CMM 1000×1500×600 mm)",
+          "FARO ScanArm (mobilní 3D měření)",
+          "Trumpf VegaCheck (inline kontrola laserového řezání)",
+          "Helmel Microstar (kalibrační CMM)"
+        ]
+      }
+    }
+  },
+  "Services": {
+    "metaTitle": "Služby",
+    "metaDescription": "Konstrukce, výroba a servis pěti typů průmyslových strojů — od dopravní techniky po desková polohovadla.",
+    "hero": {
+      "eyebrow": "Co umíme",
+      "title": "Pět segmentů průmyslového strojírenství.",
+      "subtitle": "Specializujeme se na pět oblastí. V projektech je obvykle kombinujeme — typická zakázka je svařovaná konstrukce s integrovanou dopravní technikou a robotickým pracovištěm."
+    },
+    "process": {
+      "eyebrow": "Postup",
+      "title": "Od poptávky po dodávku.",
+      "steps": {
+        "consultation": {
+          "title": "Konzultace",
+          "description": "Probereme zadání a omezení haly. Z hovoru a několika fotek vznikne první odhad."
+        },
+        "design": {
+          "title": "Návrh",
+          "description": "Naši konstruktéři připraví 3D model v SolidWorks a technický rozpočet."
+        },
+        "production": {
+          "title": "Výroba",
+          "description": "Svařování, obrábění, montáž a předpřejímka u nás v Plzni."
+        },
+        "installation": {
+          "title": "Instalace",
+          "description": "Doprava na místo, sestavení v hale zákazníka, zaškolení obsluhy."
+        },
+        "service": {
+          "title": "Servis",
+          "description": "Pozáruční servis, náhradní díly, vzdálená diagnostika přes PLC."
+        }
+      }
+    },
+    "cta": {
+      "title": "Máte konkrétní zadání?",
+      "body": "Vyplňte krátký konfigurátor — během pěti minut budeme mít dost informací pro první kalkulaci.",
+      "primary": "Spustit konfigurátor"
+    }
+  },
+  "ServiceSegments": {
+    "dopravni-technika": {
+      "tag": "Dopravní technika",
+      "title": "Dopravní technika",
+      "perex": "Pásové, válečkové a řetězové dopravníky pro výrobní linky. Od kusovek po komplexní systémy s integrovanou automatizací.",
+      "imageLabel": "Pásový dopravník v hale"
+    },
+    "jednoucelove-stroje": {
+      "tag": "Jednoúčelové stroje",
+      "title": "Jednoúčelové stroje",
+      "perex": "Stroje stavěné na jeden konkrétní výrobní úkol — montáž, kontrolu, testování. Když katalogové řešení neexistuje.",
+      "imageLabel": "Jednoúčelový stroj v provozu"
+    },
+    "svarovane-konstrukce": {
+      "tag": "Svařované konstrukce",
+      "title": "Svařované konstrukce",
+      "perex": "Ocelové konstrukce pro výrobní haly, montážní rámy, podpůrné struktury. Atest svářečů EN ISO 3834-2.",
+      "imageLabel": "Svařovaná konstrukce — close-up svaru"
+    },
+    "automatizace-a-robotika": {
+      "tag": "Automatizace & robotika",
+      "title": "Automatizace a robotika",
+      "perex": "Robotické svařovací buňky a manipulační pracoviště s integrací do výrobních linek. Yaskawa, KUKA, FANUC.",
+      "imageLabel": "Robotická svařovací buňka"
+    },
+    "deskova-polohovadla": {
+      "tag": "Desková polohovadla",
+      "title": "Desková polohovadla",
+      "perex": "Polohovadla pro svařování velkých dílů s nosností do 20 tun. Manuální i CNC řízení synchronizované s robotem.",
+      "imageLabel": "Deskové polohovadlo s rotací"
+    }
+  },
+  "ServiceDetail": {
+    "capabilities": {
+      "eyebrow": "Co umíme",
+      "title": "Konkrétní schopnosti v tomto segmentu."
+    },
+    "techSpecs": {
+      "eyebrow": "Technické parametry",
+      "title": "Rozsah, ve kterém pracujeme."
+    },
+    "examples": {
+      "eyebrow": "Příklady aplikací",
+      "title": "Kde tato služba našla uplatnění."
+    },
+    "faq": {
+      "eyebrow": "Časté otázky",
+      "title": "Co se nás obvykle ptáte."
+    },
+    "cta": {
+      "title": "Poptat tuto službu",
+      "body": "Konfigurátor přizpůsobíme zvolenému segmentu. Vyplnění zabere zhruba 5 minut.",
+      "primary": "Spustit konfigurátor"
+    }
+  },
+  "ServiceContent": {
+    "dopravni-technika": {
+      "capabilities": [
+        "Konstrukce na míru podle layoutu haly",
+        "Pásové, válečkové, řetězové, šnekové dopravníky",
+        "Řízení s PLC Siemens nebo Allen-Bradley a HMI",
+        "Servis a 24/7 dostupnost náhradních dílů"
+      ],
+      "specs": [
+        { "label": "Nosnost", "value": "až 5 000 kg/m" },
+        { "label": "Rychlost", "value": "0,1–4 m/s" },
+        { "label": "Materiály", "value": "Konstrukční ocel, nerez, hliník" },
+        { "label": "Krytí", "value": "IP54 / IP66 dle prostředí" }
+      ],
+      "faq": [
+        { "q": "Jak dlouho trvá realizace?", "a": "Standardně 4–6 měsíců od potvrzení objednávky, podle složitosti a dostupnosti komponent." },
+        { "q": "Servisujete i dopravníky cizí výroby?", "a": "Ano, pokud máme přístup k dokumentaci nebo pokud nám zákazník dovolí ji vytvořit." },
+        { "q": "Lze dopravník integrovat do stávajícího MES/ERP?", "a": "Ano. Dodáváme s OPC UA nebo s vlastním API podle požadavku zákazníka." }
+      ]
+    },
+    "jednoucelove-stroje": {
+      "capabilities": [
+        "Návrh procesu od nuly podle úkolu, který stroj má řešit",
+        "Mechanická konstrukce, pneumatika, řízení",
+        "Integrace s vision systémy pro vizuální kontrolu",
+        "Předpřejímka v naší hale před expedicí"
+      ],
+      "specs": [
+        { "label": "Cyklus", "value": "od 2 s do 5 min dle úlohy" },
+        { "label": "Přesnost polohování", "value": "±0,02 mm" },
+        { "label": "Bezpečnost", "value": "EN ISO 13849 Cat. 3 PL d" },
+        { "label": "Rozhraní", "value": "Profinet / EtherCAT / OPC UA" }
+      ],
+      "faq": [
+        { "q": "Můžete převzít projekt od jiného dodavatele?", "a": "Ano, pokud nám zákazník dodá dokumentaci nebo souhlas s reverse-engineeringem." },
+        { "q": "Děláte i prototypy?", "a": "Ano. Prototyp obvykle vyrobíme za 8–12 týdnů a slouží jako podklad pro sériovou verzi." },
+        { "q": "Jak řešíte záruku?", "a": "Standardně 24 měsíců na mechaniku, 12 měsíců na elektroniku, prodloužení do 5 let za příplatek." }
+      ]
+    },
+    "svarovane-konstrukce": {
+      "capabilities": [
+        "Návrh konstrukce v souladu s EN 1090 a Eurokódem",
+        "Svařování MAG, TIG, MIG s atestací EN ISO 3834-2",
+        "Tryskání, nátěry C3–C5 ve vlastní kabině",
+        "Doprava nadrozměrných dílů s pilotáží"
+      ],
+      "specs": [
+        { "label": "Hmotnost dílu", "value": "do 25 t" },
+        { "label": "Rozměry", "value": "do 14 × 4 × 4 m" },
+        { "label": "Třída provedení", "value": "EXC2 a EXC3" },
+        { "label": "Materiály", "value": "S235 až S700, nerez 1.4301/1.4571" }
+      ],
+      "faq": [
+        { "q": "Vystavíte prohlášení o vlastnostech?", "a": "Ano, naše certifikace EN 1090-1 to umožňuje pro nosné konstrukce." },
+        { "q": "Provádíte NDT kontroly?", "a": "Ano, vizuální a penetrační test in-house, RT/UT přes externího partnera s atestem." },
+        { "q": "Můžete dodat i montáž na stavbě?", "a": "Ano, máme vlastní montážní tým a mobilní vybavení pro střední Evropu." }
+      ]
+    },
+    "automatizace-a-robotika": {
+      "capabilities": [
+        "Integrace robotů Yaskawa, KUKA, FANUC, ABB",
+        "Programování off-line v RoboGuide / RobotStudio",
+        "Vision systémy Cognex a Keyence pro orientaci dílů",
+        "Bezpečnostní oplocení a laserové scannery"
+      ],
+      "specs": [
+        { "label": "Dosah robotů", "value": "od 0,7 m do 3,1 m" },
+        { "label": "Nosnost", "value": "do 500 kg" },
+        { "label": "Opakovatelnost", "value": "od ±0,03 mm" },
+        { "label": "Cobot varianta", "value": "Yaskawa HC, FANUC CRX" }
+      ],
+      "faq": [
+        { "q": "Lze přidat robota do stávajícího pracoviště?", "a": "Většinou ano. Provedeme audit pracoviště, navrhneme úpravy a integraci." },
+        { "q": "Co řízení a programování?", "a": "Dodáváme s vlastním rozhraním v HMI, programy přebírá obsluha s minimálním zaškolením." },
+        { "q": "Servis a kalibrace?", "a": "Roční preventivní prohlídka, vzdálená diagnostika přes VPN, kalibrace TCP při každé prohlídce." }
+      ]
+    },
+    "deskova-polohovadla": {
+      "capabilities": [
+        "Nosnost desky od 1 t do 20 t",
+        "Manuální i CNC řízení synchronizované s robotem",
+        "Rotace 360° a sklopení do 135°",
+        "Kompatibilita s polohovadly Lincoln Electric / ESAB"
+      ],
+      "specs": [
+        { "label": "Průměr desky", "value": "600–3 000 mm" },
+        { "label": "Rotace", "value": "0,1–4 ot/min" },
+        { "label": "Sklopení", "value": "0–135° s aretací" },
+        { "label": "Řízení", "value": "Manuální / CNC synchronní s robotem" }
+      ],
+      "faq": [
+        { "q": "Lze polohovadlo přidat k existujícímu robotu?", "a": "Ano, dodáme s rozhraním kompatibilním se značkou robotu." },
+        { "q": "Jak rychle se polohovadlo dodává?", "a": "Standardní velikosti 8–12 týdnů, atypy 16–20 týdnů." },
+        { "q": "Lze ho použít i pro řezání plazmou?", "a": "Ano, polohovadlo je univerzální — využíváme stejný hardware pro svařování i řezání." }
+      ]
+    }
   }
 }

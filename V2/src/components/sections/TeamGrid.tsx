@@ -4,7 +4,7 @@ import { Reveal } from '@/components/motion/Reveal';
 import { PlaceholderImage } from '@/components/PlaceholderImage';
 
 type Member = {
-  name: string;
+  name?: string;
   role: string;
   bio?: string;
 };
@@ -32,15 +32,21 @@ export function TeamGrid({ eyebrow, title, members }: Props) {
 
         <ul className="mt-16 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
           {members.map((m, i) => (
-            <li key={m.name}>
+            <li key={`${m.role}-${i}`}>
               <Reveal delay={(i % 3) * 0.08}>
-                {/* TODO(content): real portrait photos */}
+                {/* TODO(content): real portrait photos + names */}
                 <PlaceholderImage
                   aspect="4/5"
-                  label={`Portrét — ${m.name}`}
+                  label={m.name ? `Portrét — ${m.name}` : `Portrét — ${m.role}`}
                 />
-                <h3 className="mt-5 type-heading-md text-ink">{m.name}</h3>
-                <p className="mt-1 type-eyebrow text-steel">{m.role}</p>
+                {m.name ? (
+                  <>
+                    <h3 className="mt-5 type-heading-md text-ink">{m.name}</h3>
+                    <p className="mt-1 type-eyebrow text-steel">{m.role}</p>
+                  </>
+                ) : (
+                  <h3 className="mt-5 type-heading-md text-ink">{m.role}</h3>
+                )}
                 {m.bio && (
                   <p className="mt-3 type-body-sm text-steel max-w-sm">
                     {m.bio}
