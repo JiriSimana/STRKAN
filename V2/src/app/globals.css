@@ -1,0 +1,93 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: var(--color-azure);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: none;
+  }
+}
+
+@layer utilities {
+  /* --- Typography utilities (BRAND.md §3.2). Mobile-first; lg: desktop. --- */
+  .type-display-2xl { font-size: 56px; line-height: 1; font-weight: 600; letter-spacing: -0.03em; }
+  .type-display-xl  { font-size: 44px; line-height: 1.05; font-weight: 600; letter-spacing: -0.025em; }
+  .type-display-lg  { font-size: 36px; line-height: 1.1; font-weight: 600; letter-spacing: -0.02em; }
+  .type-display-md  { font-size: 28px; line-height: 1.15; font-weight: 600; letter-spacing: -0.015em; }
+  .type-heading-lg  { font-size: 22px; line-height: 1.25; font-weight: 600; letter-spacing: -0.01em; }
+  .type-heading-md  { font-size: 18px; line-height: 1.3; font-weight: 600; letter-spacing: -0.005em; }
+  .type-heading-sm  { font-size: 16px; line-height: 1.35; font-weight: 600; }
+  .type-body-lg     { font-size: 17px; line-height: 1.6; font-weight: 400; }
+  .type-body        { font-size: 16px; line-height: 1.65; font-weight: 400; }
+  .type-body-sm     { font-size: 14px; line-height: 1.55; font-weight: 400; letter-spacing: 0.005em; }
+  .type-mono        { font-family: var(--font-mono); font-size: 14px; line-height: 1.4; font-weight: 500; letter-spacing: 0.02em; }
+  .type-eyebrow     { font-size: 12px; line-height: 1.4; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; }
+
+  @media (min-width: 1024px) {
+    .type-display-2xl { font-size: 96px; }
+    .type-display-xl  { font-size: 72px; }
+    .type-display-lg  { font-size: 56px; }
+    .type-display-md  { font-size: 40px; }
+    .type-heading-lg  { font-size: 28px; }
+    .type-heading-md  { font-size: 22px; }
+    .type-heading-sm  { font-size: 18px; }
+    .type-body-lg     { font-size: 19px; }
+    .type-body        { font-size: 17px; }
+    .type-body-sm     { font-size: 15px; }
+    .type-mono        { font-size: 15px; }
+    .type-eyebrow     { font-size: 13px; }
+  }
+
+  /* --- Keyframes for Radix-driven overlays --- */
+  @keyframes fade-in { from { opacity: 0 } to { opacity: 1 } }
+  @keyframes fade-out { from { opacity: 1 } to { opacity: 0 } }
+  @keyframes dialog-in {
+    from { opacity: 0; transform: translate(-50%, calc(-50% + 8px)); }
+    to   { opacity: 1; transform: translate(-50%, -50%); }
+  }
+  @keyframes dialog-out {
+    from { opacity: 1; transform: translate(-50%, -50%); }
+    to   { opacity: 0; transform: translate(-50%, calc(-50% + 8px)); }
+  }
+  @keyframes drawer-in  { from { transform: translateX(100%); } to { transform: translateX(0); } }
+  @keyframes drawer-out { from { transform: translateX(0); }   to { transform: translateX(100%); } }
+  @keyframes accordion-down {
+    from { height: 0; }
+    to   { height: var(--radix-accordion-content-height); }
+  }
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height); }
+    to   { height: 0; }
+  }
+  @keyframes marquee {
+    from { transform: translate3d(0, 0, 0); }
+    to   { transform: translate3d(-50%, 0, 0); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
