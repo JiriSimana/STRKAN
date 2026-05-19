@@ -52,25 +52,22 @@ export default async function HomePage({ params }: Props) {
       <HomeKpiBlock />
       <HomeManifesto />
       <HomeServices />
-      <Reel eyebrow={useReelEyebrow()} title={useReelTitle()} />
-      <LogoStrip eyebrow={useLogoEyebrow()} title={useLogoTitle()} />
+      <HomeReel />
+      <HomeLogos />
       <HomeNews posts={posts} />
       <HomeCta />
     </>
   );
 }
 
-function useReelEyebrow() {
-  return useTranslations('Home.reel')('eyebrow');
+function HomeReel() {
+  const t = useTranslations('Home.reel');
+  return <Reel eyebrow={t('eyebrow')} title={t('title')} />;
 }
-function useReelTitle() {
-  return useTranslations('Home.reel')('title');
-}
-function useLogoEyebrow() {
-  return useTranslations('Home.logos')('eyebrow');
-}
-function useLogoTitle() {
-  return useTranslations('Home.logos')('title');
+
+function HomeLogos() {
+  const t = useTranslations('Home.logos');
+  return <LogoStrip eyebrow={t('eyebrow')} title={t('title')} />;
 }
 
 function HomeKpiBlock() {
