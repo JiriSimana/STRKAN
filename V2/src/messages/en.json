@@ -445,6 +445,142 @@
       "submit": "Send application"
     }
   },
+  "Contact": {
+    "metaTitle": "Contact",
+    "metaDescription": "Contact details, headquarters map and contact form. STRKAN s.r.o., Plzeň.",
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Get in touch.",
+      "subtitle": "For a project brief, use the configurator — structured questions speed up the first ballpark. For everything else, a short message is enough."
+    },
+    "details": {
+      "eyebrow": "Where to find us",
+      "title": "Office and contacts.",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Registered address",
+      "hours": "Opening hours",
+      "hoursValue": "Monday – Friday, 7:00 – 16:00"
+    },
+    "form": {
+      "eyebrow": "Write to us",
+      "title": "Contact form.",
+      "name": "Full name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "consent": "I consent to the processing of personal data for the purpose of handling my inquiry.",
+      "submit": "Send message"
+    },
+    "transport": {
+      "eyebrow": "How to get here",
+      "title": "Getting to us.",
+      "car": {
+        "title": "By car",
+        "description": "Own car park right next to the hall. About 8 minutes from D5 motorway."
+      },
+      "train": {
+        "title": "By train",
+        "description": "Plzeň main station about 4 km away. Trolleybus 12 directly to the site."
+      },
+      "mhd": {
+        "title": "Public transport",
+        "description": "Stop „Doubravka — STRKAN\" on line 12. Three minutes on foot."
+      }
+    }
+  },
+  "Configurator": {
+    "metaTitle": "Get a quote",
+    "metaDescription": "Quote configurator — describe your project brief and we'll get back to you within two business days.",
+    "progress": {
+      "label": "Step {current} of {total}"
+    },
+    "steps": {
+      "segment": {
+        "title": "What should we build for you?",
+        "subtitle": "Pick the segment your project falls under. If you're not sure, choose „Something else\"."
+      },
+      "parameters": {
+        "title": "Project parameters",
+        "subtitle": "Briefly describe what the machine or structure must do. A few sentences is enough.",
+        "description": "Project description",
+        "placeholder": "E.g. 12 m conveyor, 800 kg/m load capacity, integration with Volkswagen line, IP54 protection."
+      },
+      "timeline": {
+        "title": "Timeline",
+        "subtitle": "When do you need the project completed?"
+      },
+      "contact": {
+        "title": "Contact",
+        "subtitle": "So our sales team can reach you."
+      }
+    },
+    "timelines": {
+      "do-1-mesice": "Within 1 month",
+      "1-3-mesice": "1–3 months",
+      "3-6-mesicu": "3–6 months",
+      "6-plus-mesicu": "6+ months"
+    },
+    "otherSegment": "Something else",
+    "contact": {
+      "company": "Company",
+      "name": "Full name",
+      "role": "Role",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "consent": "I consent to the processing of personal data for the purpose of handling this inquiry.",
+    "nav": {
+      "back": "Back",
+      "next": "Continue",
+      "submit": "Send inquiry"
+    },
+    "success": {
+      "title": "Thank you.",
+      "referenceCode": "Reference code"
+    }
+  },
+  "Legal": {
+    "privacy": {
+      "metaTitle": "Privacy policy",
+      "metaDescription": "STRKAN s.r.o. privacy policy.",
+      "eyebrow": "Legal",
+      "title": "Privacy policy",
+      "body": "This page is being prepared. The full privacy policy will be published before the site goes live. In the meantime, please contact info@strkan.cz with any questions about personal data processing.\n\nThe data controller is STRKAN s.r.o. seated in Plzeň. We process data you provide via the contact form, quote configurator or job application — solely to handle your inquiry, prepare a quote or assess job candidates.\n\nTODO(legal): complete per GDPR Art. 13/14, list of processors, retention periods and data subject rights."
+    },
+    "cookies": {
+      "metaTitle": "Cookies",
+      "metaDescription": "Cookie policy for the STRKAN site.",
+      "eyebrow": "Legal",
+      "title": "Cookies",
+      "body": "The site currently does not use any marketing or tracking cookies. We only collect anonymous traffic via cookie-less analytics (Plausible), which does not store personal data or identifiers.\n\nIf we add third-party cookies in the future (e.g. LinkedIn Insight Tag), we will show a consent banner and you'll be able to opt out at any time.\n\nTODO(legal): final text will be published together with the privacy policy."
+    },
+    "terms": {
+      "metaTitle": "Terms of service",
+      "metaDescription": "STRKAN s.r.o. general terms of service.",
+      "eyebrow": "Legal",
+      "title": "General terms of service",
+      "body": "The full terms of service will be published as a PDF document before the site goes live. In the meantime, the terms stated in the individual contract we sign with you after confirming an inquiry apply.\n\nTODO(legal): link to PDF in the Supabase Storage bucket `documents/vop-2026.pdf`."
+    }
+  },
+  "Errors": {
+    "notFound": {
+      "eyebrow": "Page not found",
+      "title": "This page has left us.",
+      "body": "The link may be outdated or the page no longer exists. Return to the start or jump straight to the section you need.",
+      "home": "Home",
+      "services": "Services",
+      "references": "References",
+      "contact": "Contact"
+    },
+    "internal": {
+      "eyebrow": "Something went wrong",
+      "title": "The page failed to load.",
+      "body": "Please try again. If the error persists, write to info@strkan.cz and we'll look into it.",
+      "retry": "Try again",
+      "home": "Back to start"
+    }
+  },
   "ServiceContent": {
     "dopravni-technika": {
       "capabilities": [

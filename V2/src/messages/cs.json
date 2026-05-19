@@ -445,6 +445,142 @@
       "submit": "Odeslat přihlášku"
     }
   },
+  "Contact": {
+    "metaTitle": "Kontakt",
+    "metaDescription": "Kontaktní údaje, mapa sídla a kontaktní formulář. STRKAN s.r.o., Plzeň.",
+    "hero": {
+      "eyebrow": "Kontakt",
+      "title": "Ozvěte se nám.",
+      "subtitle": "Pro zadání projektu použijte konfigurátor — strukturované otázky urychlí první kalkulaci. Pro vše ostatní stačí krátká zpráva."
+    },
+    "details": {
+      "eyebrow": "Kde nás najdete",
+      "title": "Sídlo a kontakty.",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "address": "Adresa sídla",
+      "hours": "Otevírací doba",
+      "hoursValue": "Pondělí – Pátek, 7:00 – 16:00"
+    },
+    "form": {
+      "eyebrow": "Napište nám",
+      "title": "Kontaktní formulář.",
+      "name": "Jméno a příjmení",
+      "email": "E-mail",
+      "subject": "Předmět",
+      "message": "Zpráva",
+      "consent": "Souhlasím se zpracováním osobních údajů pro účely vyřízení dotazu.",
+      "submit": "Odeslat zprávu"
+    },
+    "transport": {
+      "eyebrow": "Doprava k nám",
+      "title": "Jak se k nám dostanete.",
+      "car": {
+        "title": "Autem",
+        "description": "Vlastní parkoviště přímo u haly. Z dálnice D5 cca 8 minut."
+      },
+      "train": {
+        "title": "Vlakem",
+        "description": "Hlavní nádraží Plzeň cca 4 km. Trolejbus č. 12 přímo k areálu."
+      },
+      "mhd": {
+        "title": "MHD",
+        "description": "Zastávka „Doubravka — STRKAN\" na lince 12. Tři minuty chůze."
+      }
+    }
+  },
+  "Configurator": {
+    "metaTitle": "Poptávka",
+    "metaDescription": "Konfigurátor poptávky — popište zadání projektu a my se ozveme do dvou pracovních dnů.",
+    "progress": {
+      "label": "Krok {current} z {total}"
+    },
+    "steps": {
+      "segment": {
+        "title": "Co bychom pro vás měli postavit?",
+        "subtitle": "Vyberte segment, do kterého váš projekt spadá. Pokud si nejste jistí, zvolte „Něco jiného\"."
+      },
+      "parameters": {
+        "title": "Parametry projektu",
+        "subtitle": "Stručně popište, co stroj nebo konstrukce musí umět. Stačí pár vět.",
+        "description": "Popis projektu",
+        "placeholder": "Např. dopravník 12 m, nosnost 800 kg/m, integrace s linkou Volkswagen, krytí IP54."
+      },
+      "timeline": {
+        "title": "Časový rámec",
+        "subtitle": "Kdy potřebujete projekt mít hotový?"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "subtitle": "Aby vám mohl ozvat náš obchodní tým."
+      }
+    },
+    "timelines": {
+      "do-1-mesice": "Do 1 měsíce",
+      "1-3-mesice": "1–3 měsíce",
+      "3-6-mesicu": "3–6 měsíců",
+      "6-plus-mesicu": "6 a více měsíců"
+    },
+    "otherSegment": "Něco jiného",
+    "contact": {
+      "company": "Firma",
+      "name": "Jméno a příjmení",
+      "role": "Pozice ve firmě",
+      "email": "E-mail",
+      "phone": "Telefon"
+    },
+    "consent": "Souhlasím se zpracováním osobních údajů pro účely vyřízení poptávky.",
+    "nav": {
+      "back": "Zpět",
+      "next": "Pokračovat",
+      "submit": "Odeslat poptávku"
+    },
+    "success": {
+      "title": "Děkujeme.",
+      "referenceCode": "Referenční kód"
+    }
+  },
+  "Legal": {
+    "privacy": {
+      "metaTitle": "Ochrana osobních údajů",
+      "metaDescription": "Zásady ochrany osobních údajů STRKAN s.r.o.",
+      "eyebrow": "Právní informace",
+      "title": "Ochrana osobních údajů",
+      "body": "Tato stránka je v přípravě. Plné znění zásad ochrany osobních údajů zveřejníme před uvedením webu do produkce. V mezičase se na nás obraťte na info@strkan.cz s jakýmkoliv dotazem na zpracování osobních údajů.\n\nSprávcem osobních údajů je STRKAN s.r.o. se sídlem v Plzni. Zpracováváme údaje, které nám poskytnete prostřednictvím kontaktního formuláře, konfigurátoru poptávky nebo přihlášky na pracovní pozici — výhradně pro účely vyřízení vašeho dotazu, vypracování nabídky nebo posouzení uchazečů o zaměstnání.\n\nTODO(legal): doplnit zbytek dle GDPR článků 13/14, výčet zpracovatelů, dobu uchovávání a práva subjektu údajů."
+    },
+    "cookies": {
+      "metaTitle": "Cookies",
+      "metaDescription": "Zásady používání cookies na webu STRKAN.",
+      "eyebrow": "Právní informace",
+      "title": "Cookies",
+      "body": "Web aktuálně nepoužívá žádné marketingové ani trackingové cookies. Sledujeme jen anonymizovanou návštěvnost pomocí cookie-less analytiky (Plausible), která neukládá osobní údaje ani identifikátory.\n\nPokud do budoucna nasadíme cookies třetích stran (např. LinkedIn Insight Tag), zobrazíme vám souhlasový banner a budete moci jejich použití kdykoli odmítnout.\n\nTODO(legal): plný text zveřejníme spolu s privacy policy."
+    },
+    "terms": {
+      "metaTitle": "Obchodní podmínky",
+      "metaDescription": "Všeobecné obchodní podmínky STRKAN s.r.o.",
+      "eyebrow": "Právní informace",
+      "title": "Všeobecné obchodní podmínky",
+      "body": "Plné znění obchodních podmínek zveřejníme jako PDF dokument před uvedením webu do produkce. V mezičase platí podmínky uvedené v individuální smlouvě, kterou s vámi uzavíráme po potvrzení poptávky.\n\nTODO(legal): odkaz na PDF v Supabase Storage bucketu `documents/vop-2026.pdf`."
+    }
+  },
+  "Errors": {
+    "notFound": {
+      "eyebrow": "Stránka nenalezena",
+      "title": "Tahle stránka nás opustila.",
+      "body": "Odkaz může být zastaralý nebo neexistuje. Vraťte se na úvod, nebo přejděte rovnou na sekci, která vás zajímá.",
+      "home": "Domů",
+      "services": "Služby",
+      "references": "Reference",
+      "contact": "Kontakt"
+    },
+    "internal": {
+      "eyebrow": "Něco se pokazilo",
+      "title": "Stránka se nepodařila načíst.",
+      "body": "Zkuste načíst stránku znovu. Pokud chyba přetrvává, napište nám na info@strkan.cz a my se na to podíváme.",
+      "retry": "Zkusit znovu",
+      "home": "Zpět na úvod"
+    }
+  },
   "ServiceContent": {
     "dopravni-technika": {
       "capabilities": [

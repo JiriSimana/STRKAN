@@ -445,6 +445,142 @@
       "submit": "Bewerbung senden"
     }
   },
+  "Contact": {
+    "metaTitle": "Kontakt",
+    "metaDescription": "Kontaktdaten, Karte des Firmensitzes und Kontaktformular. STRKAN s.r.o., Plzeň.",
+    "hero": {
+      "eyebrow": "Kontakt",
+      "title": "Sprechen Sie uns an.",
+      "subtitle": "Für ein Projektbriefing nutzen Sie den Konfigurator — strukturierte Fragen beschleunigen die erste Größenordnung. Für alles andere reicht eine kurze Nachricht."
+    },
+    "details": {
+      "eyebrow": "Wo Sie uns finden",
+      "title": "Sitz und Kontakte.",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "address": "Firmensitz",
+      "hours": "Öffnungszeiten",
+      "hoursValue": "Montag – Freitag, 7:00 – 16:00"
+    },
+    "form": {
+      "eyebrow": "Schreiben Sie uns",
+      "title": "Kontaktformular.",
+      "name": "Vor- und Nachname",
+      "email": "E-Mail",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "consent": "Ich stimme der Verarbeitung personenbezogener Daten zum Zweck der Bearbeitung meiner Anfrage zu.",
+      "submit": "Nachricht senden"
+    },
+    "transport": {
+      "eyebrow": "Anreise",
+      "title": "So kommen Sie zu uns.",
+      "car": {
+        "title": "Mit dem Auto",
+        "description": "Eigener Parkplatz direkt an der Halle. Von der Autobahn D5 ca. 8 Minuten."
+      },
+      "train": {
+        "title": "Mit der Bahn",
+        "description": "Hauptbahnhof Plzeň ca. 4 km entfernt. Obus Nr. 12 direkt zum Werk."
+      },
+      "mhd": {
+        "title": "ÖPNV",
+        "description": "Haltestelle „Doubravka — STRKAN\" Linie 12. Drei Minuten zu Fuß."
+      }
+    }
+  },
+  "Configurator": {
+    "metaTitle": "Angebot anfordern",
+    "metaDescription": "Anfrage-Konfigurator — beschreiben Sie Ihr Projekt, und wir melden uns innerhalb von zwei Arbeitstagen."  ,
+    "progress": {
+      "label": "Schritt {current} von {total}"
+    },
+    "steps": {
+      "segment": {
+        "title": "Was sollen wir für Sie bauen?",
+        "subtitle": "Wählen Sie das Segment, dem Ihr Projekt zugeordnet ist. Wenn Sie unsicher sind, wählen Sie „Etwas anderes\"."
+      },
+      "parameters": {
+        "title": "Projektparameter",
+        "subtitle": "Beschreiben Sie kurz, was die Maschine oder Konstruktion leisten muss. Ein paar Sätze reichen.",
+        "description": "Projektbeschreibung",
+        "placeholder": "Z.B. Förderer 12 m, Tragfähigkeit 800 kg/m, Integration in Volkswagen-Linie, Schutzart IP54."
+      },
+      "timeline": {
+        "title": "Zeitrahmen",
+        "subtitle": "Wann brauchen Sie das Projekt fertig?"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "subtitle": "Damit unser Vertriebsteam Sie erreichen kann."
+      }
+    },
+    "timelines": {
+      "do-1-mesice": "Bis 1 Monat",
+      "1-3-mesice": "1–3 Monate",
+      "3-6-mesicu": "3–6 Monate",
+      "6-plus-mesicu": "6+ Monate"
+    },
+    "otherSegment": "Etwas anderes",
+    "contact": {
+      "company": "Firma",
+      "name": "Vor- und Nachname",
+      "role": "Rolle",
+      "email": "E-Mail",
+      "phone": "Telefon"
+    },
+    "consent": "Ich stimme der Verarbeitung personenbezogener Daten zum Zweck der Bearbeitung dieser Anfrage zu.",
+    "nav": {
+      "back": "Zurück",
+      "next": "Weiter",
+      "submit": "Anfrage senden"
+    },
+    "success": {
+      "title": "Vielen Dank.",
+      "referenceCode": "Referenzcode"
+    }
+  },
+  "Legal": {
+    "privacy": {
+      "metaTitle": "Datenschutz",
+      "metaDescription": "Datenschutzerklärung der STRKAN s.r.o.",
+      "eyebrow": "Rechtliches",
+      "title": "Datenschutz",
+      "body": "Diese Seite wird vorbereitet. Den vollständigen Datenschutztext veröffentlichen wir vor dem Produktivstart der Website. Bei Fragen zur Datenverarbeitung erreichen Sie uns in der Zwischenzeit unter info@strkan.cz.\n\nVerantwortlich ist STRKAN s.r.o. mit Sitz in Plzeň. Wir verarbeiten Daten, die Sie uns über das Kontaktformular, den Anfrage-Konfigurator oder eine Bewerbung übermitteln — ausschließlich zur Bearbeitung Ihrer Anfrage, zur Angebotserstellung oder zur Bewerberprüfung.\n\nTODO(legal): Ergänzen nach DSGVO Art. 13/14, Auftragsverarbeiter, Aufbewahrungsfristen und Betroffenenrechte."
+    },
+    "cookies": {
+      "metaTitle": "Cookies",
+      "metaDescription": "Cookie-Hinweis für die STRKAN-Website.",
+      "eyebrow": "Rechtliches",
+      "title": "Cookies",
+      "body": "Die Website nutzt derzeit keine Marketing- oder Tracking-Cookies. Wir erheben nur anonymisierte Besucherzahlen mittels cookie-loser Analytik (Plausible), die keine personenbezogenen Daten oder Identifikatoren speichert.\n\nFalls wir später Drittanbieter-Cookies (z.B. LinkedIn Insight Tag) einsetzen, zeigen wir einen Consent-Banner; Sie können jederzeit widersprechen.\n\nTODO(legal): finaler Text erscheint gemeinsam mit der Datenschutzerklärung."
+    },
+    "terms": {
+      "metaTitle": "AGB",
+      "metaDescription": "Allgemeine Geschäftsbedingungen der STRKAN s.r.o.",
+      "eyebrow": "Rechtliches",
+      "title": "Allgemeine Geschäftsbedingungen",
+      "body": "Den vollständigen AGB-Text veröffentlichen wir als PDF-Dokument vor dem Produktivstart der Website. In der Zwischenzeit gelten die Bedingungen aus dem individuellen Vertrag, den wir nach Bestätigung Ihrer Anfrage mit Ihnen schließen.\n\nTODO(legal): Link auf PDF im Supabase-Storage-Bucket `documents/vop-2026.pdf`."
+    }
+  },
+  "Errors": {
+    "notFound": {
+      "eyebrow": "Seite nicht gefunden",
+      "title": "Diese Seite hat uns verlassen.",
+      "body": "Der Link ist möglicherweise veraltet oder die Seite existiert nicht mehr. Kehren Sie zum Start zurück oder springen Sie direkt zum gewünschten Bereich.",
+      "home": "Startseite",
+      "services": "Leistungen",
+      "references": "Referenzen",
+      "contact": "Kontakt"
+    },
+    "internal": {
+      "eyebrow": "Etwas ist schiefgelaufen",
+      "title": "Die Seite konnte nicht geladen werden.",
+      "body": "Bitte versuchen Sie es erneut. Wenn der Fehler bestehen bleibt, schreiben Sie an info@strkan.cz — wir kümmern uns darum.",
+      "retry": "Erneut versuchen",
+      "home": "Zur Startseite"
+    }
+  },
   "ServiceContent": {
     "dopravni-technika": {
       "capabilities": [
