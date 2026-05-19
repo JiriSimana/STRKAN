@@ -313,6 +313,138 @@
       "primary": "Spustit konfigurátor"
     }
   },
+  "References": {
+    "metaTitle": "Reference",
+    "metaDescription": "Případové studie z výroby dopravní techniky, jednoúčelových strojů, robotických buněk a svařovaných konstrukcí pro průmyslové zákazníky.",
+    "hero": {
+      "eyebrow": "Reference",
+      "title": "Projekty, které stojí v halách našich zákazníků.",
+      "subtitle": "Vybrané realizace z posledních let. Filtrujte podle segmentu, odvětví nebo roku."
+    },
+    "filterLabels": {
+      "segment": "Segment",
+      "industry": "Odvětví",
+      "year": "Rok"
+    },
+    "industries": {
+      "automotive": "Automotive",
+      "heavy": "Těžký průmysl",
+      "energy": "Energetika",
+      "general": "Obecná výroba"
+    },
+    "empty": "Pro zvolený filtr nemáme žádné reference. Zkuste jinou kombinaci, nebo přejděte na úvodní stránku.",
+    "cta": {
+      "title": "Hledáte podobné řešení?",
+      "body": "Pojďte si o něm popovídat. Stačí krátký hovor nebo vyplnění konfigurátoru.",
+      "primary": "Spustit konfigurátor"
+    }
+  },
+  "ReferenceDetail": {
+    "challenge": "Výzva",
+    "solution": "Řešení",
+    "meta": {
+      "client": "Klient",
+      "segment": "Segment",
+      "year": "Rok",
+      "duration": "Doba realizace"
+    },
+    "results": {
+      "eyebrow": "Výsledky",
+      "title": "Co projekt přinesl."
+    },
+    "cta": {
+      "title": "Máte podobný projekt?",
+      "body": "Vyplňte konfigurátor — během pěti minut máme dost informací pro první kalkulaci.",
+      "primary": "Získat nabídku",
+      "secondary": "Další reference"
+    }
+  },
+  "News": {
+    "metaTitle": "Novinky",
+    "metaDescription": "Články z dílny — novinky o realizacích, technologiích a oboru.",
+    "hero": {
+      "eyebrow": "Z dílny",
+      "title": "Co nového ve výrobě.",
+      "subtitle": "Krátké zápisky o projektech, technologiích a tom, co se nám během realizace osvědčilo."
+    },
+    "empty": "Zatím tu nic není. Brzy přibudou první články."
+  },
+  "Careers": {
+    "metaTitle": "Kariéra",
+    "metaDescription": "Volné pozice ve společnosti STRKAN. Konstruktéři, svářeči, programátoři robotů, technici výroby v Plzni.",
+    "hero": {
+      "eyebrow": "Kariéra",
+      "title": "Stroje stavějí lidé. Hledáme další.",
+      "subtitle": "Tým inženýrů, konstruktérů a svářečů v Plzni. Co máme společné: pracujeme tu dlouho a víme proč."
+    },
+    "why": {
+      "eyebrow": "Proč STRKAN",
+      "title": "Nehledáme nadšence na 6 měsíců.",
+      "p1": "Naši lidé jsou tu patnáct, dvacet let. Není to náhoda. Stroje, na kterých dělají, jsou jejich projekty — od první skici po předpřejímku.",
+      "p2": "Žádný open-space, žádné agile rituály. Hala, dílna a kancelář s výhledem na haly. Práce, kterou je vidět hned, jak ji dokončíte."
+    },
+    "benefits": {
+      "eyebrow": "Co u nás máte",
+      "title": "Šest věcí, které tu fungují."
+    },
+    "benefitItems": {
+      "training": {
+        "title": "Školení do oboru",
+        "description": "Externí kurzy svařování, programování robotů, CAD. Hradíme my, pracovní doba."
+      },
+      "tools": {
+        "title": "Špičkové vybavení",
+        "description": "Mazak, TRUMPF, Fronius. Stroje, na kterých chcete pracovat, ne na kterých musíte."
+      },
+      "flex": {
+        "title": "Pružná pracovní doba",
+        "description": "Pozdější začátek, dřívější konec, výjimky pro rodinné záležitosti. Hlavně se domluvíme."
+      },
+      "culture": {
+        "title": "Žádný corporate",
+        "description": "Žádné weekly status-call. Žádné OKR. Žádné Slack notifikace o víkendu."
+      },
+      "health": {
+        "title": "Multisport + zdravotka",
+        "description": "Multisport karta, příspěvek na zdravotní péči nad rámec zákonné."
+      },
+      "parking": {
+        "title": "Parkování u haly",
+        "description": "Vlastní parkoviště, MHD do 5 minut chůze. Plzeň-Doubravka."
+      }
+    },
+    "openings": {
+      "eyebrow": "Otevřené pozice",
+      "title": "Co teď hledáme.",
+      "empty": "Aktuálně nemáme otevřené pozice. Pošlete nám spontánní nabídku — ozveme se, jakmile se uvolní místo."
+    },
+    "cta": {
+      "title": "Žádná z pozic vás nezaujala?",
+      "body": "Pošlete nám spontánní nabídku. Kvalitní lidi vždycky umíme zařadit.",
+      "primary": "Napsat nám"
+    }
+  },
+  "VacancyDetail": {
+    "responsibilities": "Co budete dělat",
+    "requirements": "Co od vás čekáme",
+    "benefits": "Co nabízíme",
+    "apply": {
+      "eyebrow": "Přihláška",
+      "title": "Přihlásit se na pozici {vacancy}",
+      "body": "Vyplňte krátký formulář a přiložte CV. Ozveme se do týdne."
+    },
+    "applyForm": {
+      "fullName": "Jméno a příjmení",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "cvUrl": "Odkaz na CV",
+      "cvUrlHint": "Sdílejte CV přes Google Drive, Dropbox nebo veřejný odkaz. (TODO: nahrávání souborů doplníme později.)",
+      "linkedinUrl": "LinkedIn (volitelné)",
+      "motivation": "Motivace (volitelné)",
+      "consent": "Souhlasím se zpracováním osobních údajů pro účely výběrového řízení po dobu 6 měsíců.",
+      "submit": "Odeslat přihlášku"
+    }
+  },
   "ServiceContent": {
     "dopravni-technika": {
       "capabilities": [

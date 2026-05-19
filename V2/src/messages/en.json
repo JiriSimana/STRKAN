@@ -313,6 +313,138 @@
       "primary": "Start the configurator"
     }
   },
+  "References": {
+    "metaTitle": "References",
+    "metaDescription": "Case studies from conveyor systems, special-purpose machines, robotic cells and welded structures for industrial customers.",
+    "hero": {
+      "eyebrow": "References",
+      "title": "Projects that run in our customers' halls.",
+      "subtitle": "Selected work from recent years. Filter by segment, industry or year."
+    },
+    "filterLabels": {
+      "segment": "Segment",
+      "industry": "Industry",
+      "year": "Year"
+    },
+    "industries": {
+      "automotive": "Automotive",
+      "heavy": "Heavy industry",
+      "energy": "Energy",
+      "general": "General manufacturing"
+    },
+    "empty": "No references for this filter. Try a different combination or return to the start.",
+    "cta": {
+      "title": "Looking for something similar?",
+      "body": "Let's talk. A short call or the configurator is enough to start.",
+      "primary": "Start the configurator"
+    }
+  },
+  "ReferenceDetail": {
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "meta": {
+      "client": "Client",
+      "segment": "Segment",
+      "year": "Year",
+      "duration": "Duration"
+    },
+    "results": {
+      "eyebrow": "Results",
+      "title": "What the project delivered."
+    },
+    "cta": {
+      "title": "Got a similar project?",
+      "body": "Fill in the configurator — five minutes is enough for a first ballpark.",
+      "primary": "Get a quote",
+      "secondary": "More references"
+    }
+  },
+  "News": {
+    "metaTitle": "News",
+    "metaDescription": "Articles from the workshop — news about projects, technology and the industry.",
+    "hero": {
+      "eyebrow": "From the workshop",
+      "title": "What's new in production.",
+      "subtitle": "Short notes on projects, technology and what's worked for us along the way."
+    },
+    "empty": "Nothing here yet. First articles coming soon."
+  },
+  "Careers": {
+    "metaTitle": "Careers",
+    "metaDescription": "Open positions at STRKAN. Design engineers, welders, robot programmers, production technicians in Plzeň.",
+    "hero": {
+      "eyebrow": "Careers",
+      "title": "Machines are built by people. We're looking for more.",
+      "subtitle": "A team of engineers, designers and welders in Plzeň. What we share: we've been here a while and we know why."
+    },
+    "why": {
+      "eyebrow": "Why STRKAN",
+      "title": "We're not after six-month enthusiasm.",
+      "p1": "Our people are here for fifteen, twenty years. It's not by chance. The machines they work on are their projects — from the first sketch to pre-acceptance.",
+      "p2": "No open-space, no agile rituals. Workshop, hall and an office with a view of the halls. Work you can see the moment you finish it."
+    },
+    "benefits": {
+      "eyebrow": "What you get",
+      "title": "Six things that work here."
+    },
+    "benefitItems": {
+      "training": {
+        "title": "Trade training",
+        "description": "External welding, robotics and CAD courses. We pay, during work hours."
+      },
+      "tools": {
+        "title": "Top-tier equipment",
+        "description": "Mazak, TRUMPF, Fronius. Machines you want to work on, not have to."
+      },
+      "flex": {
+        "title": "Flexible hours",
+        "description": "Later start, earlier finish, exceptions for family matters. We work it out."
+      },
+      "culture": {
+        "title": "No corporate",
+        "description": "No weekly status calls. No OKRs. No Slack pings on the weekend."
+      },
+      "health": {
+        "title": "Multisport + health",
+        "description": "Multisport card, healthcare contribution beyond the statutory minimum."
+      },
+      "parking": {
+        "title": "On-site parking",
+        "description": "Own car park, public transport within 5 min walk. Plzeň-Doubravka."
+      }
+    },
+    "openings": {
+      "eyebrow": "Open positions",
+      "title": "What we're hiring for.",
+      "empty": "No open positions right now. Send a spontaneous application — we'll get back to you when a spot opens."
+    },
+    "cta": {
+      "title": "None of the positions a fit?",
+      "body": "Send a spontaneous application. We can always find a place for good people.",
+      "primary": "Write to us"
+    }
+  },
+  "VacancyDetail": {
+    "responsibilities": "What you'll do",
+    "requirements": "What we expect",
+    "benefits": "What we offer",
+    "apply": {
+      "eyebrow": "Application",
+      "title": "Apply for {vacancy}",
+      "body": "Fill in the short form and attach your CV. We'll get back to you within a week."
+    },
+    "applyForm": {
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "cvUrl": "CV link",
+      "cvUrlHint": "Share your CV via Google Drive, Dropbox or a public link. (TODO: native file upload will follow.)",
+      "linkedinUrl": "LinkedIn (optional)",
+      "motivation": "Motivation (optional)",
+      "consent": "I consent to the processing of personal data for the purposes of the selection process for six months.",
+      "submit": "Send application"
+    }
+  },
   "ServiceContent": {
     "dopravni-technika": {
       "capabilities": [

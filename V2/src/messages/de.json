@@ -313,6 +313,138 @@
       "primary": "Konfigurator starten"
     }
   },
+  "References": {
+    "metaTitle": "Referenzen",
+    "metaDescription": "Fallstudien aus Fördertechnik, Sondermaschinen, Roboterzellen und Schweißkonstruktionen für industrielle Kunden.",
+    "hero": {
+      "eyebrow": "Referenzen",
+      "title": "Projekte, die in den Hallen unserer Kunden stehen.",
+      "subtitle": "Ausgewählte Realisierungen der letzten Jahre. Filtern Sie nach Segment, Branche oder Jahr."
+    },
+    "filterLabels": {
+      "segment": "Segment",
+      "industry": "Branche",
+      "year": "Jahr"
+    },
+    "industries": {
+      "automotive": "Automotive",
+      "heavy": "Schwerindustrie",
+      "energy": "Energietechnik",
+      "general": "Allgemeine Fertigung"
+    },
+    "empty": "Für diesen Filter haben wir keine Referenzen. Probieren Sie eine andere Kombination oder kehren Sie zum Start zurück.",
+    "cta": {
+      "title": "Suchen Sie etwas Ähnliches?",
+      "body": "Reden wir darüber. Ein kurzes Telefonat oder der Konfigurator reicht zum Start.",
+      "primary": "Konfigurator starten"
+    }
+  },
+  "ReferenceDetail": {
+    "challenge": "Herausforderung",
+    "solution": "Lösung",
+    "meta": {
+      "client": "Kunde",
+      "segment": "Segment",
+      "year": "Jahr",
+      "duration": "Dauer"
+    },
+    "results": {
+      "eyebrow": "Ergebnisse",
+      "title": "Was das Projekt gebracht hat."
+    },
+    "cta": {
+      "title": "Ähnliches Projekt?",
+      "body": "Füllen Sie den Konfigurator aus — fünf Minuten reichen für eine erste Größenordnung.",
+      "primary": "Angebot anfordern",
+      "secondary": "Weitere Referenzen"
+    }
+  },
+  "News": {
+    "metaTitle": "Aktuelles",
+    "metaDescription": "Artikel aus der Werkstatt — Neuigkeiten zu Projekten, Technologie und Branche.",
+    "hero": {
+      "eyebrow": "Aus der Werkstatt",
+      "title": "Was es Neues in der Fertigung gibt.",
+      "subtitle": "Kurze Notizen zu Projekten, Technologie und dem, was sich bei uns bewährt hat."
+    },
+    "empty": "Hier ist noch nichts. Die ersten Artikel folgen bald."
+  },
+  "Careers": {
+    "metaTitle": "Karriere",
+    "metaDescription": "Offene Stellen bei STRKAN. Konstrukteure, Schweißer, Roboterprogrammierer, Fertigungstechniker in Plzeň.",
+    "hero": {
+      "eyebrow": "Karriere",
+      "title": "Maschinen bauen Menschen. Wir suchen weitere.",
+      "subtitle": "Ein Team aus Ingenieuren, Konstrukteuren und Schweißern in Plzeň. Was uns eint: Wir sind seit langem hier — und wir wissen, warum."
+    },
+    "why": {
+      "eyebrow": "Warum STRKAN",
+      "title": "Wir suchen nicht nach Sechs-Monats-Enthusiasten.",
+      "p1": "Unsere Leute sind seit fünfzehn, zwanzig Jahren da. Das ist kein Zufall. Die Maschinen, an denen sie arbeiten, sind ihre Projekte — von der ersten Skizze bis zur Vorabnahme.",
+      "p2": "Kein Open-Space, keine Agile-Rituale. Werkstatt, Halle und ein Büro mit Hallenblick. Arbeit, die man sofort sieht, wenn man fertig ist."
+    },
+    "benefits": {
+      "eyebrow": "Was Sie bei uns haben",
+      "title": "Sechs Dinge, die hier funktionieren."
+    },
+    "benefitItems": {
+      "training": {
+        "title": "Fachschulungen",
+        "description": "Externe Kurse für Schweißen, Robotik, CAD. Wir zahlen — während der Arbeitszeit."
+      },
+      "tools": {
+        "title": "Spitzenmäßige Ausrüstung",
+        "description": "Mazak, TRUMPF, Fronius. Maschinen, an denen Sie arbeiten wollen — nicht müssen."
+      },
+      "flex": {
+        "title": "Flexible Arbeitszeit",
+        "description": "Späterer Start, früherer Schluss, Ausnahmen für Familienangelegenheiten. Wir regeln das."
+      },
+      "culture": {
+        "title": "Kein Corporate",
+        "description": "Keine wöchentlichen Status-Calls. Keine OKRs. Keine Slack-Meldungen am Wochenende."
+      },
+      "health": {
+        "title": "Multisport + Gesundheit",
+        "description": "Multisport-Karte, Gesundheitszuschuss über das gesetzliche Maß hinaus."
+      },
+      "parking": {
+        "title": "Parken am Werk",
+        "description": "Eigener Parkplatz, ÖPNV 5 Min zu Fuß. Plzeň-Doubravka."
+      }
+    },
+    "openings": {
+      "eyebrow": "Offene Stellen",
+      "title": "Was wir gerade suchen.",
+      "empty": "Aktuell haben wir keine offenen Stellen. Senden Sie uns eine Initiativbewerbung — wir melden uns, sobald sich etwas frei macht."
+    },
+    "cta": {
+      "title": "Keine der Stellen passt?",
+      "body": "Senden Sie eine Initiativbewerbung. Gute Leute wissen wir immer einzusetzen.",
+      "primary": "Schreiben Sie uns"
+    }
+  },
+  "VacancyDetail": {
+    "responsibilities": "Was Sie tun",
+    "requirements": "Was wir erwarten",
+    "benefits": "Was wir bieten",
+    "apply": {
+      "eyebrow": "Bewerbung",
+      "title": "Bewerbung für {vacancy}",
+      "body": "Füllen Sie das kurze Formular aus und fügen Sie Ihren Lebenslauf bei. Wir melden uns innerhalb einer Woche."
+    },
+    "applyForm": {
+      "fullName": "Vor- und Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "cvUrl": "Link zum Lebenslauf",
+      "cvUrlHint": "Teilen Sie Ihren Lebenslauf über Google Drive, Dropbox oder einen öffentlichen Link. (TODO: native Datei-Uploads folgen.)",
+      "linkedinUrl": "LinkedIn (optional)",
+      "motivation": "Motivation (optional)",
+      "consent": "Ich stimme der Verarbeitung personenbezogener Daten zum Zweck des Auswahlverfahrens für sechs Monate zu.",
+      "submit": "Bewerbung senden"
+    }
+  },
   "ServiceContent": {
     "dopravni-technika": {
       "capabilities": [
