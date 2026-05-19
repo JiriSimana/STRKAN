@@ -23,5 +23,13 @@
     "privacy": "Ochrana osobních údajů",
     "cookies": "Cookies",
     "terms": "Obchodní podmínky"
+  },
+  "Newsletter": {
+    "eyebrow": "Novinky e-mailem",
+    "title": "Co nového ve výrobě.",
+    "description": "Krátký souhrn projektů a článků, jednou za měsíc. Žádný spam.",
+    "email": "E-mail",
+    "consent": "Souhlasím se zasíláním newsletteru a se zpracováním e-mailu pro tento účel.",
+    "submit": "Odebírat"
   }
 }

@@ -23,5 +23,13 @@
     "privacy": "Privacy policy",
     "cookies": "Cookies",
     "terms": "Terms of service"
+  },
+  "Newsletter": {
+    "eyebrow": "Newsletter",
+    "title": "What's new in the workshop.",
+    "description": "A short monthly digest of projects and articles. No spam.",
+    "email": "Email",
+    "consent": "I agree to receive the newsletter and the processing of my email for this purpose.",
+    "submit": "Subscribe"
   }
 }

@@ -23,5 +23,13 @@
     "privacy": "Datenschutz",
     "cookies": "Cookies",
     "terms": "AGB"
+  },
+  "Newsletter": {
+    "eyebrow": "Newsletter",
+    "title": "Was es Neues in der Werkstatt gibt.",
+    "description": "Ein kurzer monatlicher Überblick über Projekte und Artikel. Kein Spam.",
+    "email": "E-Mail",
+    "consent": "Ich stimme dem Erhalt des Newsletters und der Verarbeitung meiner E-Mail-Adresse zu diesem Zweck zu.",
+    "submit": "Abonnieren"
   }
 }
