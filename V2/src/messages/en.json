@@ -1,5 +1,27 @@
 {
   "Meta": {
     "siteName": "STRKAN s.r.o."
+  },
+  "Navigation": {
+    "mainNav": "Main navigation",
+    "openMenu": "Open menu",
+    "home": "Home",
+    "aboutUs": "About us",
+    "services": "Services",
+    "references": "References",
+    "news": "News",
+    "careers": "Careers",
+    "contact": "Contact",
+    "getQuote": "Get a quote"
+  },
+  "Footer": {
+    "claim": "Czech engineering partner for industrial machinery. Design, manufacturing and service since 1993.",
+    "siteMap": "Site map",
+    "contact": "Contact",
+    "registered": "Registered office",
+    "rightsReserved": "All rights reserved.",
+    "privacy": "Privacy policy",
+    "cookies": "Cookies",
+    "terms": "Terms of service"
   }
 }

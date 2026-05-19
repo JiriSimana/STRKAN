@@ -1,5 +1,27 @@
 {
   "Meta": {
     "siteName": "STRKAN s.r.o."
+  },
+  "Navigation": {
+    "mainNav": "Hlavní navigace",
+    "openMenu": "Otevřít menu",
+    "home": "Domů",
+    "aboutUs": "O nás",
+    "services": "Služby",
+    "references": "Reference",
+    "news": "Novinky",
+    "careers": "Kariéra",
+    "contact": "Kontakt",
+    "getQuote": "Získat nabídku"
+  },
+  "Footer": {
+    "claim": "Český inženýrský partner pro průmyslové stroje. Konstrukce, výroba a servis od roku 1993.",
+    "siteMap": "Mapa webu",
+    "contact": "Kontakt",
+    "registered": "Sídlo",
+    "rightsReserved": "Všechna práva vyhrazena.",
+    "privacy": "Ochrana osobních údajů",
+    "cookies": "Cookies",
+    "terms": "Obchodní podmínky"
   }
 }

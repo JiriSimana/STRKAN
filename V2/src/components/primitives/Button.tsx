@@ -1,4 +1,5 @@
-import type { ButtonHTMLAttributes, ReactNode } from 'react';
+import { forwardRef, type ButtonHTMLAttributes, type ReactNode } from 'react';
+import { Slot } from '@radix-ui/react-slot';
 import { Loader2 } from 'lucide-react';
 import { cn } from '@/lib/utils/cn';
 
@@ -33,37 +34,54 @@ type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
   icon?: ReactNode;
   iconPosition?: 'left' | 'right';
   loading?: boolean;
+  asChild?: boolean;
 };
 
-export function Button({
-  variant = 'primary',
-  size = 'md',
-  icon,
-  iconPosition = 'right',
-  loading = false,
-  disabled,
-  className,
-  children,
-  ...rest
-}: Props) {
+export const Button = forwardRef<HTMLButtonElement, Props>(function Button(
+  {
+    variant = 'primary',
+    size = 'md',
+    icon,
+    iconPosition = 'right',
+    loading = false,
+    asChild = false,
+    disabled,
+    className,
+    children,
+    ...rest
+  },
+  ref,
+) {
+  const Comp = asChild ? Slot : 'button';
   const isDisabled = disabled || loading;
   const showLeftIcon = !loading && icon && iconPosition === 'left';
   const showRightIcon = !loading && icon && iconPosition === 'right';
 
+  const classes = cn(
+    'inline-flex items-center justify-center gap-2',
+    'font-semibold tracking-[0.01em]',
+    'transition-[background-color,color,border-color] duration-150',
+    'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-azure',
+    'disabled:cursor-not-allowed disabled:opacity-60',
+    variantClasses[variant],
+    sizeClasses[size],
+    className,
+  );
+
+  if (asChild) {
+    return (
+      <Comp ref={ref as never} className={classes} {...(rest as object)}>
+        {children}
+      </Comp>
+    );
+  }
+
   return (
     <button
+      ref={ref}
       disabled={isDisabled}
       aria-busy={loading || undefined}
-      className={cn(
-        'inline-flex items-center justify-center gap-2',
-        'font-semibold tracking-[0.01em]',
-        'transition-[background-color,color,border-color] duration-150',
-        'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-azure',
-        'disabled:cursor-not-allowed disabled:opacity-60',
-        variantClasses[variant],
-        sizeClasses[size],
-        className,
-      )}
+      className={classes}
       {...rest}
     >
       {loading && <Loader2 className="size-4 animate-spin" aria-hidden />}
@@ -72,4 +90,4 @@ export function Button({
       {showRightIcon && <span aria-hidden>{icon}</span>}
     </button>
   );
-}
+});
