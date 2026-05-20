@@ -260,34 +260,28 @@
   },
   "ServiceSegments": {
     "dopravni-technika": {
-      "tag": "Conveyor systems",
-      "title": "Conveyor systems",
-      "perex": "Belt, roller and chain conveyors for production lines. From single units to complex systems with integrated automation.",
-      "imageLabel": "Belt conveyor on the shop floor"
-    },
-    "jednoucelove-stroje": {
-      "tag": "Special-purpose machines",
-      "title": "Special-purpose machines",
-      "perex": "Machines built for one specific manufacturing task — assembly, inspection, testing. When no off-the-shelf solution exists.",
-      "imageLabel": "Special-purpose machine in operation"
+      "tag": "Dopravní technika",
+      "title": "Výroba a servis dopravní techniky",
+      "perex": "Patkové zvedáky, montážní lávky, jámové zvedáky, podvozkové standy a polohovadla pro výrobu a servis kolejových vozidel. Vlastní konstrukce, výroba i servis.",
+      "imageLabel": "Patkový zvedák v depu"
     },
     "svarovane-konstrukce": {
-      "tag": "Welded structures",
-      "title": "Welded structures",
-      "perex": "Steel structures for production halls, assembly frames, support structures. Welder certification EN ISO 3834-2.",
-      "imageLabel": "Welded structure — weld close-up"
+      "tag": "Svařované konstrukce",
+      "title": "Svařované konstrukce",
+      "perex": "Tramvajové podlahové rošty, rámy podvozkových krytů a další svařované komponenty kolejových vozidel. Vlastní hala 2 000 m², svařence do 10 t a rozměrů 8 × 3 m.",
+      "imageLabel": "Svařovaná konstrukce — close-up svaru"
     },
-    "automatizace-a-robotika": {
-      "tag": "Automation & robotics",
-      "title": "Automation and robotics",
-      "perex": "Robotic welding cells and material handling stations integrated into production lines. Yaskawa, KUKA, FANUC.",
-      "imageLabel": "Robotic welding cell"
+    "prumyslova-automatizace": {
+      "tag": "Průmyslová automatizace",
+      "title": "Průmyslová automatizace",
+      "perex": "Výrobní automaty a robotické buňky pro automatizaci výroby — automotive, plastikářství, potravinářství, výroba stavebních materiálů.",
+      "imageLabel": "Robotická svařovací buňka"
     },
-    "deskova-polohovadla": {
-      "tag": "Plate positioners",
-      "title": "Plate positioners",
-      "perex": "Positioners for welding large parts up to 20 tonnes. Manual and CNC control synchronised with a robot.",
-      "imageLabel": "Plate positioner with rotation"
+    "ostatni-produkty-a-sluzby": {
+      "tag": "Ostatní produkty a služby",
+      "title": "Ostatní produkty a služby",
+      "perex": "Vývoj, návrhy a simulace strojních zařízení. Kusová i sériová zakázková výroba na CNC. Návrhy a vyhodnocení výrobních zkoušek.",
+      "imageLabel": "CNC obrábění detail"
     }
   },
   "ServiceDetail": {
@@ -601,25 +595,6 @@
         { "q": "Can the conveyor integrate with our MES/ERP?", "a": "Yes. We deliver with OPC UA or a custom API per the customer's requirement." }
       ]
     },
-    "jednoucelove-stroje": {
-      "capabilities": [
-        "Process design from scratch around the task the machine has to solve",
-        "Mechanical design, pneumatics, control",
-        "Integration with vision systems for visual inspection",
-        "Pre-acceptance at our shop before shipping"
-      ],
-      "specs": [
-        { "label": "Cycle time", "value": "from 2 s up to 5 min per task" },
-        { "label": "Positioning accuracy", "value": "±0.02 mm" },
-        { "label": "Safety", "value": "EN ISO 13849 Cat. 3 PL d" },
-        { "label": "Interfaces", "value": "Profinet / EtherCAT / OPC UA" }
-      ],
-      "faq": [
-        { "q": "Can you take over a project from another supplier?", "a": "Yes, provided the customer supplies documentation or consents to reverse engineering." },
-        { "q": "Do you build prototypes?", "a": "Yes. A prototype typically takes 8–12 weeks and serves as the basis for the production version." },
-        { "q": "What's your warranty?", "a": "Standard 24 months on mechanics, 12 months on electronics, extension to 5 years for a surcharge." }
-      ]
-    },
     "svarovane-konstrukce": {
       "capabilities": [
         "Structural design compliant with EN 1090 and Eurocode",
@@ -639,7 +614,7 @@
         { "q": "Can you assemble on site?", "a": "Yes, we have an in-house assembly crew and mobile equipment for Central Europe." }
       ]
     },
-    "automatizace-a-robotika": {
+    "prumyslova-automatizace": {
       "capabilities": [
         "Integration of Yaskawa, KUKA, FANUC, ABB robots",
         "Off-line programming in RoboGuide / RobotStudio",
@@ -658,23 +633,23 @@
         { "q": "Service and calibration?", "a": "Annual preventive check, VPN remote diagnostics, TCP calibration on every visit." }
       ]
     },
-    "deskova-polohovadla": {
+    "ostatni-produkty-a-sluzby": {
       "capabilities": [
-        "Plate load capacity from 1 t to 20 t",
-        "Manual and CNC control synchronised with a robot",
-        "360° rotation and tilt up to 135°",
-        "Compatible with Lincoln Electric / ESAB positioners"
+        "Vývoj a návrh strojních zařízení, simulace zatížení, pevnostní výpočty",
+        "Zpracování výkresové a výrobní dokumentace, 3D modely pro výrobu",
+        "Návrhy a vyhodnocení výrobních zkoušek (metalografie, mechanika, NDT)",
+        "Kusová i sériová zakázková výroba na CNC"
       ],
       "specs": [
-        { "label": "Plate diameter", "value": "600–3,000 mm" },
-        { "label": "Rotation", "value": "0.1–4 rpm" },
-        { "label": "Tilt", "value": "0–135° with detents" },
-        { "label": "Control", "value": "Manual / CNC synchronous with robot" }
+        { "label": "Haas VM-6 (5osé CNC)", "value": "Stůl 700 × 1800 mm, nosnost 800 kg" },
+        { "label": "STYLE 510 (CNC soustruh)", "value": "Točný Ø 510 mm, výkon 11 kW, průchod vřetena Ø 102" },
+        { "label": "ŠKODA SRM 125 (soustruh)", "value": "Točný Ø 1250 mm, hroty 4 000 mm, nosnost 1 200 kg" },
+        { "label": "Mechanická zkušebna", "value": "HV/HB/HRC, Charpy, tah, tlak, ohyb, rozlomení" }
       ],
       "faq": [
-        { "q": "Can a positioner be added to an existing robot?", "a": "Yes, we supply it with an interface compatible with the robot brand." },
-        { "q": "Lead time?", "a": "Standard sizes 8–12 weeks, custom sizes 16–20 weeks." },
-        { "q": "Can it be used for plasma cutting?", "a": "Yes, the positioner is universal — we use the same hardware for both welding and cutting." }
+        { "q": "Můžete převzít konstrukční práce od jiného dodavatele?", "a": "Ano. Pracujeme v SolidWorks a Siemens NX, ostatní formáty přebíráme přes STEP/IGES." },
+        { "q": "Děláte i kompletní vývoj od nuly?", "a": "Ano. V letech 2020–2024 jsme realizovali vývoj univerzálního robotického systému URS, podpořený TAČR z programu TREND (reg. č. FW01010553)." },
+        { "q": "Jak rychle dodáte kusovou zakázku na obrábění?", "a": "Standardně 2–4 týdny dle složitosti a vytíženosti CNC pracoviště." }
       ]
     }
   }

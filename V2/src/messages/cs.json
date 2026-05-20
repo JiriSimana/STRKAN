@@ -261,33 +261,27 @@
   "ServiceSegments": {
     "dopravni-technika": {
       "tag": "Dopravní technika",
-      "title": "Dopravní technika",
-      "perex": "Pásové, válečkové a řetězové dopravníky pro výrobní linky. Od kusovek po komplexní systémy s integrovanou automatizací.",
-      "imageLabel": "Pásový dopravník v hale"
-    },
-    "jednoucelove-stroje": {
-      "tag": "Jednoúčelové stroje",
-      "title": "Jednoúčelové stroje",
-      "perex": "Stroje stavěné na jeden konkrétní výrobní úkol — montáž, kontrolu, testování. Když katalogové řešení neexistuje.",
-      "imageLabel": "Jednoúčelový stroj v provozu"
+      "title": "Výroba a servis dopravní techniky",
+      "perex": "Patkové zvedáky, montážní lávky, jámové zvedáky, podvozkové standy a polohovadla pro výrobu a servis kolejových vozidel. Vlastní konstrukce, výroba i servis.",
+      "imageLabel": "Patkový zvedák v depu"
     },
     "svarovane-konstrukce": {
       "tag": "Svařované konstrukce",
       "title": "Svařované konstrukce",
-      "perex": "Ocelové konstrukce pro výrobní haly, montážní rámy, podpůrné struktury. Atest svářečů EN ISO 3834-2.",
+      "perex": "Tramvajové podlahové rošty, rámy podvozkových krytů a další svařované komponenty kolejových vozidel. Vlastní hala 2 000 m², svařence do 10 t a rozměrů 8 × 3 m.",
       "imageLabel": "Svařovaná konstrukce — close-up svaru"
     },
-    "automatizace-a-robotika": {
-      "tag": "Automatizace & robotika",
-      "title": "Automatizace a robotika",
-      "perex": "Robotické svařovací buňky a manipulační pracoviště s integrací do výrobních linek. Yaskawa, KUKA, FANUC.",
+    "prumyslova-automatizace": {
+      "tag": "Průmyslová automatizace",
+      "title": "Průmyslová automatizace",
+      "perex": "Výrobní automaty a robotické buňky pro automatizaci výroby — automotive, plastikářství, potravinářství, výroba stavebních materiálů.",
       "imageLabel": "Robotická svařovací buňka"
     },
-    "deskova-polohovadla": {
-      "tag": "Desková polohovadla",
-      "title": "Desková polohovadla",
-      "perex": "Polohovadla pro svařování velkých dílů s nosností do 20 tun. Manuální i CNC řízení synchronizované s robotem.",
-      "imageLabel": "Deskové polohovadlo s rotací"
+    "ostatni-produkty-a-sluzby": {
+      "tag": "Ostatní produkty a služby",
+      "title": "Ostatní produkty a služby",
+      "perex": "Vývoj, návrhy a simulace strojních zařízení. Kusová i sériová zakázková výroba na CNC. Návrhy a vyhodnocení výrobních zkoušek.",
+      "imageLabel": "CNC obrábění detail"
     }
   },
   "ServiceDetail": {
@@ -601,25 +595,6 @@
         { "q": "Lze dopravník integrovat do stávajícího MES/ERP?", "a": "Ano. Dodáváme s OPC UA nebo s vlastním API podle požadavku zákazníka." }
       ]
     },
-    "jednoucelove-stroje": {
-      "capabilities": [
-        "Návrh procesu od nuly podle úkolu, který stroj má řešit",
-        "Mechanická konstrukce, pneumatika, řízení",
-        "Integrace s vision systémy pro vizuální kontrolu",
-        "Předpřejímka v naší hale před expedicí"
-      ],
-      "specs": [
-        { "label": "Cyklus", "value": "od 2 s do 5 min dle úlohy" },
-        { "label": "Přesnost polohování", "value": "±0,02 mm" },
-        { "label": "Bezpečnost", "value": "EN ISO 13849 Cat. 3 PL d" },
-        { "label": "Rozhraní", "value": "Profinet / EtherCAT / OPC UA" }
-      ],
-      "faq": [
-        { "q": "Můžete převzít projekt od jiného dodavatele?", "a": "Ano, pokud nám zákazník dodá dokumentaci nebo souhlas s reverse-engineeringem." },
-        { "q": "Děláte i prototypy?", "a": "Ano. Prototyp obvykle vyrobíme za 8–12 týdnů a slouží jako podklad pro sériovou verzi." },
-        { "q": "Jak řešíte záruku?", "a": "Standardně 24 měsíců na mechaniku, 12 měsíců na elektroniku, prodloužení do 5 let za příplatek." }
-      ]
-    },
     "svarovane-konstrukce": {
       "capabilities": [
         "Návrh konstrukce v souladu s EN 1090 a Eurokódem",
@@ -639,7 +614,7 @@
         { "q": "Můžete dodat i montáž na stavbě?", "a": "Ano, máme vlastní montážní tým a mobilní vybavení pro střední Evropu." }
       ]
     },
-    "automatizace-a-robotika": {
+    "prumyslova-automatizace": {
       "capabilities": [
         "Integrace robotů Yaskawa, KUKA, FANUC, ABB",
         "Programování off-line v RoboGuide / RobotStudio",
@@ -658,23 +633,23 @@
         { "q": "Servis a kalibrace?", "a": "Roční preventivní prohlídka, vzdálená diagnostika přes VPN, kalibrace TCP při každé prohlídce." }
       ]
     },
-    "deskova-polohovadla": {
+    "ostatni-produkty-a-sluzby": {
       "capabilities": [
-        "Nosnost desky od 1 t do 20 t",
-        "Manuální i CNC řízení synchronizované s robotem",
-        "Rotace 360° a sklopení do 135°",
-        "Kompatibilita s polohovadly Lincoln Electric / ESAB"
+        "Vývoj a návrh strojních zařízení, simulace zatížení, pevnostní výpočty",
+        "Zpracování výkresové a výrobní dokumentace, 3D modely pro výrobu",
+        "Návrhy a vyhodnocení výrobních zkoušek (metalografie, mechanika, NDT)",
+        "Kusová i sériová zakázková výroba na CNC"
       ],
       "specs": [
-        { "label": "Průměr desky", "value": "600–3 000 mm" },
-        { "label": "Rotace", "value": "0,1–4 ot/min" },
-        { "label": "Sklopení", "value": "0–135° s aretací" },
-        { "label": "Řízení", "value": "Manuální / CNC synchronní s robotem" }
+        { "label": "Haas VM-6 (5osé CNC)", "value": "Stůl 700 × 1800 mm, nosnost 800 kg" },
+        { "label": "STYLE 510 (CNC soustruh)", "value": "Točný Ø 510 mm, výkon 11 kW, průchod vřetena Ø 102" },
+        { "label": "ŠKODA SRM 125 (soustruh)", "value": "Točný Ø 1250 mm, hroty 4 000 mm, nosnost 1 200 kg" },
+        { "label": "Mechanická zkušebna", "value": "HV/HB/HRC, Charpy, tah, tlak, ohyb, rozlomení" }
       ],
       "faq": [
-        { "q": "Lze polohovadlo přidat k existujícímu robotu?", "a": "Ano, dodáme s rozhraním kompatibilním se značkou robotu." },
-        { "q": "Jak rychle se polohovadlo dodává?", "a": "Standardní velikosti 8–12 týdnů, atypy 16–20 týdnů." },
-        { "q": "Lze ho použít i pro řezání plazmou?", "a": "Ano, polohovadlo je univerzální — využíváme stejný hardware pro svařování i řezání." }
+        { "q": "Můžete převzít konstrukční práce od jiného dodavatele?", "a": "Ano. Pracujeme v SolidWorks a Siemens NX, ostatní formáty přebíráme přes STEP/IGES." },
+        { "q": "Děláte i kompletní vývoj od nuly?", "a": "Ano. V letech 2020–2024 jsme realizovali vývoj univerzálního robotického systému URS, podpořený TAČR z programu TREND (reg. č. FW01010553)." },
+        { "q": "Jak rychle dodáte kusovou zakázku na obrábění?", "a": "Standardně 2–4 týdny dle složitosti a vytíženosti CNC pracoviště." }
       ]
     }
   }
