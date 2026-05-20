@@ -11,6 +11,7 @@ type ServiceCard = {
   title: string;
   perex: string;
   href: string;
+  imageUrl?: string;
   imageLabel?: string;
 };
 
@@ -50,10 +51,21 @@ export function ServiceShowcase({ eyebrow, title, intro, cards }: Props) {
                 >
                   <div className="relative overflow-hidden">
                     <div className="transition-transform duration-500 ease-[var(--ease-snap)] group-hover:scale-[1.04]">
-                      <PlaceholderImage
-                        aspect="16/9"
-                        label={card.imageLabel ?? card.title}
-                      />
+                      {card.imageUrl ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={card.imageUrl}
+                          alt={card.imageLabel ?? card.title}
+                          loading="lazy"
+                          decoding="async"
+                          className="block aspect-[16/9] w-full object-cover"
+                        />
+                      ) : (
+                        <PlaceholderImage
+                          aspect="16/9"
+                          label={card.imageLabel ?? card.title}
+                        />
+                      )}
                     </div>
                   </div>
                   <div className="mt-6">

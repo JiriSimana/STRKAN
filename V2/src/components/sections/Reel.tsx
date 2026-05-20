@@ -5,11 +5,12 @@ import { PlaceholderImage } from '@/components/PlaceholderImage';
 type Props = {
   eyebrow?: string;
   title?: string;
-  count?: number;
+  photos?: string[];
 };
 
-export function Reel({ eyebrow, title, count = 10 }: Props) {
-  const items = Array.from({ length: count });
+export function Reel({ eyebrow, title, photos }: Props) {
+  const hasPhotos = photos && photos.length > 0;
+  const items = hasPhotos ? photos : Array.from({ length: 10 });
 
   return (
     <section className="py-24 lg:py-32 bg-paper overflow-hidden">
@@ -42,13 +43,23 @@ export function Reel({ eyebrow, title, count = 10 }: Props) {
             animationPlayState: 'running',
           }}
         >
-          {[...items, ...items].map((_, i) => (
+          {[...items, ...items].map((item, i) => (
             <li key={i} className="w-[360px] shrink-0">
-              {/* TODO(content): real production photos pulled from Supabase media */}
-              <PlaceholderImage
-                aspect="4/5"
-                label={`Foto ${(i % count) + 1}`}
-              />
+              {hasPhotos ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={item as string}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  className="block aspect-[4/5] w-full object-cover"
+                />
+              ) : (
+                <PlaceholderImage
+                  aspect="4/5"
+                  label={`Foto ${(i % items.length) + 1}`}
+                />
+              )}
             </li>
           ))}
         </ul>

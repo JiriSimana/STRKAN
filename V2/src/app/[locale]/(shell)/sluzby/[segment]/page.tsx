@@ -82,13 +82,78 @@ export default async function ServiceDetailPage({ params }: Props) {
         <DopravniSubproducts />
       ) : (
         <>
+          <SegmentHeroImage segment={segment} />
           <DetailCapabilities segment={segment} />
           <DetailTechSpecs segment={segment} />
+          <SegmentGallery segment={segment} />
         </>
       )}
       <DetailFaq segment={segment} />
       <DetailCta />
     </>
+  );
+}
+
+const SEGMENT_HERO_IMAGE: Partial<Record<ServiceSegment, string>> = {
+  'svarovane-konstrukce': '/images/services/svarovane-konstrukce/01.jpg',
+  'prumyslova-automatizace':
+    '/images/services/prumyslova-automatizace/03.jpg',
+  'ostatni-produkty-a-sluzby':
+    '/images/services/ostatni-produkty-a-sluzby/01.jpg',
+};
+
+function SegmentHeroImage({ segment }: { segment: ServiceSegment }) {
+  const src = SEGMENT_HERO_IMAGE[segment];
+  if (!src) return null;
+  return (
+    <section className="bg-paper">
+      <div className="relative w-full overflow-hidden">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={src}
+          alt=""
+          loading="lazy"
+          decoding="async"
+          className="block w-full aspect-[21/9] object-cover"
+        />
+      </div>
+    </section>
+  );
+}
+
+function SegmentGallery({ segment }: { segment: ServiceSegment }) {
+  const photos = (() => {
+    if (segment === 'svarovane-konstrukce') return [2, 3, 4, 5, 6, 7];
+    if (segment === 'prumyslova-automatizace')
+      return [5, 11, 17, 22, 28, 33];
+    if (segment === 'ostatni-produkty-a-sluzby')
+      return [3, 6, 9, 12, 15, 18];
+    return [];
+  })().map(
+    (n) =>
+      `/images/services/${segment}/${String(n).padStart(2, '0')}.jpg`,
+  );
+  if (photos.length === 0) return null;
+
+  return (
+    <section className="py-24 lg:py-32 bg-mist">
+      <Container>
+        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {photos.map((src, i) => (
+            <li key={src}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={src}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                className={`block w-full object-cover ${i === 0 ? 'aspect-[4/5] lg:aspect-[4/5]' : 'aspect-[4/3]'}`}
+              />
+            </li>
+          ))}
+        </ul>
+      </Container>
+    </section>
   );
 }
 

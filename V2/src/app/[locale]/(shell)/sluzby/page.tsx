@@ -5,7 +5,16 @@ import { HeroPage, ServiceShowcase, ServiceProcess, CTABand } from '@/components
 import { JsonLd, breadcrumbSchema } from '@/lib/seo/jsonld';
 import { createMetadata } from '@/lib/seo/metadata';
 import { SITE_URL } from '@/lib/seo/site';
-import { SERVICE_SEGMENTS } from '@/content/services';
+import { SERVICE_SEGMENTS, type ServiceSegment } from '@/content/services';
+
+const SEGMENT_HERO_IMAGE: Record<ServiceSegment, string> = {
+  'dopravni-technika':
+    '/images/services/dopravni-technika/patkove-zvedaky/01.jpg',
+  'svarovane-konstrukce': '/images/services/svarovane-konstrukce/01.jpg',
+  'prumyslova-automatizace': '/images/services/prumyslova-automatizace/01.jpg',
+  'ostatni-produkty-a-sluzby':
+    '/images/services/ostatni-produkty-a-sluzby/01.jpg',
+};
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -64,6 +73,7 @@ function ServicesShowcase() {
         tag: tSeg(`${slug}.tag`),
         title: tSeg(`${slug}.title`),
         perex: tSeg(`${slug}.perex`),
+        imageUrl: SEGMENT_HERO_IMAGE[slug],
         imageLabel: tSeg(`${slug}.imageLabel`),
       }))}
     />

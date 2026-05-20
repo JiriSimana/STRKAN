@@ -23,3 +23,4 @@ export { PostsGrid } from './PostsGrid';
 export { VacancyList } from './VacancyList';
 export { MapEmbed } from './MapEmbed';
 export { SubproductBlock } from './SubproductBlock';
+export { YouTubeLightbox } from './YouTubeLightbox';

@@ -18,7 +18,19 @@ import { JsonLd } from '@/lib/seo/jsonld';
 import { organizationSchema, websiteSchema } from '@/lib/seo/jsonld';
 import { createMetadata } from '@/lib/seo/metadata';
 import { getPublishedPosts } from '@/lib/supabase/queries';
-import { SERVICE_SEGMENTS } from '@/content/services';
+import { SERVICE_SEGMENTS, type ServiceSegment } from '@/content/services';
+import { generalPhoto, generalPhotos } from '@/content/images';
+
+const YOUTUBE_PROMO_ID = 'lQKCzrs65do';
+
+const SEGMENT_HERO_IMAGE: Record<ServiceSegment, string> = {
+  'dopravni-technika':
+    '/images/services/dopravni-technika/patkove-zvedaky/01.jpg',
+  'svarovane-konstrukce': '/images/services/svarovane-konstrukce/01.jpg',
+  'prumyslova-automatizace': '/images/services/prumyslova-automatizace/01.jpg',
+  'ostatni-produkty-a-sluzby':
+    '/images/services/ostatni-produkty-a-sluzby/01.jpg',
+};
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -48,7 +60,7 @@ export default async function HomePage({ params }: Props) {
       <JsonLd data={organizationSchema} />
       <JsonLd data={websiteSchema} />
 
-      <HeroHomepage />
+      <HomeHero />
       <HomeKpiBlock />
       <HomeManifesto />
       <HomeServices />
@@ -60,9 +72,27 @@ export default async function HomePage({ params }: Props) {
   );
 }
 
+function HomeHero() {
+  const t = useTranslations('Home.hero');
+  return (
+    <HeroHomepage
+      backgroundImage={generalPhoto(1)}
+      videoId={YOUTUBE_PROMO_ID}
+      videoLabel={t('watchVideo')}
+      videoDuration={t('watchVideoDuration')}
+    />
+  );
+}
+
 function HomeReel() {
   const t = useTranslations('Home.reel');
-  return <Reel eyebrow={t('eyebrow')} title={t('title')} />;
+  return (
+    <Reel
+      eyebrow={t('eyebrow')}
+      title={t('title')}
+      photos={generalPhotos(3, 14, 27, 38, 49, 60, 72, 83, 95, 106, 118, 130, 142, 154)}
+    />
+  );
 }
 
 function HomeLogos() {
@@ -90,6 +120,7 @@ function HomeManifesto() {
       eyebrow={t('eyebrow')}
       title={t('title')}
       paragraphs={[t('p1'), t('p2')]}
+      imageUrl={generalPhoto(7)}
     />
   );
 }
@@ -107,6 +138,7 @@ function HomeServices() {
         tag: tSeg(`${slug}.tag`),
         title: tSeg(`${slug}.title`),
         perex: tSeg(`${slug}.perex`),
+        imageUrl: SEGMENT_HERO_IMAGE[slug],
         imageLabel: tSeg(`${slug}.imageLabel`),
       }))}
     />

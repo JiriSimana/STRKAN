@@ -7,10 +7,19 @@ type Props = {
   eyebrow?: string;
   title: string;
   paragraphs: string[];
+  imageUrl?: string;
+  imageAlt?: string;
   imageLabel?: string;
 };
 
-export function Manifesto({ eyebrow, title, paragraphs, imageLabel }: Props) {
+export function Manifesto({
+  eyebrow,
+  title,
+  paragraphs,
+  imageUrl,
+  imageAlt,
+  imageLabel,
+}: Props) {
   return (
     <section className="py-24 lg:py-32 bg-mist">
       <Container>
@@ -34,11 +43,21 @@ export function Manifesto({ eyebrow, title, paragraphs, imageLabel }: Props) {
           </div>
           <div className="lg:col-span-5">
             <Reveal delay={0.2}>
-              {/* TODO(content): real vertical 4/5 production photo */}
-              <PlaceholderImage
-                aspect="4/5"
-                label={imageLabel ?? 'Vertikální 4:5 foto výroby'}
-              />
+              {imageUrl ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={imageUrl}
+                  alt={imageAlt ?? ''}
+                  loading="lazy"
+                  decoding="async"
+                  className="block aspect-[4/5] w-full object-cover"
+                />
+              ) : (
+                <PlaceholderImage
+                  aspect="4/5"
+                  label={imageLabel ?? 'Vertikální 4:5 foto výroby'}
+                />
+              )}
             </Reveal>
           </div>
         </div>
