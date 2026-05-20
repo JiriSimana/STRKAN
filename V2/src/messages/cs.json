@@ -305,7 +305,8 @@
       "title": "Poptat tuto službu",
       "body": "Konfigurátor přizpůsobíme zvolenému segmentu. Vyplnění zabere zhruba 5 minut.",
       "primary": "Spustit konfigurátor"
-    }
+    },
+    "downloadCatalog": "Stáhnout katalogový list (PDF)"
   },
   "References": {
     "metaTitle": "Reference",
@@ -577,23 +578,114 @@
   },
   "ServiceContent": {
     "dopravni-technika": {
-      "capabilities": [
-        "Konstrukce na míru podle layoutu haly",
-        "Pásové, válečkové, řetězové, šnekové dopravníky",
-        "Řízení s PLC Siemens nebo Allen-Bradley a HMI",
-        "Servis a 24/7 dostupnost náhradních dílů"
-      ],
-      "specs": [
-        { "label": "Nosnost", "value": "až 5 000 kg/m" },
-        { "label": "Rychlost", "value": "0,1–4 m/s" },
-        { "label": "Materiály", "value": "Konstrukční ocel, nerez, hliník" },
-        { "label": "Krytí", "value": "IP54 / IP66 dle prostředí" }
-      ],
+      "capabilities": [],
+      "specs": [],
       "faq": [
-        { "q": "Jak dlouho trvá realizace?", "a": "Standardně 4–6 měsíců od potvrzení objednávky, podle složitosti a dostupnosti komponent." },
-        { "q": "Servisujete i dopravníky cizí výroby?", "a": "Ano, pokud máme přístup k dokumentaci nebo pokud nám zákazník dovolí ji vytvořit." },
-        { "q": "Lze dopravník integrovat do stávajícího MES/ERP?", "a": "Ano. Dodáváme s OPC UA nebo s vlastním API podle požadavku zákazníka." }
-      ]
+        { "q": "Jak dlouho trvá realizace?", "a": "Standardně 4–6 měsíců od potvrzení objednávky, podle složitosti a dostupnosti komponent. Velké zakázky řešíme po segmentech, abychom mohli postupně instalovat v provozu zákazníka." },
+        { "q": "Servisujete i zařízení od jiných výrobců?", "a": "Ano, pokud máme přístup k dokumentaci nebo pokud nám zákazník dovolí ji obnovit." },
+        { "q": "Můžete dodat i náhradní díly mimo nový stroj?", "a": "Ano. Pro dříve dodaná zařízení držíme katalog ND, pro cizí výrobu vyrobíme díly podle vzorku nebo dokumentace." }
+      ],
+      "subproductsHeader": {
+        "eyebrow": "Naše řady",
+        "title": "Šest produktových řad pro výrobu a servis kolejových vozidel.",
+        "intro": "Patkové zvedáky, montážní lávky, jámové zvedáky, podvozkové standy a polohovadla — vše ve vlastní konstrukci a výrobě v Plzni. Ke každé řadě dodáváme katalogový list s parametry."
+      },
+      "subproducts": {
+        "patkove-zvedaky": {
+          "title": "Patkové zvedáky",
+          "description": "Sady patkových zvedáků o nosnosti 7,5 až 25 tun a rozsahu zdvihu 350 – 3 200 mm. Každá sada je tvořena nejméně 4 zvedáky. Počty zvedáků lze navyšovat (vždy o jeden pár) dle požadavků zákazníka. Pro snazší manipulaci při ustavení ke zvedacím bodům vozidla mohou být zvedáky vybaveny podvozkem s hydraulickým přízdvihem.",
+          "highlights": [
+            "Nosnost 7,5 – 25 t",
+            "Zdvih 350 – 3 200 mm",
+            "Min. 4 zvedáky na sadu"
+          ],
+          "features": [
+            "Zdvih je prováděn pomocí pohybu zdvižného vozíku s nosnou maticí po trapézovém šroubu",
+            "Výkonný třífázový motor s kuželočelní převodovkou",
+            "Barevné provedení dle požadavku zákazníka",
+            "Elektronická kontrola opotřebení nosné a bezpečnostní matice",
+            "Elektronická synchronizace chodu zvedáků",
+            "Patky zdvižných vozíků jsou vybaveny čidlem pro kontrolu přijetí zátěže"
+          ]
+        },
+        "montazni-lavky": {
+          "title": "Montážní lávky",
+          "description": "Montážní lávky v nůžkovém provedení s rozsahem zdvihu 300 – 4 500 mm. Pevné montážní lávky s odkládací plošinou a výtahem. Pochozí šířka lávek je obvykle 800 mm, při využití elektricky ovládaných výsuvů až 1 150 mm. Dle požadavků zákazníka lze lávky doplnit o osvětlení pracovního prostoru, přechodové moduly apod. Základním konstrukčním prvkem nůžkových lávek je zvedací segment o obvyklé délce 6 m se základovou podestou, křížovým zvedacím mechanismem, hydraulickým agregátem a pochozí plošinou. Segmenty lze spojovat za sebe a vytvořit tak lávky libovolné délky.",
+          "highlights": [
+            "Zdvih 300 – 4 500 mm",
+            "Nosnost 150 kg/m²",
+            "Pochozí šířka až 1 150 mm",
+            "Segment 6 m, řetězí libovolně"
+          ],
+          "features": [
+            "Délka lávek dle požadavků zákazníka",
+            "Nůžkové lávky lze ovládat z jediného místa",
+            "Pochozí části lávek jsou z protiskluzového plechu se skluzností dle norem",
+            "Zábradlí s okopnými plechy po celém pochozím obvodu lávek",
+            "Provedení také pro provozy se zvýšenými nároky na požární odolnost"
+          ]
+        },
+        "jamove-zvedaky": {
+          "title": "Jámové zvedáky",
+          "description": "Jámové zvedáky ve variantách s pojezdem po kolejnicích na dně jámy (spodní), popř. na koruně stěny jámy (horní) s obvyklou šířkou 840 – 980 mm. Nosnost jámových zvedáků dle požadavků zákazníků 10 – 20 t. Zdvih zvedáků činí až 1 200 mm a je zajištěn dvojčinnými či teleskopickými hydraulickými válci.",
+          "highlights": [
+            "Nosnost 10 – 20 t",
+            "Zdvih až 1 200 mm",
+            "Šířka 840 – 980 mm"
+          ],
+          "features": [
+            "Varianta s pojezdem po kolejnicích na dně jámy (spodní)",
+            "Varianta s pojezdem na koruně stěny jámy (horní)",
+            "Zdvih hydraulickými dvojčinnými nebo teleskopickými válci"
+          ]
+        },
+        "podvozkove-standy-a-lisy": {
+          "title": "Podvozkové standy a lisy",
+          "description": "Stlačovací standy s tlačnou silou 200 – 350 kN pro výrobu a servis podvozků kolejových vozidel. Standy mají portálovou konstrukci, čímž je zajištěna vysoká tuhost. Rameno (příčník) lze pro zajištění volného průjezdného profilu pro zavezení stlačovaného podvozku otočit o 90°. Záznam dráhy stlačení je řešen pomocí vestavěného lineárního odměřování. Záznam síly v oblasti tlačných válců je řešen pomocí tenzometrů. Průběh procesu stlačení je možné sledovat na ovládacím pultu s dotykovým panelem. Součástí zařízení může být též kolejový modul s vestavěnými tenzometry pro zjišťování kolových tlaků.",
+          "highlights": [
+            "Tlačná síla 200 – 350 kN",
+            "Portálová konstrukce",
+            "Měření síly tenzometry",
+            "Lineární odměřování dráhy"
+          ],
+          "features": [
+            "Tuhá portálová konstrukce s možností odklopení příčníku pro zajištění volného průjezdného profilu",
+            "Barevné provedení dle požadavku zákazníka",
+            "Řídicí systém umožňující nastavení a záznam požadovaných parametrů",
+            "Tenzometrické měření tlačných sil",
+            "Volitelný kolejový modul s tenzometry pro měření kolových tlaků",
+            "Záznam typu a výrobního čísla podvozku, jména operátora a všech provozních parametrů s tiskem protokolu"
+          ]
+        },
+        "ceske-kl": {
+          "title": "Katalogové listy ke stažení",
+          "description": "Oficiální produktové datasheety od STRKAN. Stáhněte si je jako PDF a zašlete dál do nákupního týmu jako podklad pro poptávku.",
+          "highlights": [],
+          "features": [],
+          "docs": {
+            "patkove-zvedaky": "Patkové zvedáky",
+            "montazni-lavky": "Montážní lávky",
+            "podvozkove-standy-a-lisy": "Podvozkové standy a lisy",
+            "deskova-polohovadla": "Desková polohovadla",
+            "svarovane-dily-kolejovych-vozidel": "Svařované díly kolejových vozidel"
+          }
+        },
+        "polohovadla-a-pripravky": {
+          "title": "Polohovadla, přípravky a ostatní stroje",
+          "description": "Desková polohovadla, montážní, svařovací i kontrolní přípravky a další speciální zařízení a jednoúčelové stroje pro výrobce dopravní techniky.",
+          "highlights": [
+            "Polohovadla 1 – 20 t",
+            "Manuální nebo CNC synchronizace s robotem",
+            "Speciální přípravky na míru"
+          ],
+          "features": [
+            "Desková polohovadla pro svařování velkých dílů",
+            "Montážní a svařovací přípravky podle dokumentace zákazníka",
+            "Kontrolní přípravky pro výstupní měření",
+            "Jednoúčelové stroje pro opakované montážní operace"
+          ]
+        }
+      }
     },
     "svarovane-konstrukce": {
       "capabilities": [

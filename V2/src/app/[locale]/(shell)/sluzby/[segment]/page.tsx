@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import { Check } from 'lucide-react';
-import { HeroPage, TechSpecs, CTABand } from '@/components/sections';
+import { HeroPage, TechSpecs, CTABand, SubproductBlock } from '@/components/sections';
 import { Container } from '@/components/primitives/Container';
 import { Eyebrow } from '@/components/primitives/Eyebrow';
 import {
@@ -18,9 +18,15 @@ import { createMetadata } from '@/lib/seo/metadata';
 import { SITE_URL } from '@/lib/seo/site';
 import {
   SERVICE_SEGMENTS,
+  DOPRAVNI_SUBPRODUCTS,
   isServiceSegment,
   type ServiceSegment,
+  type DopravniSubproduct,
 } from '@/content/services';
+import {
+  servicePhotos,
+  KATALOGOVE_LISTY,
+} from '@/content/images';
 
 type Props = {
   params: Promise<{ locale: string; segment: string }>;
@@ -50,6 +56,7 @@ export default async function ServiceDetailPage({ params }: Props) {
   setRequestLocale(locale);
 
   const tSeg = await getTranslations({ locale, namespace: 'ServiceSegments' });
+  const isDopravni = segment === 'dopravni-technika';
 
   return (
     <>
@@ -71,8 +78,14 @@ export default async function ServiceDetailPage({ params }: Props) {
         })}
       />
       <DetailHero segment={segment} />
-      <DetailCapabilities segment={segment} />
-      <DetailTechSpecs segment={segment} />
+      {isDopravni ? (
+        <DopravniSubproducts />
+      ) : (
+        <>
+          <DetailCapabilities segment={segment} />
+          <DetailTechSpecs segment={segment} />
+        </>
+      )}
       <DetailFaq segment={segment} />
       <DetailCta />
     </>
@@ -180,5 +193,75 @@ function DetailCta() {
       body={t('body')}
       primary={{ label: t('primary'), href: '/poptavka' }}
     />
+  );
+}
+
+const PHOTO_SUBPRODUCTS: DopravniSubproduct[] = [
+  'patkove-zvedaky',
+  'montazni-lavky',
+  'jamove-zvedaky',
+  'podvozkove-standy-a-lisy',
+  'polohovadla-a-pripravky',
+];
+
+const PDF_MAP: Partial<Record<DopravniSubproduct, string>> = {
+  'patkove-zvedaky': KATALOGOVE_LISTY['patkove-zvedaky'],
+  'montazni-lavky': KATALOGOVE_LISTY['montazni-lavky'],
+  'podvozkove-standy-a-lisy': KATALOGOVE_LISTY['podvozkove-standy-a-lisy'],
+  'polohovadla-a-pripravky': KATALOGOVE_LISTY['deskova-polohovadla'],
+};
+
+function DopravniSubproducts() {
+  const tDopravni = useTranslations('ServiceContent.dopravni-technika');
+  const tSub = useTranslations(
+    'ServiceContent.dopravni-technika.subproducts',
+  );
+  const tDetail = useTranslations('ServiceDetail');
+
+  const all = DOPRAVNI_SUBPRODUCTS;
+  const docs = Object.entries(KATALOGOVE_LISTY).map(([slug, href]) => ({
+    label: tSub.raw(`ceske-kl.docs.${slug}`) as string,
+    href,
+  }));
+
+  return (
+    <>
+      <section className="py-24 lg:py-32 bg-paper">
+        <Container>
+          <div className="max-w-3xl">
+            <Eyebrow variant="azure" className="block mb-5">
+              {tDopravni('subproductsHeader.eyebrow')}
+            </Eyebrow>
+            <h2 className="type-display-lg text-ink">
+              {tDopravni('subproductsHeader.title')}
+            </h2>
+            <p className="mt-6 type-body-lg text-steel max-w-2xl">
+              {tDopravni('subproductsHeader.intro')}
+            </p>
+          </div>
+        </Container>
+      </section>
+
+      {all.map((slug, i) => {
+        const isDocs = slug === 'ceske-kl';
+        const photos = isDocs ? [] : servicePhotos('dopravni-technika', slug);
+        return (
+          <SubproductBlock
+            key={slug}
+            index={i + 1}
+            total={all.length}
+            title={tSub(`${slug}.title`)}
+            description={tSub(`${slug}.description`)}
+            highlights={tSub.raw(`${slug}.highlights`) as string[]}
+            features={tSub.raw(`${slug}.features`) as string[]}
+            photos={photos}
+            docs={isDocs ? docs : undefined}
+            pdfHref={PDF_MAP[slug]}
+            pdfLabel={tDetail('downloadCatalog')}
+            reverse={i % 2 === 1}
+          />
+        );
+      })}
+    </>
   );
 }

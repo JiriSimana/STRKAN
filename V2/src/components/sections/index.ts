@@ -22,3 +22,4 @@ export { PostCard } from './PostCard';
 export { PostsGrid } from './PostsGrid';
 export { VacancyList } from './VacancyList';
 export { MapEmbed } from './MapEmbed';
+export { SubproductBlock } from './SubproductBlock';
