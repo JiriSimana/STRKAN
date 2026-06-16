@@ -37,7 +37,7 @@
     "metaDescription": "Konstruktion, Fertigung und Service von Fördertechnik, Sondermaschinen, Roboterzellen und Schweißkonstruktionen. Seit 1993 aus Plzeň.",
     "hero": {
       "eyebrow": "Engineering seit 1993",
-      "title": "Maschinen, die Industrie voranbringen.",
+      "title": "Maschinen und Anlagen für Industrie und Verkehrstechnik.",
       "subtitle": "Wir konstruieren, fertigen und warten Fördertechnik, Sondermaschinen und Schweißkonstruktionen für Hersteller aus Automotive, Energietechnik und Schwerindustrie.",
       "primaryCta": "Referenzen ansehen",
       "secondaryCta": "Angebot anfordern",
@@ -53,13 +53,13 @@
     "manifesto": {
       "eyebrow": "Manifest",
       "title": "32 Jahre Engineering-Handwerk.",
-      "p1": "Wir sind kein Commodity-Lieferant. Wir sind ein konstruktiver Partner. Jedes Projekt beginnt am Tisch mit dem Kunden — bei dem, was er tatsächlich fertigen, fördern oder schweißen muss. Nicht bei dem, was zufällig in unserem Katalog steht.",
-      "p2": "Seit 1993 bauen wir Maschinen in Plzeň. Wir haben über tausend Sondermaschinen und mehrere Hundert Schweißkonstruktionen für Fertigungshallen in Tschechien und im Ausland geliefert. Die Menschen, die heute bei uns schweißen und Roboter programmieren, machen diese Arbeit seit fünfzehn, zwanzig Jahren. Das ist kein Werbespruch — es ist der Grund, warum Kunden uns wieder anrufen."
+      "p1": "Wir arbeiten als konstruktiver Partner. Jedes Projekt beginnt am Tisch mit dem Kunden — bei dem, was er tatsächlich fertigen, fördern oder schweißen muss, nicht bei dem, was zufällig in unserem Katalog steht.",
+      "p2": "Seit 1993 bauen wir Maschinen in Plzeň. Wir haben über tausend Sondermaschinen und mehrere Hundert Schweißkonstruktionen für Fertigungshallen in Tschechien und im Ausland geliefert. Die Menschen, die heute bei uns schweißen und Roboter programmieren, machen diese Arbeit seit fünfzehn, zwanzig Jahren. Deshalb kommen Kunden wieder zu uns."
     },
     "services": {
       "eyebrow": "Was wir tun",
-      "title": "Fünf Bereiche, in denen wir liefern.",
-      "intro": "Wir sind auf fünf Segmente des Industrial-Engineerings spezialisiert. Ein typisches Projekt verbindet zwei oder drei davon."
+      "title": "Vier Bereiche, in denen wir liefern.",
+      "intro": "Wir sind auf vier Segmente des Industrial-Engineerings spezialisiert. Ein typisches Projekt verbindet zwei oder drei davon."
     },
     "featured": {
       "eyebrow": "Ausgewähltes Projekt",
@@ -102,9 +102,9 @@
     "story": {
       "eyebrow": "Seit 1993",
       "title": "Wie wir hierher kamen.",
-      "p1": "STRKAN begann als kleine Konstruktionswerkstatt für lokale Hersteller in Plzeň. Wir sind seitdem gewachsen, haben aber nie vergessen, dass Maschinen von Menschen entworfen und gebaut werden — nicht von Excel-Tabellen.",
+      "p1": "STRKAN begann als kleine Konstruktionswerkstatt für lokale Hersteller in Plzeň. Wir sind seitdem gewachsen, haben aber nie vergessen, dass Maschinen von Menschen entworfen und gebaut werden.",
       "p2": "Heute betreiben wir zwei Hallen in Plzeň, beschäftigen 45 Mitarbeiter und haben über tausend Anlagen ausgeliefert. Zu unseren Kunden gehören Automotive-Zulieferer, Hersteller von Energiekomponenten und Schwerindustriefirmen in ganz Europa.",
-      "p3": "Unser Maßstab ist nicht Wachstum um jeden Preis. Wir messen Projektqualität und die Anzahl der Kunden, die zurückkommen. In den letzten fünf Jahren kontaktieren uns Kunden in 70 % der Fälle erneut."
+      "p3": "Unser Maßstab ist nicht Wachstum um jeden Preis. Wir messen Projektqualität und die Anzahl der Kunden, die zurückkommen — und die meisten von ihnen kommen mit weiteren Aufträgen wieder."
     },
     "timeline": {
       "eyebrow": "Meilensteine",
@@ -112,8 +112,8 @@
     },
     "values": {
       "eyebrow": "Werte",
-      "title": "Wo wir keinen Rabatt geben.",
-      "intro": "Drei Regeln, nach denen wir jedes Projekt führen. Das ist keine Markenstimme — das ist eine Linie, die wir nicht überschreiten."
+      "title": "Worauf wir Wert legen.",
+      "intro": "Die Grundsätze, nach denen wir jedes Projekt führen."
     },
     "team": {
       "eyebrow": "Team",
@@ -122,6 +122,11 @@
     "certifications": {
       "eyebrow": "Zertifikate",
       "title": "Wir erfüllen Standards, die in ganz Europa gelten."
+    },
+    "grant": {
+      "eyebrow": "Projektförderung",
+      "title": "Ein aus öffentlichen Mitteln gefördertes Projekt.",
+      "body": "Zwischen 2020 und 2024 haben wir ein universelles Robotersystem (URS) mit Unterstützung der Technologieagentur der Tschechischen Republik, Programm TREND, Reg.-Nr. FW01010553, entwickelt."
     },
     "machines": {
       "eyebrow": "Maschinenpark",
@@ -161,11 +166,11 @@
     "valueItems": {
       "craft": {
         "title": "Handwerk",
-        "description": "Die Maschine entspricht der Projektdokumentation. Keinem mittelmäßigen Kompromiss, keiner billigsten Variante, keinem „wird schon\". Was in der Stückliste steht, finden Sie in der Maschine."
+        "description": "Die Maschine entspricht der Projektdokumentation. Was in Zeichnung und Stückliste steht, finden Sie in der Maschine."
       },
       "reliability": {
         "title": "Verlässlichkeit",
-        "description": "Ein Termin, den wir zusagen, ist ein Termin, den wir halten. In 94 % der Aufträge der letzten fünf Jahre haben wir in der geplanten Woche geliefert."
+        "description": "Einen Termin, den wir zusagen, halten wir nach Kräften ein. Wir planen unsere Kapazitäten so, dass wir in der vereinbarten Woche liefern."
       },
       "precision": {
         "title": "Präzision",
@@ -222,11 +227,11 @@
   },
   "Services": {
     "metaTitle": "Leistungen",
-    "metaDescription": "Konstruktion, Fertigung und Service von fünf Arten industrieller Maschinen — von Fördertechnik bis Blechpositionierern.",
+    "metaDescription": "Konstruktion, Fertigung und Service von vier Arten industrieller Maschinen — von Fördertechnik bis Blechpositionierern.",
     "hero": {
       "eyebrow": "Was wir tun",
-      "title": "Fünf Segmente im Industrial-Engineering.",
-      "subtitle": "Wir sind auf fünf Bereiche spezialisiert. Die meisten Projekte kombinieren sie — ein typischer Auftrag ist eine Schweißkonstruktion mit integrierter Fördertechnik und Roboterzelle."
+      "title": "Vier Segmente im Industrial-Engineering.",
+      "subtitle": "Wir sind auf vier Bereiche spezialisiert. Die meisten Projekte kombinieren sie — ein typischer Auftrag ist eine Schweißkonstruktion mit integrierter Fördertechnik und Roboterzelle."
     },
     "process": {
       "eyebrow": "Ablauf",
@@ -263,7 +268,7 @@
   "ServiceSegments": {
     "dopravni-technika": {
       "tag": "Dopravní technika",
-      "title": "Výroba a servis dopravní techniky",
+      "title": "Stroje a zařízení pro výrobu a servis dopravní techniky",
       "perex": "Patkové zvedáky, montážní lávky, jámové zvedáky, podvozkové standy a polohovadla pro výrobu a servis kolejových vozidel. Vlastní konstrukce, výroba i servis.",
       "imageLabel": "Patkový zvedák v depu"
     },
@@ -376,9 +381,9 @@
     },
     "why": {
       "eyebrow": "Warum STRKAN",
-      "title": "Wir suchen nicht nach Sechs-Monats-Enthusiasten.",
-      "p1": "Unsere Leute sind seit fünfzehn, zwanzig Jahren da. Das ist kein Zufall. Die Maschinen, an denen sie arbeiten, sind ihre Projekte — von der ersten Skizze bis zur Vorabnahme.",
-      "p2": "Kein Open-Space, keine Agile-Rituale. Werkstatt, Halle und ein Büro mit Hallenblick. Arbeit, die man sofort sieht, wenn man fertig ist."
+      "title": "Wir suchen Menschen für eine langfristige Zusammenarbeit.",
+      "p1": "Viele unserer Leute sind seit fünfzehn oder zwanzig Jahren bei uns. Die Maschinen, an denen sie arbeiten, betrachten sie als ihre eigenen Projekte — von der ersten Skizze bis zur Vorabnahme.",
+      "p2": "Kein Open-Space. Werkstatt, Halle und ein Büro mit Blick in die Fertigung. Arbeit, deren Ergebnis man sofort sieht, wenn man fertig ist."
     },
     "benefits": {
       "eyebrow": "Was Sie bei uns haben",
@@ -390,16 +395,16 @@
         "description": "Externe Kurse für Schweißen, Robotik, CAD. Wir zahlen — während der Arbeitszeit."
       },
       "tools": {
-        "title": "Spitzenmäßige Ausrüstung",
-        "description": "Mazak, TRUMPF, Fronius. Maschinen, an denen Sie arbeiten wollen — nicht müssen."
+        "title": "Moderne Ausrüstung",
+        "description": "Sie arbeiten an gepflegten, modernen Maschinen."
       },
       "flex": {
         "title": "Flexible Arbeitszeit",
         "description": "Späterer Start, früherer Schluss, Ausnahmen für Familienangelegenheiten. Wir regeln das."
       },
       "culture": {
-        "title": "Kein Corporate",
-        "description": "Keine wöchentlichen Status-Calls. Keine OKRs. Keine Slack-Meldungen am Wochenende."
+        "title": "Direkte Zusammenarbeit",
+        "description": "Kurze Entscheidungswege und minimale unnötige Bürokratie. Am Wochenende hat jeder frei."
       },
       "health": {
         "title": "Multisport + Gesundheit",

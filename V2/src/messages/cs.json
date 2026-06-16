@@ -37,7 +37,7 @@
     "metaDescription": "Konstrukce, výroba a servis dopravní techniky, jednoúčelových strojů, robotických buněk a svařovaných konstrukcí. Od roku 1993 z Plzně.",
     "hero": {
       "eyebrow": "Strojírenství od roku 1993",
-      "title": "Stroje, které posouvají průmysl.",
+      "title": "Stroje a zařízení pro průmysl a dopravní techniku.",
       "subtitle": "Konstruujeme, vyrábíme a servisujeme dopravní techniku, jednoúčelové stroje a svařované konstrukce pro výrobce z automotive, energetiky a těžkého průmyslu.",
       "primaryCta": "Prozkoumat reference",
       "secondaryCta": "Získat nabídku",
@@ -53,13 +53,13 @@
     "manifesto": {
       "eyebrow": "Manifesto",
       "title": "32 let strojírenského řemesla.",
-      "p1": "Nejsme dodavatel komodity. Jsme konstrukční partner. Každá zakázka začíná u stolu se zákazníkem, kde řešíme, co reálně potřebuje vyrobit, dopravit nebo svařit. Ne to, co máme zrovna v katalogu.",
-      "p2": "V Plzni stavíme stroje od roku 1993. Vyrobili jsme přes tisíc kusů jednoúčelových zařízení a několik stovek svařovaných konstrukcí pro výrobní haly v Česku a v zahraničí. Lidé, kteří u nás dnes svařují a programují roboty, dělají tuhle práci patnáct, dvacet let. To není reklamní claim, to je důvod, proč nám zákazníci volají znovu."
+      "p1": "Pracujeme jako konstrukční partner. Každá zakázka začíná u stolu se zákazníkem, kde řešíme, co reálně potřebuje vyrobit, dopravit nebo svařit — ne to, co máme zrovna v katalogu.",
+      "p2": "V Plzni stavíme stroje od roku 1993. Vyrobili jsme přes tisíc kusů jednoúčelových zařízení a několik stovek svařovaných konstrukcí pro výrobní haly v Česku a v zahraničí. Lidé, kteří u nás dnes svařují a programují roboty, dělají tuhle práci patnáct, dvacet let. Proto se na nás zákazníci obracejí opakovaně."
     },
     "services": {
       "eyebrow": "Co umíme",
-      "title": "Pět oblastí, ve kterých dodáváme.",
-      "intro": "Specializujeme se na pět segmentů průmyslového strojírenství. Jeden projekt obvykle propojuje dva nebo tři."
+      "title": "Čtyři oblasti, ve kterých dodáváme.",
+      "intro": "Specializujeme se na čtyři segmenty průmyslového strojírenství. Jeden projekt obvykle propojuje dva nebo tři."
     },
     "featured": {
       "eyebrow": "Vybraný projekt",
@@ -102,9 +102,9 @@
     "story": {
       "eyebrow": "Od roku 1993",
       "title": "Jak jsme se sem dostali.",
-      "p1": "STRKAN vznikl jako malá konstrukční dílna pro lokální výrobce v Plzni. Postupně jsme rostli, ale nikdy jsme nezapomněli, že stroje navrhují a vyrábějí lidé, ne tabulky v Excelu.",
+      "p1": "STRKAN vznikl jako malá konstrukční dílna pro lokální výrobce v Plzni. Postupně jsme rostli, ale nikdy jsme nezapomněli, že stroje navrhují a vyrábějí lidé.",
       "p2": "Dnes máme dvě haly v Plzni, 45 zaměstnanců a portfolio přes tisíc dodaných zařízení. Mezi našimi zákazníky jsou subdodavatelé pro automotive, výrobci energetických komponent i firmy z těžkého průmyslu po celé Evropě.",
-      "p3": "Naším měřítkem není růst za každou cenu. Měříme kvalitu projektů a počet zákazníků, kteří se vracejí. Posledních pět let nás zákazníci kontaktují znovu v 70 % případů."
+      "p3": "Naším měřítkem není růst za každou cenu. Měříme kvalitu projektů a počet zákazníků, kteří se vracejí — a většina z nich se vrací s dalšími zakázkami."
     },
     "timeline": {
       "eyebrow": "Milníky",
@@ -112,8 +112,8 @@
     },
     "values": {
       "eyebrow": "Hodnoty",
-      "title": "V čem se neumíme dohodnout na slevě.",
-      "intro": "Tři pravidla, podle kterých vedeme každý projekt. Není to brand voice — je to čára, za kterou nejdeme."
+      "title": "Na čem si zakládáme.",
+      "intro": "Zásady, podle kterých vedeme každý projekt."
     },
     "team": {
       "eyebrow": "Tým",
@@ -122,6 +122,11 @@
     "certifications": {
       "eyebrow": "Certifikáty",
       "title": "Splňujeme standardy, které platí v celé Evropě."
+    },
+    "grant": {
+      "eyebrow": "Publicita projektu",
+      "title": "Projekt podpořený z veřejných zdrojů.",
+      "body": "V letech 2020–2024 jsme realizovali vývoj univerzálního robotického systému (URS) s podporou Technologické agentury ČR, program TREND, reg. č. FW01010553."
     },
     "machines": {
       "eyebrow": "Strojní vybavení",
@@ -161,11 +166,11 @@
     "valueItems": {
       "craft": {
         "title": "Řemeslo",
-        "description": "Stroj odpovídá projektové dokumentaci. Ne nějakému průměrnému kompromisu, ne nejlevnější variantě, ne „to půjde\". Co je v BOMu, to ve stroji najdete."
+        "description": "Stroj odpovídá projektové dokumentaci. Co je ve výkresu a v kusovníku, to ve stroji najdete."
       },
       "reliability": {
         "title": "Spolehlivost",
-        "description": "Termín, který slíbíme, je termín, který dodržíme. V 94 % zakázek z posledních pěti let jsme dodali v plánovaném týdnu."
+        "description": "Termín, který slíbíme, se snažíme dodržet. Plánování a kapacity řídíme tak, abychom dodali v dohodnutém týdnu."
       },
       "precision": {
         "title": "Přesnost",
@@ -222,11 +227,11 @@
   },
   "Services": {
     "metaTitle": "Služby",
-    "metaDescription": "Konstrukce, výroba a servis pěti typů průmyslových strojů — od dopravní techniky po desková polohovadla.",
+    "metaDescription": "Konstrukce, výroba a servis čtyř typů průmyslových strojů — od dopravní techniky po desková polohovadla.",
     "hero": {
       "eyebrow": "Co umíme",
-      "title": "Pět segmentů průmyslového strojírenství.",
-      "subtitle": "Specializujeme se na pět oblastí. V projektech je obvykle kombinujeme — typická zakázka je svařovaná konstrukce s integrovanou dopravní technikou a robotickým pracovištěm."
+      "title": "Čtyři segmenty průmyslového strojírenství.",
+      "subtitle": "Specializujeme se na čtyři oblasti. V projektech je obvykle kombinujeme — typická zakázka je svařovaná konstrukce s integrovanou dopravní technikou a robotickým pracovištěm."
     },
     "process": {
       "eyebrow": "Postup",
@@ -263,7 +268,7 @@
   "ServiceSegments": {
     "dopravni-technika": {
       "tag": "Dopravní technika",
-      "title": "Výroba a servis dopravní techniky",
+      "title": "Stroje a zařízení pro výrobu a servis dopravní techniky",
       "perex": "Patkové zvedáky, montážní lávky, jámové zvedáky, podvozkové standy a polohovadla pro výrobu a servis kolejových vozidel. Vlastní konstrukce, výroba i servis.",
       "imageLabel": "Patkový zvedák v depu"
     },
@@ -376,9 +381,9 @@
     },
     "why": {
       "eyebrow": "Proč STRKAN",
-      "title": "Nehledáme nadšence na 6 měsíců.",
-      "p1": "Naši lidé jsou tu patnáct, dvacet let. Není to náhoda. Stroje, na kterých dělají, jsou jejich projekty — od první skici po předpřejímku.",
-      "p2": "Žádný open-space, žádné agile rituály. Hala, dílna a kancelář s výhledem na haly. Práce, kterou je vidět hned, jak ji dokončíte."
+      "title": "Hledáme lidi na dlouhou spolupráci.",
+      "p1": "Řada našich lidí je u nás patnáct i dvacet let. Stroje, na kterých dělají, berou jako vlastní projekty — od první skici po předpřejímku.",
+      "p2": "Žádný open-space. Hala, dílna a kancelář s výhledem do provozu. Práce, jejíž výsledek je vidět hned, jak ji dokončíte."
     },
     "benefits": {
       "eyebrow": "Co u nás máte",
@@ -390,16 +395,16 @@
         "description": "Externí kurzy svařování, programování robotů, CAD. Hradíme my, pracovní doba."
       },
       "tools": {
-        "title": "Špičkové vybavení",
-        "description": "Mazak, TRUMPF, Fronius. Stroje, na kterých chcete pracovat, ne na kterých musíte."
+        "title": "Moderní vybavení",
+        "description": "Pracujete na udržovaném a moderním strojním vybavení."
       },
       "flex": {
         "title": "Pružná pracovní doba",
         "description": "Pozdější začátek, dřívější konec, výjimky pro rodinné záležitosti. Hlavně se domluvíme."
       },
       "culture": {
-        "title": "Žádný corporate",
-        "description": "Žádné weekly status-call. Žádné OKR. Žádné Slack notifikace o víkendu."
+        "title": "Přímé jednání",
+        "description": "Krátké rozhodování a minimum zbytečné administrativy. O víkendu má každý volno."
       },
       "health": {
         "title": "Multisport + zdravotka",

@@ -37,7 +37,7 @@
     "metaDescription": "Design, manufacturing and service of conveyor systems, special-purpose machines, robotic cells and welded structures. From Plzeň since 1993.",
     "hero": {
       "eyebrow": "Engineering since 1993",
-      "title": "Machinery that moves industry.",
+      "title": "Machines and equipment for industry and transport technology.",
       "subtitle": "We design, build and service conveyor systems, special-purpose machines and welded structures for automotive, energy and heavy industry manufacturers.",
       "primaryCta": "Explore references",
       "secondaryCta": "Get a quote",
@@ -53,13 +53,13 @@
     "manifesto": {
       "eyebrow": "Manifesto",
       "title": "32 years of engineering craft.",
-      "p1": "We're not a commodity supplier. We're an engineering partner. Every project starts at a table with the customer, working out what they actually need to manufacture, move or weld. Not what's in our catalog.",
-      "p2": "We've been building machines in Plzeň since 1993. We've delivered over a thousand special-purpose machines and several hundred welded structures to production plants in the Czech Republic and abroad. The people who weld and program robots for us today have been doing this work for fifteen, twenty years. That's not a marketing claim — it's why customers call us back."
+      "p1": "We work as an engineering partner. Every project starts at a table with the customer, working out what they actually need to manufacture, move or weld — not what's in our catalog.",
+      "p2": "We've been building machines in Plzeň since 1993. We've delivered over a thousand special-purpose machines and several hundred welded structures to production plants in the Czech Republic and abroad. The people who weld and program robots for us today have been doing this work for fifteen, twenty years. That's why customers come back to us."
     },
     "services": {
       "eyebrow": "What we do",
-      "title": "Five areas where we deliver.",
-      "intro": "We specialise in five segments of industrial engineering. A typical project combines two or three."
+      "title": "Four areas where we deliver.",
+      "intro": "We specialise in four segments of industrial engineering. A typical project combines two or three."
     },
     "featured": {
       "eyebrow": "Featured project",
@@ -102,9 +102,9 @@
     "story": {
       "eyebrow": "Since 1993",
       "title": "How we got here.",
-      "p1": "STRKAN started as a small engineering workshop serving local manufacturers in Plzeň. We've grown since, but we've never forgotten that machines are designed and built by people, not by spreadsheets.",
+      "p1": "STRKAN started as a small engineering workshop serving local manufacturers in Plzeň. We've grown since, but we've never forgotten that machines are designed and built by people.",
       "p2": "Today we operate two halls in Plzeň, 45 employees and a portfolio of over a thousand delivered units. Our customers include automotive sub-suppliers, energy component manufacturers and heavy industry firms across Europe.",
-      "p3": "Our yardstick isn't growth at any cost. We measure project quality and the number of customers who return. Over the past five years, 70 % of our customers have contacted us for a follow-up project."
+      "p3": "Our yardstick isn't growth at any cost. We measure project quality and the number of customers who return — and most of them come back with further projects."
     },
     "timeline": {
       "eyebrow": "Milestones",
@@ -112,8 +112,8 @@
     },
     "values": {
       "eyebrow": "Values",
-      "title": "Where we won't negotiate a discount.",
-      "intro": "Three rules we run every project by. It's not brand voice — it's a line we don't cross."
+      "title": "What we stand by.",
+      "intro": "The principles we run every project by."
     },
     "team": {
       "eyebrow": "Team",
@@ -122,6 +122,11 @@
     "certifications": {
       "eyebrow": "Certifications",
       "title": "We meet standards that apply across Europe."
+    },
+    "grant": {
+      "eyebrow": "Project funding",
+      "title": "A project supported from public funds.",
+      "body": "Between 2020 and 2024 we developed a universal robotic system (URS) with support from the Technology Agency of the Czech Republic, TREND programme, reg. no. FW01010553."
     },
     "machines": {
       "eyebrow": "Equipment",
@@ -161,11 +166,11 @@
     "valueItems": {
       "craft": {
         "title": "Craft",
-        "description": "The machine matches the project documentation. Not an average compromise, not the cheapest variant, not \"it'll do\". What's in the BOM is what you'll find in the machine."
+        "description": "The machine matches the project documentation. What's in the drawing and the bill of materials is what you'll find in the machine."
       },
       "reliability": {
         "title": "Reliability",
-        "description": "A deadline we promise is a deadline we keep. In 94 % of contracts over the past five years we delivered in the planned week."
+        "description": "A deadline we promise is one we work hard to keep. We plan capacity so we deliver in the agreed week."
       },
       "precision": {
         "title": "Precision",
@@ -222,11 +227,11 @@
   },
   "Services": {
     "metaTitle": "Services",
-    "metaDescription": "Design, manufacturing and service of five types of industrial machinery — from conveyor systems to plate positioners.",
+    "metaDescription": "Design, manufacturing and service of four types of industrial machinery — from conveyor systems to plate positioners.",
     "hero": {
       "eyebrow": "What we do",
-      "title": "Five segments of industrial engineering.",
-      "subtitle": "We specialise in five areas. Most projects combine them — a typical job is a welded structure with integrated conveyor systems and a robotic cell."
+      "title": "Four segments of industrial engineering.",
+      "subtitle": "We specialise in four areas. Most projects combine them — a typical job is a welded structure with integrated conveyor systems and a robotic cell."
     },
     "process": {
       "eyebrow": "How it works",
@@ -263,7 +268,7 @@
   "ServiceSegments": {
     "dopravni-technika": {
       "tag": "Dopravní technika",
-      "title": "Výroba a servis dopravní techniky",
+      "title": "Stroje a zařízení pro výrobu a servis dopravní techniky",
       "perex": "Patkové zvedáky, montážní lávky, jámové zvedáky, podvozkové standy a polohovadla pro výrobu a servis kolejových vozidel. Vlastní konstrukce, výroba i servis.",
       "imageLabel": "Patkový zvedák v depu"
     },
@@ -376,9 +381,9 @@
     },
     "why": {
       "eyebrow": "Why STRKAN",
-      "title": "We're not after six-month enthusiasm.",
-      "p1": "Our people are here for fifteen, twenty years. It's not by chance. The machines they work on are their projects — from the first sketch to pre-acceptance.",
-      "p2": "No open-space, no agile rituals. Workshop, hall and an office with a view of the halls. Work you can see the moment you finish it."
+      "title": "We're looking for people for the long term.",
+      "p1": "Many of our people have been here fifteen or twenty years. The machines they work on they treat as their own projects — from the first sketch to pre-acceptance.",
+      "p2": "No open-space. Workshop, hall and an office overlooking the shop floor. Work whose result you can see the moment you finish it."
     },
     "benefits": {
       "eyebrow": "What you get",
@@ -390,16 +395,16 @@
         "description": "External welding, robotics and CAD courses. We pay, during work hours."
       },
       "tools": {
-        "title": "Top-tier equipment",
-        "description": "Mazak, TRUMPF, Fronius. Machines you want to work on, not have to."
+        "title": "Modern equipment",
+        "description": "You work on well-maintained, modern machinery."
       },
       "flex": {
         "title": "Flexible hours",
         "description": "Later start, earlier finish, exceptions for family matters. We work it out."
       },
       "culture": {
-        "title": "No corporate",
-        "description": "No weekly status calls. No OKRs. No Slack pings on the weekend."
+        "title": "Straightforward",
+        "description": "Short decision paths and minimal needless admin. Weekends are off."
       },
       "health": {
         "title": "Multisport + health",

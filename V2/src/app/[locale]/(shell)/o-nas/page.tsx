@@ -58,6 +58,7 @@ export default async function AboutPage({ params }: Props) {
       <AboutValues />
       <AboutTeam />
       <AboutCertifications />
+      <AboutGrant />
       <AboutMachines />
       <AboutCta />
     </>
@@ -90,6 +91,7 @@ function AboutStory() {
   );
 }
 
+// TODO(content): confirm real company history — years and events below are a draft (see CONTENT_GAPS.md §2)
 const MILESTONES: { year: string; titleKey: string }[] = [
   { year: '1993', titleKey: 'founded' },
   { year: '2002', titleKey: 'firstAuto' },
@@ -156,6 +158,7 @@ function AboutTeam() {
   );
 }
 
+// TODO(content): confirm real certificates + add logos/PDFs — list below is a draft (see CONTENT_GAPS.md §2/§5)
 const CERTS = [
   'ISO 9001:2015',
   'ISO 14001:2015',
@@ -175,6 +178,25 @@ function AboutCertifications() {
   );
 }
 
+function AboutGrant() {
+  const t = useTranslations('AboutUs.grant');
+  return (
+    <section className="py-20 lg:py-24 bg-paper border-t border-cloud">
+      <Container>
+        <div className="max-w-3xl">
+          <Eyebrow variant="fog" className="block mb-3">
+            {t('eyebrow')}
+          </Eyebrow>
+          <h2 className="type-display-md text-ink">{t('title')}</h2>
+          <p className="mt-6 type-body-lg text-steel">{t('body')}</p>
+          {/* TODO(content): add mandatory funding logos (TAČR / MPO / EU), official project name, period and support amount — see CONTENT_GAPS.md §5 */}
+        </div>
+      </Container>
+    </section>
+  );
+}
+
+// TODO(content): confirm real machine list — model names in messages are a draft (see CONTENT_GAPS.md §2)
 const MACHINE_GROUPS = ['cnc', 'welding', 'measurement'] as const;
 
 function AboutMachines() {

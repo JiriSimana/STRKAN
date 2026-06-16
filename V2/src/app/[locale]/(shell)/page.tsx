@@ -103,6 +103,7 @@ function HomeLogos() {
 function HomeKpiBlock() {
   const t = useTranslations('Home.kpi');
   return (
+    // TODO(content): confirm real figures — 1 000+ projects / 70 % returning are a draft (see CONTENT_GAPS.md §2)
     <KPI
       stats={[
         { value: '32', unit: 'let', label: t('title1') },
