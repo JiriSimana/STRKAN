@@ -14,6 +14,10 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
+const MAP_QUERY = 'Čemínská 628, 330 33 Město Touškov';
+const PHONE = '+420 724 506 929';
+const PHONE_HREF = 'tel:+420724506929';
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Contact' });
@@ -39,7 +43,12 @@ export default async function ContactPage({ params }: Props) {
       <JsonLd data={organizationSchema} />
       <ContactHero />
       <ContactBody />
-      <MapEmbed />
+      <MapEmbed
+        embedSrc={`https://www.google.com/maps?q=${encodeURIComponent(MAP_QUERY)}&z=15&output=embed`}
+        googleMapsUrl={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(MAP_QUERY)}`}
+        mapyCzUrl={`https://mapy.cz/zakladni?q=${encodeURIComponent('Čemínská 628 Město Touškov')}`}
+        title="Mapa — provozovna STRKAN s.r.o., Město Touškov"
+      />
       <TransportInfo />
     </>
   );
@@ -71,7 +80,6 @@ function ContactBody() {
             </Eyebrow>
             <h2 className="type-display-md text-ink">{td('title')}</h2>
 
-            {/* TODO(content): real phone, IČO, DIČ, full street address once delivered */}
             <dl className="mt-10 flex flex-col gap-6">
               <div className="flex items-start gap-4">
                 <Phone className="size-5 text-steel mt-0.5 shrink-0" aria-hidden />
@@ -79,10 +87,10 @@ function ContactBody() {
                   <dt className="type-eyebrow text-fog mb-1">{td('phone')}</dt>
                   <dd>
                     <a
-                      href="tel:+420"
+                      href={PHONE_HREF}
                       className="type-body-lg text-ink hover:text-azure-deep transition-colors"
                     >
-                      —
+                      {PHONE}
                     </a>
                   </dd>
                 </div>
@@ -109,10 +117,12 @@ function ContactBody() {
                   <dt className="type-eyebrow text-fog mb-1">{td('address')}</dt>
                   <dd>
                     <address className="not-italic type-body text-ink">
-                      Plzeň, Česká republika
+                      Provozovna: Čemínská 628, 330 33 Město Touškov
+                      <br />
+                      Sídlo: Lánská 144/5, 301 00 Plzeň
                       <br />
                       <span className="type-body-sm text-steel">
-                        IČO: — · DIČ: —
+                        IČO: 29157382 · DIČ: CZ29157382
                       </span>
                     </address>
                   </dd>

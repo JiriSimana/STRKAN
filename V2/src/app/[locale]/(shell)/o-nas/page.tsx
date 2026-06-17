@@ -5,7 +5,6 @@ import { Wrench, ShieldCheck, Users, BadgeCheck } from 'lucide-react';
 import {
   HeroPage,
   Manifesto,
-  Timeline,
   BenefitsGrid,
   TeamGrid,
   CertificationStrip,
@@ -22,6 +21,7 @@ import { Eyebrow } from '@/components/primitives/Eyebrow';
 import { JsonLd, breadcrumbSchema } from '@/lib/seo/jsonld';
 import { createMetadata } from '@/lib/seo/metadata';
 import { SITE_URL } from '@/lib/seo/site';
+import { generalPhoto } from '@/content/images';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -54,7 +54,6 @@ export default async function AboutPage({ params }: Props) {
       />
       <AboutHero locale={locale} />
       <AboutStory />
-      <AboutTimeline />
       <AboutValues />
       <AboutTeam />
       <AboutCertifications />
@@ -86,36 +85,15 @@ function AboutStory() {
       eyebrow={t('eyebrow')}
       title={t('title')}
       paragraphs={[t('p1'), t('p2'), t('p3')]}
-      imageLabel="Tým u CNC stroje"
+      imageUrl={generalPhoto(135)}
+      imageAlt="Konstrukční tým STRKAN nad 3D modelem stroje"
     />
   );
 }
 
-// TODO(content): confirm real company history — years and events below are a draft (see CONTENT_GAPS.md §2)
-const MILESTONES: { year: string; titleKey: string }[] = [
-  { year: '1993', titleKey: 'founded' },
-  { year: '2002', titleKey: 'firstAuto' },
-  { year: '2010', titleKey: 'secondHall' },
-  { year: '2018', titleKey: 'iso3834' },
-  { year: '2022', titleKey: 'robotics' },
-  { year: '2024', titleKey: 'cncMazak' },
-];
-
-function AboutTimeline() {
-  const t = useTranslations('AboutUs.timeline');
-  const tm = useTranslations('AboutUs.milestones');
-  return (
-    <Timeline
-      eyebrow={t('eyebrow')}
-      title={t('title')}
-      milestones={MILESTONES.map((m) => ({
-        year: m.year,
-        title: tm(`${m.titleKey}.title`),
-        description: tm(`${m.titleKey}.description`),
-      }))}
-    />
-  );
-}
+// NOTE: timeline removed — old site gives no milestone history beyond founding
+// (22. 5. 2012). Re-add a real timeline only if the client provides dated events.
+// See CONTENT_GAPS.md §2.
 
 const VALUES = [
   { icon: Wrench, key: 'craft' },
@@ -141,7 +119,39 @@ function AboutValues() {
   );
 }
 
-const TEAM_ROLES = ['ceo', 'leadEngineer', 'headOfProduction'] as const;
+const TEAM_ROLES = [
+  'triska',
+  'holubec',
+  'gorschenek',
+  'prokes',
+  'fiala',
+  'sykora',
+  'augustova',
+] as const;
+
+// Real portraits from the client photo set (public/images/team/).
+const TEAM_PHOTO: Partial<Record<(typeof TEAM_ROLES)[number], string>> = {
+  triska: '/images/team/triska.jpg',
+  holubec: '/images/team/holubec.jpg',
+  gorschenek: '/images/team/gorschenek.jpg',
+  prokes: '/images/team/prokes.jpg',
+  fiala: '/images/team/fiala.jpg',
+  sykora: '/images/team/sykora.jpg',
+  augustova: '/images/team/augustova.jpg',
+};
+
+// Direct contacts (from strkan.cz). Holubec's number is also the main line.
+const TEAM_CONTACT: Partial<
+  Record<(typeof TEAM_ROLES)[number], { phone: string; email: string }>
+> = {
+  triska: { phone: '+420 774 611 493', email: 'l.triska@strkan.cz' },
+  holubec: { phone: '+420 724 506 929', email: 'm.holubec@strkan.cz' },
+  gorschenek: { phone: '+420 725 995 485', email: 'm.gorschenek@strkan.cz' },
+  prokes: { phone: '+420 725 539 150', email: 'j.prokes@strkan.cz' },
+  fiala: { phone: '+420 778 978 619', email: 'l.fiala@strkan.cz' },
+  sykora: { phone: '+420 601 502 280', email: 'm.sykora@strkan.cz' },
+  augustova: { phone: '+420 725 770 522', email: 'h.augustova@strkan.cz' },
+};
 
 function AboutTeam() {
   const t = useTranslations('AboutUs.team');
@@ -150,21 +160,24 @@ function AboutTeam() {
     <TeamGrid
       eyebrow={t('eyebrow')}
       title={t('title')}
-      members={TEAM_ROLES.map((role) => ({
-        role: tt(`${role}.role`),
-        bio: tt(`${role}.bio`),
+      members={TEAM_ROLES.map((key) => ({
+        name: tt(`${key}.name`),
+        role: tt(`${key}.role`),
+        photo: TEAM_PHOTO[key],
+        phone: TEAM_CONTACT[key]?.phone,
+        email: TEAM_CONTACT[key]?.email,
       }))}
     />
   );
 }
 
-// TODO(content): confirm real certificates + add logos/PDFs — list below is a draft (see CONTENT_GAPS.md §2/§5)
+// Certificate names confirmed from strkan.cz. TODO(content): add real logos + PDF scans (see CONTENT_GAPS.md §5)
 const CERTS = [
-  'ISO 9001:2015',
-  'ISO 14001:2015',
-  'ISO 45001:2018',
-  'EN ISO 3834-2',
-  'EN 1090-1 EXC3',
+  'ČSN EN ISO 9001:2016',
+  'ČSN EN ISO 3834-2:2022',
+  'ČSN EN 1090-2:2019',
+  'ČSN EN 15085-2+A1:2024 (CL1)',
+  'DIN EN 15085-2:2024',
 ];
 
 function AboutCertifications() {
@@ -196,14 +209,13 @@ function AboutGrant() {
   );
 }
 
-// TODO(content): confirm real machine list — model names in messages are a draft (see CONTENT_GAPS.md §2)
 const MACHINE_GROUPS = ['cnc', 'welding', 'measurement'] as const;
 
 function AboutMachines() {
   const t = useTranslations('AboutUs.machines');
   const tm = useTranslations('AboutUs.machineGroups');
   return (
-    <section className="py-24 lg:py-32 bg-mist">
+    <section className="py-16 lg:py-24 bg-mist">
       <Container>
         <div className="max-w-3xl mb-12">
           <Eyebrow variant="azure" className="block mb-5">

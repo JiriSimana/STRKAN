@@ -7,6 +7,7 @@ import type {
   ReferenceProject,
   Vacancy,
 } from './types';
+import { SAMPLE_POSTS, SAMPLE_VACANCIES } from '@/content/samples';
 
 type Locale = 'cs' | 'en' | 'de';
 
@@ -14,7 +15,12 @@ export async function getPublishedPosts(
   locale: Locale,
   options: { limit?: number; category?: string } = {},
 ): Promise<Post[]> {
-  if (!hasSupabaseEnv()) return [];
+  if (!hasSupabaseEnv()) {
+    let posts = SAMPLE_POSTS.filter((p) => p.locale === locale);
+    if (options.category)
+      posts = posts.filter((p) => p.category === options.category);
+    return options.limit ? posts.slice(0, options.limit) : posts;
+  }
 
   const supabase = await createServerClient();
   let query = supabase
@@ -40,7 +46,8 @@ export async function getPostBySlug(
   locale: Locale,
   slug: string,
 ): Promise<Post | null> {
-  if (!hasSupabaseEnv()) return null;
+  if (!hasSupabaseEnv())
+    return SAMPLE_POSTS.find((p) => p.locale === locale && p.slug === slug) ?? null;
   const supabase = await createServerClient();
   const { data, error } = await supabase
     .from('posts')
@@ -110,7 +117,8 @@ export async function getReferenceBySlug(
 }
 
 export async function getOpenVacancies(locale: Locale): Promise<Vacancy[]> {
-  if (!hasSupabaseEnv()) return [];
+  if (!hasSupabaseEnv())
+    return SAMPLE_VACANCIES.filter((v) => v.locale === locale);
   const supabase = await createServerClient();
   const { data, error } = await supabase
     .from('vacancies')
@@ -129,7 +137,8 @@ export async function getVacancyBySlug(
   locale: Locale,
   slug: string,
 ): Promise<Vacancy | null> {
-  if (!hasSupabaseEnv()) return null;
+  if (!hasSupabaseEnv())
+    return SAMPLE_VACANCIES.find((v) => v.locale === locale && v.slug === slug) ?? null;
   const supabase = await createServerClient();
   const { data, error } = await supabase
     .from('vacancies')

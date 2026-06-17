@@ -46,9 +46,9 @@
       "watchVideoDuration": "2 min"
     },
     "kpi": {
-      "title1": "Years of experience",
-      "title2": "Completed projects",
-      "title3": "Returning customers"
+      "title1": "Year founded",
+      "title2": "Employees",
+      "title3": "Production area"
     },
     "manifesto": {
       "eyebrow": "Manifesto",
@@ -182,18 +182,13 @@
       }
     },
     "teamRoles": {
-      "ceo": {
-        "role": "Managing Director",
-        "bio": "Leads strategic decisions, key client relationships and capital investments into machinery."
-      },
-      "leadEngineer": {
-        "role": "Lead Design Engineer",
-        "bio": "Responsible for 3D designs in SolidWorks, calculations and coordination of the engineering team."
-      },
-      "headOfProduction": {
-        "role": "Head of Production",
-        "bio": "Runs the shop floor, production planning and quality of delivered work."
-      }
+      "triska": { "name": "Ing. Ladislav Tříska, Ph.D.", "role": "Partner, Managing Director, COO" },
+      "holubec": { "name": "Ing. Martin Holubec", "role": "Partner, Managing Director, CFO" },
+      "gorschenek": { "name": "Ing. Martin Gorschenek, Ph.D.", "role": "Head of Engineering" },
+      "prokes": { "name": "Ing. Jan Prokeš", "role": "Project Lead" },
+      "fiala": { "name": "Ing. Lukáš Fiala, IWE", "role": "Head of Welding Technology, IWE" },
+      "sykora": { "name": "Miroslav Sýkora", "role": "Head of Production" },
+      "augustova": { "name": "Ing. Hana Augustová", "role": "Head of Procurement" }
     },
     "machineGroups": {
       "cnc": {
@@ -268,7 +263,7 @@
   "ServiceSegments": {
     "dopravni-technika": {
       "tag": "Dopravní technika",
-      "title": "Stroje a zařízení pro výrobu a servis dopravní techniky",
+      "title": "Zařízení pro výrobu a servis dopravní techniky",
       "perex": "Patkové zvedáky, montážní lávky, jámové zvedáky, podvozkové standy a polohovadla pro výrobu a servis kolejových vozidel. Vlastní konstrukce, výroba i servis.",
       "imageLabel": "Patkový zvedák v depu"
     },
@@ -462,7 +457,7 @@
       "email": "Email",
       "address": "Registered address",
       "hours": "Opening hours",
-      "hoursValue": "Monday – Friday, 7:00 – 16:00"
+      "hoursValue": "Monday – Friday, 7:00 – 17:00"
     },
     "form": {
       "eyebrow": "Write to us",

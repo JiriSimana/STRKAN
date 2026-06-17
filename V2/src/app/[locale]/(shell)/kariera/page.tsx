@@ -5,7 +5,7 @@ import { GraduationCap, Wrench, Coffee, Heart, MapPin, Clock } from 'lucide-reac
 import { Container } from '@/components/primitives/Container';
 import { Eyebrow } from '@/components/primitives/Eyebrow';
 import { HeroPage, BenefitsGrid, VacancyList, CTABand } from '@/components/sections';
-import { PlaceholderImage } from '@/components/PlaceholderImage';
+import { generalPhoto } from '@/content/images';
 import { Reveal } from '@/components/motion/Reveal';
 import { JsonLd, breadcrumbSchema } from '@/lib/seo/jsonld';
 import { createMetadata } from '@/lib/seo/metadata';
@@ -79,12 +79,17 @@ function CareersWhy() {
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16 items-center">
           <div className="lg:col-span-6">
             <Reveal>
-              <PlaceholderImage
-                aspect="4/5"
-                label="Tým na hale — týmové foto"
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={generalPhoto(30)}
+                alt="Svářeč STRKAN při práci v hale"
+                loading="lazy"
+                decoding="async"
+                className="block aspect-[4/5] w-full object-cover"
               />
             </Reveal>
           </div>
+
           <div className="lg:col-span-6">
             <Reveal delay={0.1}>
               <Eyebrow variant="azure" className="block mb-5">

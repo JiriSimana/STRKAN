@@ -24,7 +24,7 @@ type Props = {
 
 export function ServiceShowcase({ eyebrow, title, intro, cards }: Props) {
   return (
-    <section className="py-24 lg:py-32 bg-paper">
+    <section className="py-16 lg:py-24 bg-paper">
       <Container>
         <div className="max-w-3xl">
           <Reveal>

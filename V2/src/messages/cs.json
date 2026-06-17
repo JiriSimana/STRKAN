@@ -36,9 +36,9 @@
     "metaTitle": "Strojírenský partner pro průmysl",
     "metaDescription": "Konstrukce, výroba a servis dopravní techniky, jednoúčelových strojů, robotických buněk a svařovaných konstrukcí. Od roku 1993 z Plzně.",
     "hero": {
-      "eyebrow": "Strojírenství od roku 1993",
-      "title": "Stroje a zařízení pro průmysl a dopravní techniku.",
-      "subtitle": "Konstruujeme, vyrábíme a servisujeme dopravní techniku, jednoúčelové stroje a svařované konstrukce pro výrobce z automotive, energetiky a těžkého průmyslu.",
+      "eyebrow": "Strojírenská výroba od roku 2012",
+      "title": "Návrh, konstrukce a výroba strojů.",
+      "subtitle": "Stroje a zařízení pro výrobu, manipulaci a servis dopravní techniky, výrobní linky a automaty, robotické buňky a přípravky. Výroba jakostních svařenců a komponent pro kolejovou dopravní techniku.",
       "primaryCta": "Prozkoumat reference",
       "secondaryCta": "Získat nabídku",
       "scrollCue": "Pokračujte dále",
@@ -46,15 +46,15 @@
       "watchVideoDuration": "2 min"
     },
     "kpi": {
-      "title1": "Let zkušeností",
-      "title2": "Dokončených projektů",
-      "title3": "Opakovaných zákazníků"
+      "title1": "Rok založení",
+      "title2": "Zaměstnanců",
+      "title3": "Výrobní plocha"
     },
     "manifesto": {
-      "eyebrow": "Manifesto",
-      "title": "32 let strojírenského řemesla.",
-      "p1": "Pracujeme jako konstrukční partner. Každá zakázka začíná u stolu se zákazníkem, kde řešíme, co reálně potřebuje vyrobit, dopravit nebo svařit — ne to, co máme zrovna v katalogu.",
-      "p2": "V Plzni stavíme stroje od roku 1993. Vyrobili jsme přes tisíc kusů jednoúčelových zařízení a několik stovek svařovaných konstrukcí pro výrobní haly v Česku a v zahraničí. Lidé, kteří u nás dnes svařují a programují roboty, dělají tuhle práci patnáct, dvacet let. Proto se na nás zákazníci obracejí opakovaně."
+      "eyebrow": "Kdo jsme",
+      "title": "Nejsme prodejci, ale výrobci.",
+      "p1": "Společnost STRKAN — STRojní KANcelář — vznikla v roce 2012. Začínali jsme u konstrukčních návrhů jednoúčelových strojů, záhy jsme přidali jejich vývoj a výrobu. Dnes navrhujeme a vyrábíme stroje a zařízení zejména pro kolejovou dopravní techniku, průmyslovou automatizaci a svařované konstrukce.",
+      "p2": "Každý projekt promýšlíme z pohledu funkčnosti, vyrobitelnosti, bezpečného provozu i pořizovacích a provozních nákladů. Díky vlastní výrobě, materiálové zkušebně a certifikovaným postupům neseme za naše stroje plnou odpovědnost — a poskytujeme na ně dlouhodobé garance."
     },
     "services": {
       "eyebrow": "Co umíme",
@@ -93,18 +93,18 @@
   },
   "AboutUs": {
     "metaTitle": "O nás",
-    "metaDescription": "STRKAN s.r.o. — strojírenská firma z Plzně, od roku 1993. Tým inženýrů, konstruktérů a svářečů, který staví průmyslové stroje na míru.",
+    "metaDescription": "STRKAN s.r.o. — STRojní KANcelář z Města Touškov u Plzně, od roku 2012. Návrh, konstrukce a výroba jednoúčelových strojů a zařízení pro kolejovou dopravní techniku, průmyslovou automatizaci a svařované konstrukce.",
     "hero": {
       "eyebrow": "Kdo jsme",
-      "title": "Inženýrské řemeslo z Plzně, od roku 1993.",
-      "subtitle": "Lidé, hala, stroje. Tři věci, na kterých 32 let stojí naše práce."
+      "title": "Výrobci strojů, ne prodejci.",
+      "subtitle": "STRojní KANcelář STRKAN s.r.o. Návrh, konstrukce a výroba jednoúčelových strojů a zařízení od roku 2012, z Města Touškov u Plzně."
     },
     "story": {
-      "eyebrow": "Od roku 1993",
-      "title": "Jak jsme se sem dostali.",
-      "p1": "STRKAN vznikl jako malá konstrukční dílna pro lokální výrobce v Plzni. Postupně jsme rostli, ale nikdy jsme nezapomněli, že stroje navrhují a vyrábějí lidé.",
-      "p2": "Dnes máme dvě haly v Plzni, 45 zaměstnanců a portfolio přes tisíc dodaných zařízení. Mezi našimi zákazníky jsou subdodavatelé pro automotive, výrobci energetických komponent i firmy z těžkého průmyslu po celé Evropě.",
-      "p3": "Naším měřítkem není růst za každou cenu. Měříme kvalitu projektů a počet zákazníků, kteří se vracejí — a většina z nich se vrací s dalšími zakázkami."
+      "eyebrow": "Od roku 2012",
+      "title": "Jak jsme začali.",
+      "p1": "STRojní KANcelář STRKAN s.r.o. byla založena 22. 5. 2012 s myšlenkou nabízet zejména tuzemským průmyslovým podnikům konstrukční návrhy jednoúčelových strojů. Záměr jsme záhy rozšířili o vývoj a především o výrobu navrhovaných strojů a zařízení.",
+      "p2": "Postupně jsme se začali specializovat na průmyslovou automatizaci, robotizaci a na návrh a výrobu speciálních strojů a zařízení zejména pro kolejovou dopravní techniku, která podléhá přísným předpisům a normám.",
+      "p3": "Výrobní i administrativní prostory máme v Městě Touškov u Plzně. Disponujeme samostatným konstrukčním oddělením (SolidWorks, Siemens NX, CATIA) a výrobou rozdělenou na přípravnu, materiálovou laboratoř, svařovny podsestav i finálních svařenců, obrobnu a závěrečnou montáž. Celková plocha krytých výrobních prostor je 2 500 m². Jsme 100% česká firma vlastněná dvěma společníky-zakladateli, člen ACRI a Klastru MECHATRONIKA."
     },
     "timeline": {
       "eyebrow": "Milníky",
@@ -121,7 +121,7 @@
     },
     "certifications": {
       "eyebrow": "Certifikáty",
-      "title": "Splňujeme standardy, které platí v celé Evropě."
+      "title": "Certifikováno pro kolejovou dopravu i ocelové konstrukce."
     },
     "grant": {
       "eyebrow": "Publicita projektu",
@@ -129,7 +129,7 @@
       "body": "V letech 2020–2024 jsme realizovali vývoj univerzálního robotického systému (URS) s podporou Technologické agentury ČR, program TREND, reg. č. FW01010553."
     },
     "machines": {
-      "eyebrow": "Strojní vybavení",
+      "eyebrow": "Vybavení a technologie",
       "title": "S čím pracujeme."
     },
     "cta": {
@@ -165,62 +165,57 @@
     },
     "valueItems": {
       "craft": {
-        "title": "Řemeslo",
-        "description": "Stroj odpovídá projektové dokumentaci. Co je ve výkresu a v kusovníku, to ve stroji najdete."
+        "title": "Výrobci, ne prodejci",
+        "description": "Každý projekt promýšlíme z pohledu funkčnosti, vyrobitelnosti, dlouhodobého bezpečného provozu i pořizovacích a provozních nákladů."
       },
       "reliability": {
-        "title": "Spolehlivost",
-        "description": "Termín, který slíbíme, se snažíme dodržet. Plánování a kapacity řídíme tak, abychom dodali v dohodnutém týdnu."
+        "title": "Garance a odpovědnost",
+        "description": "Díky vlastním výrobním kapacitám a certifikované výrobě poskytujeme na výrobky dlouhodobé garance. Za naše stroje neseme plnou odpovědnost, které se nezříkáme."
       },
       "precision": {
-        "title": "Přesnost",
-        "description": "Tolerance se neudělají očima. Měříme každý kritický rozměr. Když nejsme spokojeni my, klient by neměl být taky."
+        "title": "Vlastní zkušebna",
+        "description": "Vlastní materiálová zkušebna a pracovníci proškolení pro nedestruktivní zkoušky. Kvalitu měříme — neodhadujeme."
       },
       "team": {
-        "title": "Tým",
-        "description": "Lidé, kteří u nás pracují, jsou tady patnáct, dvacet let. Stroje a know-how zůstávají v naší hale, ne v hlavě právě odcházejícího kolegy."
+        "title": "Dlouhodobí zákazníci",
+        "description": "S klíčovými zákazníky spolupracujeme opakovaně. Jsme v kontaktu i po zprovoznění strojů — případné úpravy a opravy řešíme napřímo a hned."
       }
     },
     "teamRoles": {
-      "ceo": {
-        "role": "Ředitel společnosti",
-        "bio": "Vede strategická rozhodnutí, vztahy s klíčovými klienty a investice do strojního parku."
-      },
-      "leadEngineer": {
-        "role": "Hlavní konstruktér",
-        "bio": "Odpovídá za 3D návrhy v SolidWorks, výpočty a koordinaci konstrukčního týmu."
-      },
-      "headOfProduction": {
-        "role": "Vedoucí výroby",
-        "bio": "Řídí provoz haly, plánování výroby a kvalitu odvedené práce."
-      }
+      "triska": { "name": "Ing. Ladislav Tříska, Ph.D.", "role": "Společník, jednatel, COO" },
+      "holubec": { "name": "Ing. Martin Holubec", "role": "Společník, jednatel, CFO" },
+      "gorschenek": { "name": "Ing. Martin Gorschenek, Ph.D.", "role": "Vedoucí konstrukce" },
+      "prokes": { "name": "Ing. Jan Prokeš", "role": "Projektový vedoucí" },
+      "fiala": { "name": "Ing. Lukáš Fiala, IWE", "role": "Vedoucí technologie" },
+      "sykora": { "name": "Miroslav Sýkora", "role": "Vedoucí výroby" },
+      "augustova": { "name": "Ing. Hana Augustová", "role": "Vedoucí nákupu" }
     },
     "machineGroups": {
       "cnc": {
-        "title": "CNC obrábění",
+        "title": "Konstrukce a CAD",
         "items": [
-          "Mazak Variaxis i-700 (5osé frézování)",
-          "DMG Mori CTX (soustružení do Ø 320 mm)",
-          "Mikron HSM (vysokorychlostní obrábění)",
-          "TRUMPF TruLaser 3030 (laserové řezání)"
+          "SolidWorks",
+          "Siemens NX",
+          "CATIA",
+          "Výpočtové ověření konstrukcí a simulace zatížení"
         ]
       },
       "welding": {
-        "title": "Svařování",
+        "title": "Výroba a svařování",
         "items": [
-          "Yaskawa MA2010 + polohovadlo (robotická svařovací buňka)",
-          "Fronius TPS 320i (MAG)",
-          "Kemppi MasterTig 235 (TIG)",
-          "ESAB Aristo 500ix (high-amp svařování)"
+          "Přípravna, obrobna a pracoviště závěrečné montáže",
+          "Svařovna podsestav i finálních svařenců",
+          "Metody svařování 135 (MAG) a 141 (TIG)",
+          "Robotická pracoviště — Fanuc, ABB, Staubli"
         ]
       },
       "measurement": {
-        "title": "Měřicí technika",
+        "title": "Materiálová zkušebna",
         "items": [
-          "Zeiss Contura G2 (CMM 1000×1500×600 mm)",
-          "FARO ScanArm (mobilní 3D měření)",
-          "Trumpf VegaCheck (inline kontrola laserového řezání)",
-          "Helmel Microstar (kalibrační CMM)"
+          "Tvrdoměry Rockwell, Vickers, Brinell (ČSN EN ISO 6508-1 / 6507-1 / 6506-1)",
+          "Metalografická příprava vzorků",
+          "Zkouška rázem v ohybu — Charpy (ČSN EN ISO 148-1)",
+          "Nedestruktivní zkoušky (NDT)"
         ]
       }
     }
@@ -268,26 +263,26 @@
   "ServiceSegments": {
     "dopravni-technika": {
       "tag": "Dopravní technika",
-      "title": "Stroje a zařízení pro výrobu a servis dopravní techniky",
-      "perex": "Patkové zvedáky, montážní lávky, jámové zvedáky, podvozkové standy a polohovadla pro výrobu a servis kolejových vozidel. Vlastní konstrukce, výroba i servis.",
+      "title": "Zařízení pro výrobu a servis dopravní techniky",
+      "perex": "Patkové zvedáky, montážní lávky, jámové zvedáky, podvozkové standy a lisy, desková polohovadla, svařovací a stehovací přípravky a celá škála speciálních jednoúčelových strojů pro výrobu a servis kolejové dopravní techniky.",
       "imageLabel": "Patkový zvedák v depu"
     },
     "svarovane-konstrukce": {
       "tag": "Svařované konstrukce",
       "title": "Svařované konstrukce",
-      "perex": "Tramvajové podlahové rošty, rámy podvozkových krytů a další svařované komponenty kolejových vozidel. Vlastní hala 2 000 m², svařence do 10 t a rozměrů 8 × 3 m.",
+      "perex": "Jakostní svařence a komponenty kolejových vozidel dle DIN EN 15085-2 CL1 a ocelové konstrukce dle ČSN EN 1090. Svařence o hmotnosti do 10 t a rozměrech až 8 000 × 3 000 mm.",
       "imageLabel": "Svařovaná konstrukce — close-up svaru"
     },
     "prumyslova-automatizace": {
       "tag": "Průmyslová automatizace",
       "title": "Průmyslová automatizace",
-      "perex": "Výrobní automaty a robotické buňky pro automatizaci výroby — automotive, plastikářství, potravinářství, výroba stavebních materiálů.",
+      "perex": "Jednoúčelové stroje, výrobní automaty a robotická pracoviště pro automotive, zdravotnictví, potravinářství a výrobu stavebních materiálů. Roboti Fanuc, ABB a Staubli, vlastní univerzální robotický systém URS.",
       "imageLabel": "Robotická svařovací buňka"
     },
     "ostatni-produkty-a-sluzby": {
       "tag": "Ostatní produkty a služby",
       "title": "Ostatní produkty a služby",
-      "perex": "Vývoj, návrhy a simulace strojních zařízení. Kusová i sériová zakázková výroba na CNC. Návrhy a vyhodnocení výrobních zkoušek.",
+      "perex": "Vývoj a návrh strojních zařízení vč. simulací a pevnostních výpočtů, zakázkové CNC obrábění (frézování, soustružení) a vlastní materiálová zkušebna — měření tvrdosti, metalografie a NDT.",
       "imageLabel": "CNC obrábění detail"
     }
   },
@@ -462,7 +457,7 @@
       "email": "E-mail",
       "address": "Adresa sídla",
       "hours": "Otevírací doba",
-      "hoursValue": "Pondělí – Pátek, 7:00 – 16:00"
+      "hoursValue": "Pondělí – pátek, 7:00 – 17:00"
     },
     "form": {
       "eyebrow": "Napište nám",
@@ -696,40 +691,40 @@
     },
     "svarovane-konstrukce": {
       "capabilities": [
-        "Návrh konstrukce v souladu s EN 1090 a Eurokódem",
-        "Svařování MAG, TIG, MIG s atestací EN ISO 3834-2",
-        "Tryskání, nátěry C3–C5 ve vlastní kabině",
-        "Doprava nadrozměrných dílů s pilotáží"
+        "Výroba svařenců pro kolejová vozidla (tramvajové podlahové rošty) dle DIN EN 15085-2 CL1",
+        "Konstrukce a výroba pochozích ocelových konstrukcí — obslužné lávky a platformy dle ČSN EN 1090",
+        "Metody svařování 135 (MAG) a 141 (TIG)",
+        "Tepelné zpracování a NDT kontroly, kompletní výrobní dokumentace vč. certifikací"
       ],
       "specs": [
-        { "label": "Hmotnost dílu", "value": "do 25 t" },
-        { "label": "Rozměry", "value": "do 14 × 4 × 4 m" },
-        { "label": "Třída provedení", "value": "EXC2 a EXC3" },
-        { "label": "Materiály", "value": "S235 až S700, nerez 1.4301/1.4571" }
+        { "label": "Hmotnost svařence", "value": "do 10 t" },
+        { "label": "Max. rozměry", "value": "8 000 × 3 000 mm" },
+        { "label": "Třída provedení", "value": "ČSN EN 1090-2 (EXC2)" },
+        { "label": "Kolejová vozidla", "value": "DIN EN 15085-2 CL1 (P, D)" }
       ],
       "faq": [
-        { "q": "Vystavíte prohlášení o vlastnostech?", "a": "Ano, naše certifikace EN 1090-1 to umožňuje pro nosné konstrukce." },
-        { "q": "Provádíte NDT kontroly?", "a": "Ano, vizuální a penetrační test in-house, RT/UT přes externího partnera s atestem." },
-        { "q": "Můžete dodat i montáž na stavbě?", "a": "Ano, máme vlastní montážní tým a mobilní vybavení pro střední Evropu." }
+        { "q": "Podle jakých norem svařujete komponenty kolejových vozidel?", "a": "Dle DIN EN 15085-2 a ČSN EN 15085-2+A1, třída CL1. Ocelové konstrukce vyrábíme dle ČSN EN 1090." },
+        { "q": "Provádíte NDT kontroly?", "a": "Ano. Nedestruktivní zkoušky i tepelné zpracování zajišťujeme jako součást zakázky, s kompletní výrobní dokumentací." },
+        { "q": "Jak velké svařence zvládnete?", "a": "Svařence o hmotnosti do 10 t a maximálních rozměrech 8 000 × 3 000 mm." }
       ]
     },
     "prumyslova-automatizace": {
       "capabilities": [
-        "Integrace robotů Yaskawa, KUKA, FANUC, ABB",
-        "Programování off-line v RoboGuide / RobotStudio",
-        "Vision systémy Cognex a Keyence pro orientaci dílů",
-        "Bezpečnostní oplocení a laserové scannery"
+        "Vývoj a výroba robotických pracovišť — roboti Fanuc, ABB, Staubli",
+        "Univerzální robotický systém URS pro svařování, řezání a frézování",
+        "Jednoúčelové stroje a výrobní automaty pro automotive, zdravotnictví, potravinářství a výrobu stavebních materiálů",
+        "Integrace s výrobními linkami, optimalizace procesů, konzultace a návrh na míru"
       ],
       "specs": [
-        { "label": "Dosah robotů", "value": "od 0,7 m do 3,1 m" },
-        { "label": "Nosnost", "value": "do 500 kg" },
-        { "label": "Opakovatelnost", "value": "od ±0,03 mm" },
-        { "label": "Cobot varianta", "value": "Yaskawa HC, FANUC CRX" }
+        { "label": "Realizovaných projektů", "value": "318+" },
+        { "label": "Roboti", "value": "Fanuc, ABB, Staubli" },
+        { "label": "Vlastní systém", "value": "URS — svařování, řezání, frézování" },
+        { "label": "Segmenty", "value": "automotive, zdravotnictví, potravinářství" }
       ],
       "faq": [
-        { "q": "Lze přidat robota do stávajícího pracoviště?", "a": "Většinou ano. Provedeme audit pracoviště, navrhneme úpravy a integraci." },
-        { "q": "Co řízení a programování?", "a": "Dodáváme s vlastním rozhraním v HMI, programy přebírá obsluha s minimálním zaškolením." },
-        { "q": "Servis a kalibrace?", "a": "Roční preventivní prohlídka, vzdálená diagnostika přes VPN, kalibrace TCP při každé prohlídce." }
+        { "q": "Pro jaké obory automatizaci dodáváte?", "a": "Pro automotive, zdravotnictví, potravinářství, výrobu stavebních materiálů a další segmenty zpracovatelského průmyslu." },
+        { "q": "Co je systém URS?", "a": "Univerzální robotický systém vyvinutý ve STRKANu pro svařování, řezání a frézování — vlastní řešení podpořené programem TAČR TREND." },
+        { "q": "Navrhnete řešení na míru?", "a": "Ano. Kromě návrhu a výroby poskytujeme kompletní technickou podporu a konzultace v oblasti automatizace výrobních procesů." }
       ]
     },
     "ostatni-produkty-a-sluzby": {
@@ -740,10 +735,10 @@
         "Kusová i sériová zakázková výroba na CNC"
       ],
       "specs": [
-        { "label": "Haas VM-6 (5osé CNC)", "value": "Stůl 700 × 1800 mm, nosnost 800 kg" },
-        { "label": "STYLE 510 (CNC soustruh)", "value": "Točný Ø 510 mm, výkon 11 kW, průchod vřetena Ø 102" },
-        { "label": "ŠKODA SRM 125 (soustruh)", "value": "Točný Ø 1250 mm, hroty 4 000 mm, nosnost 1 200 kg" },
-        { "label": "Mechanická zkušebna", "value": "HV/HB/HRC, Charpy, tah, tlak, ohyb, rozlomení" }
+        { "label": "CNC obrábění", "value": "frézování, soustružení, speciální operace na zakázku" },
+        { "label": "Měření tvrdosti", "value": "Rockwell, Vickers, Brinell (ČSN EN ISO 6508-1 / 6507-1 / 6506-1)" },
+        { "label": "Rázová zkouška", "value": "Charpy — ČSN EN ISO 148-1" },
+        { "label": "Další", "value": "metalografická příprava vzorků, NDT" }
       ],
       "faq": [
         { "q": "Můžete převzít konstrukční práce od jiného dodavatele?", "a": "Ano. Pracujeme v SolidWorks a Siemens NX, ostatní formáty přebíráme přes STEP/IGES." },

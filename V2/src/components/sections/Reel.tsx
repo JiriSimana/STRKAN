@@ -13,7 +13,7 @@ export function Reel({ eyebrow, title, photos }: Props) {
   const items = hasPhotos ? photos : Array.from({ length: 10 });
 
   return (
-    <section className="py-24 lg:py-32 bg-paper overflow-hidden">
+    <section className="py-16 lg:py-24 bg-paper overflow-hidden">
       {(eyebrow || title) && (
         <Container className="mb-12">
           <div className="max-w-2xl">

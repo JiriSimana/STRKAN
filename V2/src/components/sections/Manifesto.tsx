@@ -21,7 +21,7 @@ export function Manifesto({
   imageLabel,
 }: Props) {
   return (
-    <section className="py-24 lg:py-32 bg-mist">
+    <section className="py-16 lg:py-24 bg-mist">
       <Container>
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-7">

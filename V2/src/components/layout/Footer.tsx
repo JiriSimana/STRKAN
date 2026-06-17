@@ -33,14 +33,13 @@ export function Footer() {
             <p className="mt-6 type-body-lg text-paper/80 max-w-sm">
               {t('claim')}
             </p>
-            {/* TODO(content): real IČO, DIČ, registered address once delivered */}
             <dl className="mt-8 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 type-body-sm text-paper/60">
               <dt className="type-eyebrow text-paper/40">IČO</dt>
-              <dd>—</dd>
+              <dd>29157382</dd>
               <dt className="type-eyebrow text-paper/40">DIČ</dt>
-              <dd>—</dd>
+              <dd>CZ29157382</dd>
               <dt className="type-eyebrow text-paper/40">{t('registered')}</dt>
-              <dd>Plzeň, Česká republika</dd>
+              <dd>Lánská 144/5, 301 00 Plzeň</dd>
             </dl>
           </div>
 
@@ -63,14 +62,13 @@ export function Footer() {
           <div>
             <h2 className="type-eyebrow text-paper/40">{t('contact')}</h2>
             <ul className="mt-6 flex flex-col gap-4">
-              {/* TODO(content): real phone number */}
               <li>
                 <a
-                  href="tel:+420"
+                  href="tel:+420724506929"
                   className="inline-flex items-center gap-3 type-body text-paper/80 hover:text-paper transition-colors"
                 >
                   <Phone className="size-5 text-paper/40 shrink-0" aria-hidden />
-                  <span>—</span>
+                  <span>+420 724 506 929</span>
                 </a>
               </li>
               <li>
@@ -88,8 +86,9 @@ export function Footer() {
                   aria-hidden
                 />
                 <address className="not-italic">
-                  {/* TODO(content): real street address */}
-                  Plzeň, Česká republika
+                  Provozovna: Čemínská 628,
+                  <br />
+                  330 33 Město Touškov
                 </address>
               </li>
               <li>

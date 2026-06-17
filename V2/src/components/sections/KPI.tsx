@@ -20,7 +20,7 @@ export function KPI({ stats, variant = 'default', className }: Props) {
   return (
     <section
       className={cn(
-        'py-24 lg:py-32',
+        'py-16 lg:py-24',
         isDark ? 'bg-ink text-paper' : 'bg-mist text-ink',
         className,
       )}

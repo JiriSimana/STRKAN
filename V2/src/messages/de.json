@@ -46,9 +46,9 @@
       "watchVideoDuration": "2 Min"
     },
     "kpi": {
-      "title1": "Jahre Erfahrung",
-      "title2": "Abgeschlossene Projekte",
-      "title3": "Wiederkehrende Kunden"
+      "title1": "Gründungsjahr",
+      "title2": "Mitarbeiter",
+      "title3": "Produktionsfläche"
     },
     "manifesto": {
       "eyebrow": "Manifest",
@@ -182,18 +182,13 @@
       }
     },
     "teamRoles": {
-      "ceo": {
-        "role": "Geschäftsführer",
-        "bio": "Führt strategische Entscheidungen, Schlüsselkundenbeziehungen und Investitionen in den Maschinenpark."
-      },
-      "leadEngineer": {
-        "role": "Leitender Konstrukteur",
-        "bio": "Verantwortlich für 3D-Entwürfe in SolidWorks, Berechnungen und die Koordination des Konstruktionsteams."
-      },
-      "headOfProduction": {
-        "role": "Produktionsleiter",
-        "bio": "Leitet den Hallenbetrieb, die Produktionsplanung und die Qualität der gelieferten Arbeit."
-      }
+      "triska": { "name": "Ing. Ladislav Tříska, Ph.D.", "role": "Gesellschafter, Geschäftsführer, COO" },
+      "holubec": { "name": "Ing. Martin Holubec", "role": "Gesellschafter, Geschäftsführer, CFO" },
+      "gorschenek": { "name": "Ing. Martin Gorschenek, Ph.D.", "role": "Leiter Konstruktion" },
+      "prokes": { "name": "Ing. Jan Prokeš", "role": "Projektleiter" },
+      "fiala": { "name": "Ing. Lukáš Fiala, IWE", "role": "Leiter Schweißtechnik, IWE" },
+      "sykora": { "name": "Miroslav Sýkora", "role": "Produktionsleiter" },
+      "augustova": { "name": "Ing. Hana Augustová", "role": "Leiterin Einkauf" }
     },
     "machineGroups": {
       "cnc": {
@@ -268,7 +263,7 @@
   "ServiceSegments": {
     "dopravni-technika": {
       "tag": "Dopravní technika",
-      "title": "Stroje a zařízení pro výrobu a servis dopravní techniky",
+      "title": "Zařízení pro výrobu a servis dopravní techniky",
       "perex": "Patkové zvedáky, montážní lávky, jámové zvedáky, podvozkové standy a polohovadla pro výrobu a servis kolejových vozidel. Vlastní konstrukce, výroba i servis.",
       "imageLabel": "Patkový zvedák v depu"
     },
@@ -462,7 +457,7 @@
       "email": "E-Mail",
       "address": "Firmensitz",
       "hours": "Öffnungszeiten",
-      "hoursValue": "Montag – Freitag, 7:00 – 16:00"
+      "hoursValue": "Montag – Freitag, 7:00 – 17:00"
     },
     "form": {
       "eyebrow": "Schreiben Sie uns",

@@ -90,7 +90,7 @@ function HomeReel() {
     <Reel
       eyebrow={t('eyebrow')}
       title={t('title')}
-      photos={generalPhotos(3, 14, 27, 38, 49, 60, 72, 83, 95, 106, 118, 130, 142, 154)}
+      photos={generalPhotos(3, 15, 26, 37, 49, 60, 71, 83, 95, 70, 117, 130, 143, 154)}
     />
   );
 }
@@ -103,12 +103,11 @@ function HomeLogos() {
 function HomeKpiBlock() {
   const t = useTranslations('Home.kpi');
   return (
-    // TODO(content): confirm real figures — 1 000+ projects / 70 % returning are a draft (see CONTENT_GAPS.md §2)
     <KPI
       stats={[
-        { value: '32', unit: 'let', label: t('title1') },
-        { value: '1 000+', label: t('title2') },
-        { value: '70', unit: '%', label: t('title3') },
+        { value: '2012', label: t('title1') },
+        { value: '45', label: t('title2') },
+        { value: '2 500', unit: 'm²', label: t('title3') },
       ]}
     />
   );
@@ -121,7 +120,7 @@ function HomeManifesto() {
       eyebrow={t('eyebrow')}
       title={t('title')}
       paragraphs={[t('p1'), t('p2')]}
-      imageUrl={generalPhoto(7)}
+      imageUrl={generalPhoto(8)}
     />
   );
 }
@@ -149,7 +148,7 @@ function HomeServices() {
 function HomeNews({ posts }: { posts: Awaited<ReturnType<typeof getPublishedPosts>> }) {
   const t = useTranslations('Home.news');
   return (
-    <section className="py-24 lg:py-32 bg-paper">
+    <section className="py-16 lg:py-24 bg-paper">
       <Container>
         <div className="flex items-end justify-between gap-8 max-w-3xl mb-16">
           <div>

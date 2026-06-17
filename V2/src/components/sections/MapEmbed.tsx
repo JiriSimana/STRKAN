@@ -3,23 +3,34 @@ import { Container } from '@/components/primitives/Container';
 import { PlaceholderImage } from '@/components/PlaceholderImage';
 
 type Props = {
+  embedSrc?: string;
   googleMapsUrl?: string;
   mapyCzUrl?: string;
+  title?: string;
 };
 
-export function MapEmbed({ googleMapsUrl, mapyCzUrl }: Props) {
+export function MapEmbed({ embedSrc, googleMapsUrl, mapyCzUrl, title }: Props) {
   return (
     <section className="bg-paper">
       <Container className="px-0 lg:px-0 max-w-none">
         <div className="relative h-[420px] lg:h-[480px] w-full bg-clean-gray">
-          {/* TODO(content): real interactive map (Mapy.cz embed or Mapbox) once
-              GPS coordinates and tile provider are confirmed. */}
-          <PlaceholderImage
-            aspect="21/9"
-            label="Interaktivní mapa — sídlo STRKAN, Plzeň"
-            className="size-full"
-          />
-          <div className="absolute bottom-6 right-6 flex flex-wrap gap-2">
+          {embedSrc ? (
+            <iframe
+              src={embedSrc}
+              title={title ?? 'Mapa — provozovna STRKAN s.r.o.'}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+              className="size-full border-0"
+            />
+          ) : (
+            <PlaceholderImage
+              aspect="21/9"
+              label="Interaktivní mapa — provozovna STRKAN"
+              className="size-full"
+            />
+          )}
+          <div className="absolute bottom-4 right-4 flex flex-col items-end gap-2 sm:bottom-6 sm:right-6 sm:flex-row sm:flex-wrap sm:justify-end">
             {googleMapsUrl && (
               <a
                 href={googleMapsUrl}

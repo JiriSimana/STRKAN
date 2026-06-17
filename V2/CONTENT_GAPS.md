@@ -94,3 +94,51 @@ Vychází z prezentace webu klientovi (STRKAN) a z pravidla v `CLAUDE.md` č. 1 
 - **Zmírnění tónu** (CS/EN/DE): homepage hero + manifest, Hodnoty (O nás), Kariéra („nadšenci na 6 měsíců", „není to náhoda", „žádný corporate").
 - **Nepodložená procenta** odstraněna z běžícího textu (přesunuto do §2 k doplnění reálných čísel).
 - **Přidán blok publicity dotačního projektu** na `/o-nas`.
+
+---
+
+# Redesign / import textů ze strkan.cz (2. iterace)
+
+Reálné texty převzaty z živého webu **strkan.cz** (homepage, /o-nas, podstránky služeb).
+
+## A. Opraveno na reálná data (CS hotovo, kód hotový)
+- ⚠️ **Datum založení: 1993 → 22. 5. 2012** (firma je STRojní KANcelář, ne „od 1993"). Promítnuto do homepage, /o-nas, KPI.
+- **Sídlo/výroba:** „2 haly v Plzni" → **Město Touškov u Plzně, 2 500 m²**.
+- **Hlavní claim** homepage: → „Návrh, konstrukce a výroba strojů".
+- **Tým (/o-nas):** 3 vymyšlené role → **7 reálných lidí se jmény** (Tříska, Holubec, Gorschenek, Prokeš, Fiala, Sýkora, Augustová).
+- **Certifikáty:** ISO 14001/45001 (vymyšlené) → **ČSN EN ISO 9001:2016, 3834-2:2022, ČSN EN 1090-2:2019, ČSN EN 15085-2+A1:2024 (CL1), DIN EN 15085-2:2024**.
+- **Vybavení:** Mazak/TRUMPF/Zeiss (vymyšlené) → **SolidWorks/Siemens NX/CATIA, svařování 135/141, roboti Fanuc/ABB/Staubli, zkušebna Rockwell/Vickers/Brinell + Charpy**.
+- **Identifikace (footer):** doplněno **IČO 29157382, DIČ CZ29157382, sídlo Lánská 144/5 Plzeň, provozovna Čemínská 628 Město Touškov**.
+- **Specifikace služeb** (svařované konstrukce, automatizace, ostatní) opraveny na reálné (10 t / 8 000 × 3 000 mm / EXC2 / CL1; 318 projektů; URS).
+- **Odstraněn vymyšlený timeline** (/o-nas) — starý web nemá milníky kromě založení 2012.
+- **Mezery sekcí zkráceny** (`py-24 lg:py-32` → `py-16 lg:py-24`) — main page působila dlouze.
+
+## B. Stále chybí / dořešit
+- [ ] **EN/DE retranslace** z opravené češtiny (workflow: CS → překlad → supervize paní Šimánková). Zatím synchronizovány jen názvy, KPI popisky a tým; běžné texty O nás / Home / služby v EN/DE jsou ještě staré.
+- [ ] **Telefon** na firmu (footer/kontakt) — na strkan.cz/kontakt jsem zatím nestáhl, doplnit. Datová schránka: 8ytdikc, banka: 2925498399/0800 (k dispozici).
+- [ ] **Plocha výroby — nesoulad na starém webu:** /o-nas uvádí „2 500 m²", podstránka svařování „3 000 m²". Potvrdit správné číslo.
+- [ ] **Certifikáty — loga + PDF** stále chybí (názvy už reálné).
+- [ ] **Fotky:** přiřadit ke správným sekcím/produktům (viz §3 a otázka v chatu — dělení „podle jmen lidí" na starém webu).
+- [ ] **Katalogové listy:** 5 PDF je v `public/documents/katalogove-listy/` a renderují se u dopravní techniky; starý web má i 1 souhrnný PDF katalog (`_files/ugd/59c1fd_…pdf`) — případně doplnit.
+- [ ] **Podstránky služeb — sub-produkty** (patkové zvedáky, montážní lávky, jámové zvedáky, podvozkové standy a lisy, desková polohovadla): doladit texty/parametry dle starého webu (rozsahy zdvihu, nosnosti, síly).
+- [ ] **Kontakt / Kariéra / Novinky** — projít a sladit se starým webem.
+
+---
+
+# Placeholdery / fotky (3. iterace)
+
+Cíl: žádný placeholder na statických stránkách. **Ověřeno — 0 placeholderů** na /cs, /o-nas, /kontakt, /kariera, /sluzby, /reference, /novinky.
+
+## Hotovo
+- **Mapa (/kontakt):** placeholder → **reálný Google Maps embed** (provozovna Čemínská 628, Město Touškov) + odkazy Google/Mapy.cz.
+- **/o-nas příběh:** reálná fotka (tým u 3D modelu, `strkan-135`).
+- **/kariera:** reálná fotka (svářeč, `strkan-030`).
+- **Tým (/o-nas):** **všech 7 reálných portrétů** zapojeno (`public/images/team/`): Tříska (022), Holubec (106), Gorschenek (073), Prokeš (017), Fiala (151), Sýkora (150), Augustová (153). Portrét Holubce (106) byl zároveň odebrán z homepage reelu (nahrazen produkčním 070). U každého doplněn **přímý telefon + e-mail** (klikací, ze strkan.cz).
+- **Telefon doplněn** (footer + kontakt): **+420 724 506 929**. Otevírací doba opravena na **Po–pá 7:00–17:00**.
+- **Adresa + IČO/DIČ** doplněny i na /kontakt.
+
+## Dořešit
+- [x] **Portréty týmu** — hotovo, všech 7 reálných portrétů zapojeno (viz výše).
+- [ ] **Mapa** běží přes Google embed (načítá Google cookies). Volitelně přepnout na Mapy.cz embed / Mapbox.
+- [ ] ⚠️ **Doprava (/kontakt) — text je VYMYŠLENÝ a špatný:** zmiňuje „Plzeň-Doubravka", „zastávka Doubravka — STRKAN", „trolejbus č. 12", „D5 8 min" — to je jiná lokalita. Provozovna je **Město Touškov**. Doplnit reálné spojení (auto/vlak/bus) nebo sekci dopravy zjednodušit.
+- [ ] Fotky u referencí/novinek se naplní z CMS (zatím prázdné).

@@ -1,13 +1,19 @@
 /**
  * Indexed lookup for client-delivered photos under public/images/.
- * Filenames follow `NN.ext` (zero-padded) within each folder, so generators
- * can build arrays without enumerating the filesystem.
+ * Filenames follow `NN.ext` (zero-padded) within each folder.
  *
- * If new photos arrive, just drop them into the matching folder using the
- * next index and update the `count` here.
+ * NOTE: the `general` set is NOT a contiguous 1..N range. Photos that showed
+ * the photo crew / unrelated people were removed by the client, leaving gaps
+ * (e.g. 007, 014, 027 … are absent). Source of truth: `Fotky/Compressed`,
+ * mirrored into `public/images/general/strkan-NNN.jpg` with the same numbers.
+ * Always reference a KNOWN-PRESENT index — do not iterate 1..count blindly.
+ *
+ * If new photos arrive, drop them into the matching folder and reference them
+ * explicitly. After changing the source folder, re-sync `public/images/general`.
  */
 
-export const GENERAL_PHOTO_COUNT = 164;
+// Count of files actually present in public/images/general (non-contiguous).
+export const GENERAL_PHOTO_COUNT = 128;
 
 export function generalPhoto(index: number): string {
   const n = String(index).padStart(3, '0');
