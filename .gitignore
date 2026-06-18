@@ -39,5 +39,5 @@ yarn-error.log*
 next-env.d.ts
 
 # raw client materials — kept in working dir, processed copies live under public/
-V2/Fotky/
-V2/Obdržené materiály k podstránkám služeb - seřazené/
+Fotky/
+Obdržené materiály k podstránkám služeb - seřazené/
